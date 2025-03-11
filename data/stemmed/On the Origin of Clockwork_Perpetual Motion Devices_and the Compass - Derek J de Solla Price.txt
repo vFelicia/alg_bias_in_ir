@@ -1,0 +1,1947 @@
+produc by chri curnow turgut dincer joseph cooper and
+the onlin distribut proofread team at
+httpswwwpgdpnet
+trancrib note
+letter enclos in squar bracket repres
+x ani letter with a macron straight line abov
+x ani letter with a dot below
+x ani letter with a dot abov
+contribut from
+the museum of histori and technolog
+paper 6
+on the origin of clockwork
+perpetu motion devic and the compass
+derek j de solla price
+power and motion gear 83
+mechan clock 84
+mechan astronom model 88
+perpetu motion and the clock befor de dondi 108
+the magnet compass as a fellowtravel from china 110
+on the origin of clockwork
+perpetu motion devic
+and the compass
+by derek j de solla price
+ancestor of the mechan clock ha been thought by some to be the
+sundial actual these devic repres two differ approach to
+the problem of timekeep true ancestor of the clock is to be found
+among the highli complex astronom machin which man ha been
+build sinc hellen time to illustr the rel motion of the
+heavenli bodi
+thi studyit find will be us in prepar the museum new
+hall on the histori of timekeepingtrac thi ancestri back through
+2000 year of histori on three contin
+the author derek j de solla price wrote thi paper while serv as
+consult to the museum of histori and technolog of the smithsonian
+institut unit state nation museum
+in each success ag thi construct have becom
+lost is by the sun favour again reveal to some on
+or other at hi pleasur surya siddhanta ed
+burgess xiii 1819
+the histori of the mechan clock and the magnet compass must be
+account amongst the most tortur of all our effort to understand the
+origin of man import invent ignor ha too often been
+replac by conjectur and conjectur by misquot and the fals
+author of common knowledg engend by the repetit of
+legendari histori from on gener of textbook to the next in
+what follow i can onli hope that the ad of a strong new trail and
+the erad of sever fals and weaker on will lead us nearer to
+a balanc and integr understand of mediev invent and the
+intercultur transmiss of idea
+for the mechan clock perhap the greatest hindranc ha been it
+treatment within a selfcontain histori of time measur in which
+sundial waterclock and similar devic assum the natur role of
+ancestor to the weightdriven escap clock in the earli 14th
+century1 thi view must presum that a gener sophist
+knowledg of gear anted the invent of the clock and extend
+back to the classic period of hero and vitruviu and such author
+wellknown for their mechan ingenu
+furthermor even if on admit the us of clocklik gear befor the
+exist of the clock it is still necessari to look for the
+independ invent of the weightdriv and of the mechan
+escap the first of these mai seem compar trivial anyon
+familiar with the rais of heavi load by mean of rope and pullei
+could sure recogn the possibl of us such an arrang in
+revers as a sourc of steadi power nevertheless the us of thi
+devic is not record befor it associ with hydraul and
+perpetu motion machin in the manuscript of ridwan ca 1200
+and it us in a clock us such a perpetu motion wheel mercuri
+fill as a clock escap in the astronom codic of alfonso
+the wise king of castil ca 1272
+the second invent that of the mechan escap ha present
+on of the most tantal of problem without doubt the crown and
+foliot type of escap appear to be the first complic mechan
+invent known to the european middl ag it herald our whole ag of
+machinemak yet no trace ha been found either of a steadi evolut
+of such escap or of their invent in europ though the
+astronom clock power by a water wheel and govern by an
+escapementlik devic had been elabor in china for sever
+centuri befor the first appear of our clock we must now
+rehears a revis stori of the origin of the clock as it ha been
+suggest by recent research on the histori of gear and on chines
+and other astronom machin after thi we shall for the first time
+present evid to show that thi stori is curious relat to that of
+the perpetuum mobil on of the great chimera of scienc that came
+from it mediev origin to plai an import part in more recent
+develop of energet and the foundat of thermodynamics2 it
+is a curiou mixtur all the more so becaus tangl inextric in
+it we shall find the most import and earliest refer to the us
+of the magnet compass in the west it seem that in revis the
+histori of clockwork and the magnet compass these consider
+of perpetu motion devic mai provid some much need evid
+illustr figur 1framework structur of the astronom clock
+of giovanni de dondi of padua ad 1364
+power and motion gear
+it mai be readili accept that the us of tooth wheel to transmit
+power or turn it through an angl wa widespread in all cultur sever
+centuri befor the begin of our era certainli in classic time
+thei were alreadi familiar to archimed born 287 bc3 and in
+china actual exampl of wheel and mould for wheel date from the
+4th centuri bc have been preserved4 it might be remark that
+these machin gear wheel ar character by have a round number
+of teeth exampl with 16 24 and 40 teeth ar known and a shank with
+a squar hole which fit without turn on a squar shaft anoth
+remark featur in these earli gear is the us of ratchetshap
+teeth sometim even twist helic so that the gear resembl worm
+intermesh on parallel axles5 the exist of windmil and
+watermil testifi to the gener familiar from classic time
+and through the middl ag with the us of gear to turn power through
+a right angl
+illustr figur 2astronom clock of de dondi show
+gear on the dial for mercuri and escap crown wheel each of the
+seven side wall of the structur shown in figur 1 wa fit with a
+dial
+grant then thi us of gear on must guard against ani conclus
+that the finemechan us of gear to provid special ratio of
+angular movement wa similarli gener and widespread it is customari
+to adduc here the evid of the hodomet taximet describ by
+vitruviu 1st centuri bc and by hero of alexandria 1st centuri
+ad and the ingeni automata also describ by thi latter author
+and hi islam followers6 on mai also cite the us of the reduct
+gear chain in power machineri as us in the gear windlass of
+archimed and hero
+unfortun even the most complex automata describ by hero and by
+such author as ridwan contain gear in no more extens context
+than as a mean of transmit action around a right angl as for the
+windlass and hodomet thei do it is true contain whole seri of
+gear us in step as a reduct mechan usual for an
+extraordinarili high ratio but here the technic detail ar so
+etheri that on must doubt whether such devic were actual realiz
+in practic thu vitruviu write of a wheel 4 feet in diamet and
+have 400 teeth be turn by a 1tooth pinion on a cart axl but
+it is veri doubt whether such small teeth necessarili separ by
+about 38 inch would have the requisit rugged again hero
+mention a wheel of 30 teeth which becaus of imperfect might need
+onli 20 turn of a singl helix worm to turn it such statement behov
+caution and on must consid whether we have been misl by the
+16th and 17thcenturi edit of these author contain
+reconstruct now often cite as authorit but then serv as
+work diagram for practic us in that ag when the clock wa
+alreadi a familiar and complex mechan at all event even if on
+admit without substanti evid that such gear reduct devic
+were familiar from hellenist time onward thei can hardli serv as
+more than veri distant ancestor of the earliest mechan clock
+mechan clock
+befor proceed to a discuss of the controversi evid which
+mai be us to bridg thi gap between the first us of gear and the
+fullydevelop mechan clock we must examin the other side of thi
+gap recent research on the histori of earli mechan clock ha
+demonstr certain peculiar most relev to our present
+argument
+the european tradit
+if on is to establish a terminu ant quem for the appear of the
+mechan clock in europ it would appear that 1364 is a most
+reason date at that time we have the veri full mechan and
+histor materi concern the horolog masterpiec built by
+giovanni de dondi of padua7 and probabl start as earli as 1348 it
+might well be possibl to set a date a few decad earlier but in
+gener as on proce backward from thi point the evid becom
+increasingli fragmentari and uncertain the greatest sourc of doubt
+aris from the confus between sundial waterclock handstruck
+time bell and mechan clock all of which ar cover by the term
+horologium and it vernacular equival
+temporarili postpon the consider of evid prior to ca
+1350 we mai take giovanni de dondi as a start point and trace a
+virtual unbroken lineag from hi time to the present dai on mai
+follow the spread of clock through europ from larg town to small
+on from the richer cathedr and abbei to the less wealthi
+churches8 there is the transit from the tower clocksshowpiec
+of great institutionsto the simpl chamber clock design for domest
+us and to the smaller portabl clock and still smaller and more
+portabl pocket watch in mechan refin a similar continu
+mai be note so that on see the cumul effect of the introduct
+of the spring drive ca 1475 pendulum control ca 1650 and the
+anchor escap ca 1680 the transit from de dondi to the
+modern chronomet is inde basic continu and though much
+research need to be done on special topic it ha an histor uniti
+and seem to conform for the most part to the gener pattern of steadi
+mechan improv found elsewher in the histori of technolog
+illustr figur 3german wall clock probabl about 1450
+show the degener in complex from that of de dondi clock
+most remark howev is the earliest period of thi seemingli steadi
+evolut side by side with the advanc made in the earliest period
+extend for less than two centuri from the time of de dondi on mai
+see a spectacular process of degener or devolut not onli is de
+dondi the earliest clock of which we have a full and trustworthi
+account it is also far more complic than ani other see fig 1 2
+until compar modern time moreov it wa not an except
+freak there were other like it and on cannot therefor reject as
+accident thi process of degener that occur at the veri
+begin of the certain histori of the mechan clock in europ
+on the basi of such evid i have suggest elsewhere9 that the
+clock is nought but a fallen angel from the world of astronomi the
+first great clock of mediev europ were design as astronom
+showpiec full of complic gear and dial to show the motion of
+the sun moon and planet to exhibit eclips and to carri through the
+involv comput of the ecclesiast calendar as such thei were
+compar to the orreri of the 18th centuri and to modern
+planetarium that thei also show the time and rang it on bell wa
+almost incident to their main function on must not neglect too
+that it wa in their glorif of the ration of the cosmo that
+thei had their greatest effect through millenium of civil
+man understand of celesti phenomena had been the veri pinnacl of
+hi intellect and then as now popular exhibit of thi sort wa just
+as necessari as strike and as impress on doe not have to go
+far to see how the paraphernalia of these earli great astronom
+clock had great influenc on philosoph and theologian and on poet
+such as dant
+it is the thesi of thi part of my argument that the ordinari
+timetel clock is no affili of the other simpl timetel
+devic such as sundial sand glass and the elementari water clock
+rather it should be consid as a degener branch from the main stem
+of mechan astronom devic i shall call them protoclock a
+stem which can boast a continu histori fill the gap between the
+appear of simpl gear and the complic of de dondi we shall
+return to the discuss of thi main stem after analyz the veri
+recent discov parallel stem from mediev china which reproduc
+the same evolut of mechan astronom devic and incident
+time tell of the greatest signific thi stem reveal the
+crucial independ invent of a mechan escap a featur not
+found in the european stem in spite of centuri of intens histor
+research and effort
+the chines tradit
+for thi section i am privileg to draw upon a thrill research
+project carri out in 1956 at the univers of cambridg by a team
+consist of dr joseph needham dr wang ling and myself10 in the
+cours of thi work we translat and comment on a seri of text
+most of which had not hitherto been made avail in a western tongu
+and though well known in china had not been recogn as import
+for their horolog content the kei text with which we start wa
+the hsin i hsiang fa yao or new design for a mechan armillari
+sphere and celesti globe written by su sung in ad 1090 the
+veri full histor and technic descript in thi text enabl us
+to establish a glossari and basic understand of the mechan that
+later enabl us to interpret a whole seri of similar though less
+extens text give a histori of prior develop of such devic
+go back to the introduct of thi type of escap by ihs and
+liang lingtsan in ad 725 and to what seem to be the origin of
+all these chines astronom machin that built by chang hng ca
+ad 130 fill the gap between these landmark ar sever other
+similar text give ampl evid that the chines develop is
+continu and at least from chang hng onward larg independ of
+ani transmiss from the west
+so far as we can see the begin of the chain in china as inde in
+the west wa the make of simpl static model of the celesti
+sphere an armillari sphere wa us to repres the chief imaginari
+circl eg equat eclipt meridian etc or a solid
+celesti globe on which such circl could be drawn togeth with the
+constel of the fix star the whole apparatu wa then mount
+so that it wa free to revolv about it polar axi and anoth ring or
+a case wa ad extern and fix to repres the horizon that
+provid a datum for the rise and set of the sun and the star
+in the next stage reach veri soon after thi the rotat of the
+model wa arrang to proce automat instead of by hand thi wa
+done we believ by us a slowli revolv wheel power by drip
+water and turn the model through a reduct mechan probabl
+involv gear or more reason a singl larg gear turn by a
+trip lever it did not matter much that the timekeep properti were
+poor in the long run the model move by itself and the great wonder
+wa that it agre with the observ heaven like the two halv of a
+talli
+in the next and essenti stage the turn of the water wheel wa
+regul by an escap mechan consist of a weighbridg and
+trip lever so arrang that the wheel wa held in check scoop by
+scoop while each scoop wa fill by the drip water then releas
+by the weighbridg and allow to rotat until check again by the
+triplev arrang it action wa similar to that of the anchor
+escap though it period of repos wa much longer than it period
+of motion and of cours it timekeep properti were control not
+onli by the mechan of the devic but also by the rate of flow of the
+drip water
+the chines escap mai justifi be regard as a miss link
+just halfwai between the elementari clepsydra with it steadi flow of
+water and the mechan escap in which time is count by chop
+it flow into cycl of action repeat indefinit and count by a
+cumul devic with it characterist of save up energi for a
+consider period about 15 minut befor let it go in on
+power action the chines escap wa particularli suit to the
+drive of jackwork and other demonstr devic requir much
+energi but onli intermitt activ
+in it final form as built by su sung after mani trial and
+improv the chines astronom clocktow must have been a
+most impress object it had the form of a tower about 30 feet high
+surmount by an observ platform cover with a light roof see
+fig 4 on the platform wa an armillari sphere design for observ
+the heaven it wa turn by the clockwork so as to follow the diurnal
+rotat and thu avoid the distress comput caus by the
+chang of coordin necessari when fix altazimuth instrument were
+us below the platform wa an enclos chamber contain the
+automat rotat celesti globe which so wonderfulli agre with
+the heaven below thi on the front of the tower wa a miniatur
+pagoda with five tier on each tier wa a doorwai through which at due
+moment appear jack who rang bell clang gong beat drum and
+held tablet to announc the arriv of each hour each quarter thei
+us 100 of them to the dai and each watch of the night within the
+tower wa conceal the mechan it consist mainli of a central
+vertic shaft provid power for the sphere globe and jackwheel
+and a horizont shaft gear to the vertic on and carri the great
+water wheel which seem to set itself magic in motion at everi
+quarter in addit to all thi were the lever of the escap
+mechan and a pair of noria by which onc each dai the water us
+wa pump from a sump at the bottom to a reservoir at the top whenc
+it descend to work the wheel by mean of a constant level tank and
+sever channel
+there were mani offshoot and develop of thi main stem of chines
+horolog we ar told for exampl that often mercuri and occasion
+sand were us to replac the water which frequent froze in winter in
+spite of the applic of light brazier to the interior of the
+machin then again the astronom model and the jackwork were
+themselv subject to gradual improv at the time of ihs for
+exampl special attent wa paid to the demarc of eclipt as
+well as the normal equatori coordin thi wa clearli an influx
+from hellenisticislam astronomi in which the rel
+sophist planetari mathemat had forc thi chang not otherwis
+note in china
+by the time of the jesuit thi current of chines horolog long sinc
+utterli destroi by the peril of war storm and government
+reform had quit been forgotten matteo ricci clock those gift
+that arous so much more interest than european theolog teach
+were obvious someth quit new to the 16thcenturi chines scholar
+so much so that thei were dub with a quit new name selfsound
+bell a direct translat of the word clock glokk in view of
+the fact that the mediev chines escap mai have been the basi of
+european horolog it is a curiou twist of fate that the high regard of
+the chines for european clock should have prompt them to open their
+door previous so carefulli and for so long kept close against the
+foreign barbarian
+illustr figur 4astronom clock tower of su sung in
+kaifeng ca ad 1090 from an origin draw by john
+christiansen courtesi of cambridg univers press
+mechan astronom model
+now that we have seen the manner in which mechan astronom model
+develop in china we can detect a similar line run from
+hellenist time through india and islam to the mediev europ that
+inherit their learn there ar mani differ notabl becaus of
+the especi develop of that peculiar characterist of the west
+mathemat astronomi condit by the almost accident conflux of
+babylonian arithmet method with those of greek geometri howev
+the line ar surprisingli similar with the except onli of the
+crucial invent of the escap a featur which seem to be
+replac by the influx of idea connect with perpetu motion wheel
+hellenist period
+most interest and frequent cite is the bronz planetarium said to
+have been made by archimed and describ in a tantalisingli
+fragmentari fashion by cicero and by later author becaus of it
+import as a prototyp we give the most relev passag in
+full11
+cicero descript of archimed planetarium ar ital suppli
+gaiu sulpiciu gallu at a time when he happen
+to be at the hous of marcu marcellu hi colleagu in
+the consulship 166 bc order the celesti globe to
+be brought out which the grandfath of marcellu had
+carri off from syracus when that veri rich and
+beauti citi wa taken 212 bc though i had heard
+thi globe sphaera mention quit frequent on
+account of the fame of archimed when i saw it i did not
+particularli admir it for that other celesti globe
+also construct by archimed which the same marcellu
+place in the templ of virtu is more beauti as well
+as more wide known among the peopl but when gallu
+began to give a veri learn explan of the devic i
+conclud that the famou sicilian had been endow with
+greater geniu than on would imagin possibl for human
+be to possess for gallu told us that the other kind
+of celesti globe which wa solid and contain no
+hollow space wa a veri earli invent the first on of
+that kind have been construct by thale of miletu
+and later mark by eudoxu of cnidusa discipl of
+plato it wa claimedwith constel and star which
+ar fix in the sky he also said that mani year later
+aratu had describ it in vers but thi newer
+kind of globe he said on which were delin the
+motion of the sun and moon and of those five star which
+ar call wander or as we might sai rover
+i e the five planet contain more than could be
+shown on the solid globe and the invent of archimed
+deserv special admir becaus he had thought out a
+wai to repres accur by a singl devic for turn
+the globe those variou and diverg movement with
+their differ rate of speed and when gallu move
+ie set in motion the globe it wa actual true
+that the moon wa alwai as mani revolut behind the
+sun on the bronz contriv as would agre with the
+number of dai it wa behind in the sky thu the same
+eclips of the sun happen on the globe as would actual
+happen and the moon came to the point where the shadow of
+the earth wa at the veri time when the sun appear
+out of the region sever page ar miss in the
+manuscript there is onli on
+de republica i xiv 2122 key translat
+when archimed put togeth in a globe the movement of
+the moon sun and five wander planet he brought
+about the same effect as that which the god of plato did
+in the timaeu when he made the world so that on
+revolut produc dissimilar movement of delai and
+acceler
+tusculana disputation i 63
+later descript from ovid lactantiu claudian sextu empiricu
+and pappu respect ar ital suppli
+there stand a globe suspend by a syracusan skill in
+an enclos bronz frame or sphereor perhap in
+enclos air a small imag of the immens vault of
+heaven and the earth is equal distant from the top and
+bottom that is brought about by it i e the outer
+bronz globe round form the form of the templ of
+vesta is similar
+ovid fasti 1st centuri ad vi 277280
+frazer translat
+the sicilian archimed wa abl to make a reproduct
+and model of the world in concav brass concavo aer
+similitudinem mundi ac figuram in it he so arrang the
+sun and moon and resembl the celesti revolut
+caelestibu simil conversionibu and while it
+revolv it exhibit not onli the access and recess
+of the sun and the wax and wane of the moon
+incrementa deminutionesqu luna but also the unequ
+cours of the star whether fix or wander
+lactantiu institution divina 4th centuri ad
+ii 5 18
+archimed sphere when jove look down and saw the
+heaven figur in a sphere of glass he laugh and
+said to the other god ha the power of mortal effort
+gone so far is my handiwork now mimick in a fragil
+globe an old man of syracus had imit on earth the
+law of the heaven the order of natur and the
+ordin of the god some hidden influenc within the
+sphere direct the variou cours of the star and
+actuat the lifelik mass with definit motion a fals
+zodiac run through a year of it own and a toi moon
+wax and wane month by month now bold invent
+rejoic to make it own heaven revolv and set the
+star planet in motion by human wit
+claudian carmina minora ca ad 400 li lxviii
+platnaur translat
+the thing that move by themselv ar more wonder than
+those which do not at ani rate when we behold an
+archimedean sphere in which the sun and the rest of the
+star move we ar immens impress by it not by zeu
+becaus we ar amaz at the wood or at the movement
+of these bodi but by the devic and caus of the
+movement
+sextu empiricu adversu mathematico 3rd centuri
+ad ix 115 epp translat
+mechan understand the make of sphere and know how to
+produc a model of the heaven with the cours of the
+star move in circl by mean of equal and circular
+motion of water and archimed the syracusan
+accord to some know the caus and reason for all of
+these
+pappu 3rd centuri ad work hultsch edit
+viii 2 epp translat
+a similar arrang seem to be indic in anoth mechan globe
+also mention by cicero and said to have been made by posidoniu
+but if anyon brought to scythia or britain the globe
+sphaeram which our friend posidoniu of apameia the
+stoic philosoph recent made in which each revolut
+produc the same movement of the sun and moon and
+five wander star as is produc in the sky each dai
+and night who would doubt that it wa by exert of
+reason yet doubter think that archimed show
+more knowledg in produc movement by revolut of a
+globe than natur doe in effect them though the copi
+is so infinit inferior to the origin
+de natura deorum ii xxxivxxxv 88
+yong translat
+in spite of the lack of suffici technic detail in ani case these
+mechan globe model with or without gear planetari indic
+which would make them highli complex machin bear a strike
+resembl to the earliest chines devic describ by chang hng on
+must not reject the possibl that transmiss from greec or rome
+could have reach the east by the begin of the 2nd centuri ad
+when he wa work it is an interest question but even if such
+contact actual occur veri soon afterward as we shall see the
+western and eastern line of evolut part compani and evolv so far
+as can be seen quit independ until at least the 12th centuri
+the next hellenist sourc of which we must take note is a fragmentari
+and almost unintellig chapter in the work of hero of alexandria
+alon and unconnect with hi other chapter thi describ a model
+which seem to be static in direct contrast to all other devic which
+move by pneumat and hydrostat pressur it mai well be conjectur
+that in it origin form thi chapter describ a mechan rather
+than a static globe
+the world repres in the centr of the univers the
+construct of a transpar globe contain air and
+liquid and also of a smaller globe in the centr in
+imit of the world two hemispher of glass ar made
+on of them is cover with a plate of bronz in the
+middl of which is a round hole to fit thi hole a light
+ball of small size is construct and thrown into the
+water contain in the other hemispher the cover
+hemispher is next appli to thi and a certain
+quantiti of the liquid have been remov from the water
+the intermedi space will contain the ball thu by the
+applic of the second hemispher what wa propos is
+accomplish
+pneumat xlvi woodcroft translat
+it will be note that these earliest literari refer ar concern
+with pictori 3dimension model of the univers move perhap by
+hand perhap by waterpow there is no evid that thei contain
+complic train of gear and in the absenc of thi we mai inclin
+to the view that in at least the earliest such model gear wa not
+us
+the next develop were concern on the on hand with increas the
+mathemat sophist of the model on the other hand with it
+mechan complex in both case we ar most fortun in have
+archaeolog evid which far exce ani literari sourc
+the mathemat process of map a sphere onto a plane surfac by
+stereograph project wa introduc by hipparchu and had much
+influenc on astronom techniqu and instrument thereaft in
+particular by the time of ptolemi ca ad 120 it had led to the
+success invent of the anaphor clock and of the planispher
+astrolabe12 both these devic consist of a pair of stereograph
+project on of the celesti sphere with it star and eclipt and
+tropic the other of the line of altitud and azimuth as set for an
+observ in a place at some particular latitud
+in the astrolab an openwork metal rete contain mark for the
+star etc mai be rotat by hand over a disc on which the line of
+altitud and azimuth ar inscrib in the anaphor clock a disc
+engrav with the star is rotat automat behind a fix grill
+of wire mark line of altitud and azimuth power for rotat the
+disc is provid by a float rise in a clepsydra jar and connect by
+a rope or chain pass over a pullei to a counterweight or by a rack
+and pinion to an axl which support the rotat disc and
+commun thi motion to it13
+illustr figur 5 plate of salzburg anaphor clock a
+reconstruct see footnot 14 base on a photograph of the remain
+fragment courtesi of oxford univers press
+part of two such disc from anaphor clock have been found on at
+salzburg14 and on at grand in the vosges15 both of them date
+from the 2nd centuri ad fortun there is suffici evid to
+reconstruct the salzburg disc and show that it must have been origin
+about 170 cm in diamet a heavi sheet of bronz to be turn by the
+small power provid by a float and a larg and impress devic when
+work see fig 5 literari account of the anaphor clock have been
+analyz by drachmann there is no evid of the represent of
+planet move either by hand or by automat gear onli in the
+import case of the sun wa such a featur includ of necess a
+model sun on a pin could be plug in to ani on of 360 hole drill
+in at equal interv along the band of the eclipt thi pin could be
+move each dai so that the anaphor clock kept step with the season
+variat of the time of sunris and sunset and the length of dai and
+night
+the anaphor clock is not onli the origin of the astrolab and of all
+later planetari model it is also the first clock dial set a
+standard for clockwis rotat and leav it mark in the rotat
+dial and stationari pointer found on the earliest timekeep clock
+befor the chang wa made to a fix dial and move hand
+we come final to a piec of archaeolog evid that surpass all
+els though badli preserv and littl studi it might well be the
+most import classic object ever found entail a complet
+reestim of the technic prowess of the hellenist greek in
+1901 a sunken treasur ship wa discov ly off the island of
+antikythera between greec and crete16 mani beauti classic
+work of statuari were recov from it and these ar now amongst the
+greatest treasur of the nation museum at athen greec besid
+these obvious desir art relic there came to the surfac some
+curiou piec of metal accompani by trace of what mai have been a
+wooden case two thousand year under the sea had reduc the metal to
+a mess of corrod fragment of plate powder verdigri and still
+recogniz piec of gear wheel
+if it were not for the establish date for other treasur from thi
+ship especi the minor object found and for trace of inscript
+on thi metal devic written in letter agre epigraph with the
+other object on would have littl doubt in suppos that such a
+complic piec of machineri date from the 18th centuri at the
+earliest as it is estim agre on ca 65 bc 10 year and we
+can be sure that the machin is of hellenist origin possibl from
+rhode or co
+illustr figur 6antikythera machin largest fragment photo
+courtesi of nation museum athen
+the inscript onli partli legibl lead on to believ that we ar
+deal with an astronom calcul mechan of some sort thi is
+born out by the mechan construct evid on the fragment the
+largest on fig 6 contain a multipl of gear involv an
+annular gear work epicycl gear on a turntabl a crown wheel
+and at least four separ train of smaller gear as well as a
+4spoke drive wheel on of the smaller fragment fig 7 bottom
+contain a seri of movabl ring which mai have serv to carri
+movabl scale on on of the three dial the third fragment fig 7
+top ha a pair of ring carefulli engrav and graduat in degre of
+the zodiac thi is incident the oldest engrav scale known and
+micrometr measur on photograph have indic a maximum
+inaccuraci of about 12 in the 45 present
+illustr figur 7antikythera machin two smaller fragment
+photo courtesi of nation museum athen
+unfortun the veri difficult task of clean the fragment is
+slow and no public ha yet given suffici detail for an adequ
+explan of thi object on can onli sai that although the problem
+of restor and mechan analysi ar peculiarli great thi must
+stand as the most import scientif artifact preserv from
+antiqu
+some technic detail can be glean howev the shape of the gear
+teeth appear to be almost exactli equilater triangl in all case
+fig 8 and squar shank mai be seen at the center of some of the
+wheel no wheel is quit complet enough for a count of gear teeth but
+a provision reconstruct by theophanidi fig 9 ha shown that the
+appear ar consist with the theori that the purpos of the
+gear wa to provid the correct angular ratio to move the sun and
+planet at their appropri rel speed
+illustr figur 8antikythera machin detail from figur 6
+show gear photo courtesi of nation museum athen
+thu if the evid of the antikythera machin is to be taken at it
+face valu we have alreadi in classic time the us of astronom
+devic as complic as ani clock in ani case the materi suppli
+by the work ascrib to archimed hero and vitruviu and the more
+certain evid of the anaphor clock is suffici to show that
+there wa a strong classic tradit of such machin a tradit
+that inspir even if it did not directli influenc later develop
+in islam and europ on the on side and just possibl china on the
+other
+note ad in proof
+sinc the abov line were written i have been privileg
+to make a full examin of the fragment in the
+nation museum in athen as a result we can read much
+more inscript and make out mani more detail of the
+mechan the clean and disentangl of the fragment
+by the museum staff ha proceed to the stage where on
+can assert much more posit that the devic wa an
+astronom comput for sider solar lunar and
+possibl also planetari phenomena see my articl in the
+scientif american june 1959 vol 200 no 6 pp
+6067 relev to the present studi it must also be
+note at thi point that the machin is now shown to be
+strongli relat to the gear astrolab of albiruni and
+therebi the hellenist islam and european
+develop ar drawn togeth even more tightli
+let us now turn our attent to those civil which were
+intermediari geograph and cultur between greec and
+mediev europ and between both of these and china from india there
+ar onli two refer veri close relat and appear in the best
+known astronom text in connect with descript of the
+armillari sphere and celesti globe these text ar both quit
+garbl but so far as on mai understand them it seem that the type
+of sphere and globe mention ar more akin to those current in china
+than in the west the relev portion of text ar as follow ital
+suppli
+the circl of the horizon is midwai of the sphere as
+cover with a case and as left uncov it is the
+sphere surround by lokaloka the mountain rang which
+form the boundari of the univers in puran geographi
+by the applic of water is made ascertain of the
+revolut of time on mai construct a sphereinstru
+combin with quicksilv thi is a mysteri if plainli
+describ it would be gener intellig in the
+world therefor let the suprem sphere be construct
+accord to the instruct of the preceptor guru in
+each success ag thi construct have becom lost
+is by the sun favour again reveal to some on or
+other at hi pleasur so also on should construct
+instrument in order to ascertain time when quit alon
+on should appli quicksilv to the wondercaus
+instrument by the gnomon staff arc wheel instrument
+for take the shadow of variou kind by
+waterinstru the vessel by the peacock man
+monkei and by string sandreceptacl on mai determin
+time accur quicksilverhol water and cord and
+oil and water mercuri and sand ar us in these these
+applic too ar difficult
+surya siddhanta xiii 1522
+e burgess translat new haven 1860
+illustr figur 9antikythera machin partial reconstruct
+by theophanidi see footnot 16
+a selfrevolv instrument or swayanvaha yantra make a
+wheel of light wood and in it circumfer put hollow
+spoke all have bore of the same diamet and let them
+be place at equal distanc from each other and let
+them also be place at an angl verg somewhat from the
+perpendicular then half fill these hollow spoke with
+mercuri the wheel thu fill will when place on an
+axi support by two post revolv of itself
+or scoop out a canal in the tire of the wheel and then
+plaster leav of the tala tree over thi canal with
+wax fill on half of thi canal with water and the other
+half with mercuri till the water begin to come out and
+then cork up the orific left open for fill the wheel
+the wheel will then revolv of itself drawn around by the
+water
+descript of a syphon make up a tube of copper or other
+metal and bend it in the form of an ankusa or eleph
+hook fill it with water and stop up both end and then
+put on end into a reservoir of water let the other
+end remain suspend outsid now uncork both end the
+water of the reservoir will be wholli suck up and fall
+outsid
+now attach to the rim of the befor describ
+selfrevolv wheel a number of waterpot and place the
+wheel and these pot like the water wheel so that the
+water from the lower end of the tube flow into them on
+on side shall set the wheel in motion impel by the
+addit weight of the pot thu fill the water
+discharg from the pot as thei reach the bottom of the
+revolv wheel should be drawn off into the reservoir
+befor allud to by mean of a watercours or pipe
+the selfrevolv machin mention by lalla etc
+which ha a tube with it lower end open is a vulgar
+machin on account of it be depend becaus that
+which manifest an ingeni and not a rustic contriv
+is said to be a machin
+and moreov mani selfrevolv machin ar to be met
+with but their motion is procur by a trick thei ar
+not connect with the subject under discuss i have
+been induc to mention the construct of these mere
+becaus thei have been mention by former astronom
+siddhanta siromani xi 5057 l wilkinson
+translat revis by bapu deva shastri
+calcutta 1861
+befor proceed to an investig of the content of these text it
+is of consider import to establish date for them though there
+ar mani difficulti in establish ani chronolog for hindu
+astronomi the surya siddhanta is known to date in it origin
+form from the earli middl ag ca 500 the section in question is
+howev quit evid an interpol from a later recens most
+probabl that which establish the complet text as it now stand it
+ha been various date as ca 1000 to ca 1150 ad the date of
+the siddhanta siromani is more certain for we know it wa
+written in about 1150 by bhaskara born 1114 thu both these
+passag must have been written within a centuri of the great clocktow
+made by su sung the technic detail will lead us to suppos there is
+more than a tempor connect
+we have alreadi note that the armillari sphere and celesti globe
+describ just befor these extract ar more similar in design to
+chines than to ptolema practic the mention of mercuri and of sand
+as altern to water for the clock fluid is anoth featur veri
+preval in chines but absent in the greek text both text seem
+consciou of the complex of these devic and there is a hint it is
+lost and reveal that the stori ha been transmit onli half
+understood from anoth ag or cultur it should also be note that
+the mention of cord and string rather than gear and the us of
+sphere rather than planispher would suggest we ar deal with
+devic similar to the earliest greek model rather than the later
+devic or with the chines practic
+a quit new and import note is inject by the passag from the
+bhaskara text obvious intrus in thi astronom text we have
+the descript of two perpetu motion wheel togeth with a third
+castig by the author which help it perpetu by let water
+flow from a reservoir by mean of a syphon and drop into pot around the
+circumfer of the wheel these seem to be the basi also in the
+extract from the surya siddhanta of the wondercaus
+instrument to which mercuri must be appli
+in the next section we shall show that thi idea of a perpetu motion
+devic occur again in conjunct with astronom model in islam and
+shortli afterward in mediev europ at each occurr as here
+there ar echo of other cultur in addit to those alreadi
+mention we find the otherwis mysteri peacock man and monkei
+cite as part of the jackwork of astronom clock of islam
+associ with the weight drive so essenti to the later horolog in
+europ
+we have alreadi seen that in classic time there were alreadi two
+differ type of protoclock on which mai be term
+nonmathemat design onli to give a visual aid in the concept
+of the cosmo the other which mai be term mathemat in which
+stereograph project or gear wa emploi to make the devic a
+quantit rather than qualit represent these two line
+occur again in the islam cultur area
+nonmathemat protoclock which ar scarc remov from the
+classic form appear continu through the byzantin era and in
+islam as soon as it recov from the first shock of it format
+procopiu di ca 535 describ a monument water clock which wa
+erect in gaza ca 50017 it contain impress jackwork such as
+a medusa head which roll it ey everi hour on the hour exhibit
+the time through light apertur and show mytholog
+interpret of the cosmo all these effect were produc by
+heron techniqu us hydraul power and puppet move by string
+rather than with gear
+again in 807 a similarli marvel exhibit clock made of bronz wa
+sent by harunalrashid to the emperor charlemagn it seem to have
+been of the same type with automata and hydraul work for the
+succeed few centuri islam wa in it golden ag of develop of
+technic astronomi ca 9501150 and attent mai have been
+concentr on the more mathemat protoclock toward the end of
+the 12th centuri howev there wa a reviv of the old tradit
+mainli at the court of the emperor saladin 11461173 when a great
+automaton water clock more magnific than ani hitherto wa erect
+in damascu it wa rebuilt after 1168 by muhammad b ali b
+rustum and repair and improv by hi son fakhr addin
+ridwan b muhammad18 who is most import as the author of
+a book which describ in consider technic detail the construct
+of thi and other protoclock close associ with hi book on also
+find text deal with perpetualmot devic which we shall
+consid later
+dure the centuri follow thi horolog exuber in damascu
+the center of graviti of islam astronomi shift from the east to the
+hispanomoorish west at the same time there come more evid that
+the line of mathemat protoclock had not been left unattend thi
+is suggest by a descript given by trithemiu of anoth royal gift
+from east to west which seem to have been differ from the automata
+and hydraul devic of the tradit from procopiu to
+ridwan19
+in the same year 1232 the saladin of egypt sent by hi
+ambassador as a gift to the emperor freder a valuabl
+machin of wonder construct worth more than five
+thousand ducat for it appear to resembl intern a
+celesti globe in which figur of the sun moon and
+other planet form with the greatest skill move be
+impel by weight and wheel so that perform their
+cours in certain and fix interv thei point out the
+hour night and dai with infal certainti also the
+twelv sign of the zodiac with certain appropri
+charact move with the firmament contain within
+themselv the cours of the planet
+illustr figur 10calendr gear design by albiruni
+ca ad 1000 the gear train count is 401075919592448 the
+gear of 48 therefor make 19 annual rotat while that of 1959
+show 118 doubl lunat of 293059 dai the gear of 40 show a
+lunar rotat in exactli 28 dai and the center pinion 710 rotat
+in exactli on week after wiedemann see footnot 20
+the phrase resembl intern is of especi interest in thi
+passag it mai perhap aris as a mistransl of the technic term
+for stereograph project of the sphere and if so the devic might
+have been an anaphor clock or some other astrolab devic
+thi is made more probabl by the exist of a specif islam
+concentr on the astrolab and on it planetari companion
+instrument the equatorium as devic for mechan comput by
+us of geometr analogu the ordinari planispher astrolab of
+cours wa known in islam from it first dai until almost the present
+time from the time of albiruni ca 1000significantli perhap
+he is well known for hi travel account of indiather is remark
+innov
+most cogent to our purpos is a text describ for the first time by
+wiedemann20 in which albiruni explain how a special train of
+gear mai be us to show the revolut of the sun and moon at their
+rel rate and to demonstr the chang phase of the moon
+featur of fundament import in the islam lunar calendr
+system thi devic necessarili us gear wheel with an odd number of
+teeth eg 7 19 59 as dictat by the astronom constant
+involv see fig 10 the teeth ar shape like equilater triangl
+and squar shank ar us exactli as with the antikythera machin
+horsehead wedg ar us for fix a tradit borrow from the
+horseshap fara us to fasten the tradit astrolab of
+special interest for us is the lunar phase diagram which is just the
+same in form and structur as the lunar volvel that occur later in
+horolog and is still so commonli found todai especi as a
+decor for the dial of grandfath clock
+illustr figur 11gear astrolab by muhammad b abi bakr
+of isfahan ad 12211222 photo courtesi of scienc museum
+london
+biruni calendr machin is the earliest complic gear devic
+on record and it is therefor all the more signific that it carri a
+featur found in later clock from the manuscript descript alon on
+could not tell whether it wa design for automat action or mere to
+be turn by hand fortun thi point is made clear by the most
+happi surviv of an intact specimen of thi veri devic without doubt
+the oldest gear machin in exist in a complet state
+illustr figur 12gear from astrolab shown in figur 11
+the gear train count is as follow 481386464641060 the pinion
+of 8 ha been incorrectli replac by a more modern pinion of 10 the
+gear of 48 should make 13 lunar rotat while the doubl gear of
+6464 make 6 revolut of doubl month of 2930 dai and the gear
+of 60 make a singl turn in the hegir year of 354 dai photo
+courtesi of scienc museum london
+thi landmark in the histori of scienc and technolog is now preserv
+at the museum of the histori of scienc oxford england21 it is an
+astrolab date 122122 and sign by the maker muhammad b abi
+bakr di 123132 of isfahan persia see fig 11 and 12 the veri
+close resembl to the design of biruni is quit appar though the
+gear ha been simplifi veri cleverli so that onli on wheel ha an
+odd number of teeth 13 the rest be much easier to mark out
+geometr eg 10 48 60 and 64 teeth the lunar phase
+volvel can be seen through the circular open at the back of the
+astrolab it is quit certain that no automat action is intend
+when the central pivot is turn by hand probabl by us the
+astrolab rete as a handl the calendr circl and the lunar
+phase ar move accordingli us on turn for a dai would be too slow
+for us reset of the instrument in practic a turn correspond
+more nearli to an interv of on week
+illustr figur 13astrolab clock regul by a mercuri drum
+from the alfonsin libro del saber see footnot 22
+in addit to thi gear develop of the astrolab the same period
+in islam brought forth a new devic the equatorium a mechan model
+design to simul the geometr construct us for find the
+posit of the planet in ptolema astronomi the method mai have
+origin alreadi in classic time a simpl devic be describ
+by proclu diadochu ca 450 but the first gener though crude
+planetari equatorium seem to have been describ by abulcacim abnacahm
+ca 1025 in granada it ha been hand down to us in the archaic
+castilian of the alfonsin libro del saber22 the section of thi
+book deal with the lamina de la vii planeta describ not onli
+thi instrument but also the improv modif introduc by
+azarchiel born ca 1029 di ca 1087
+no islam exampl of the equatorium have surviv but from thi
+period onward there appear to have been a long and activ tradit of
+them and ultim thei were transmit to the west along with the
+rest of the alfonsin corpu more import for our argument is that
+thei were the basi for the mechan astronom model of richard of
+wallingford ca 1320 and probabl other and for the alreadi
+mention great astronom clock of de dondi in fact the complic
+gearwork and dial of de dondi clock constitut a seri of equatoria
+mechan in just the same wai as the calendr devic describ by
+biruni
+it is evid that we ar come nearer now to the begin of the true
+mechan clock and our last step also from the alfonsin corpu of
+western islam provid us with an import link between the anaphor
+clock the weight drive and a most curiou perpetualmot devic the
+mercuri wheel us as an escap or regul the alfonsin book on
+clock contain descript of five devic in all four of them be
+due to isaac b sid two sundial an automaton waterclock and the
+present mercuri clock and on to samuel halevi adulafia a candl
+clockthei were probabl compos just befor ca 127677
+illustr figur 14islam perpetu motion wheel after
+manuscript cite by schmeller see footnot 26
+the mercuri clock of isaac b sid consist of an astrolab dial rotat
+as in the anaphor clock and fit with 30 leafshap gear teeth
+see fig 13 these ar driven by a pinion of 6 leav mount on a
+horizont axl shown veri diagrammat in the illustr and at
+the other end of thi axl is a wheel on which is mount the special
+mercuri drum which is power by a normal weight drive
+it is the mercuri drum which form the most novel featur of thi
+devic the fluid constrain in 12 chamber so as to just fill 6 of
+them must slowli filter through small hole in the constrain wall
+in practic of cours the top mercuri surfac will not be level but
+higher on the right so as to balanc dynam the moment of the
+appli weight on it driven rope thi curiou arrang show point
+of resembl to the indian mercuryhol to the perpetualmot
+devic found in the mediev european tradit and also in the text
+associ with ridwan which we shall next examin
+illustr figur 15anoth perpetu motion wheel after the
+text cite in figur 14
+it is of the greatest interest to our theme that the islam
+contribut to horolog and perpetu motion seem to form a close
+knit corpu a most import seri of horolog text includ
+those of ridwan and aljazari have been edit by wiedemann
+and hauser23 other islam text give version of the water clock
+and automata of archimed and of hero and philo of alexandria24 in
+at least three cases25 these text ar found also associ with
+text describ perpetualmot wheel and other hydraul devic
+three manuscript of thi type have been publish in german translat
+by schmeller26 the devic includ a mani chamber wheel see fig
+14 similar to the alfonsin mercuri escap a wheel of slant
+tube construct like the noria see fig 15 wheel of weight
+swing on arm as describ by villard of honnecourt and a remark
+devic which seem to be the earliest known exampl of a weight drive
+thi latter machin is a pump in which a chain of bucket is us to
+rais water by pass over a pullei which is gear to a drum power
+by a fall weight see fig 16 perhap for balanc the whole
+arrang is made in duplic with common axl for the correspond
+part
+illustr figur 16islam pump power by a weight drive
+after the text cite in figur 14
+the islam tradit of water clock did not involv the us of gear
+though veri occasion a pair is us to turn power through an angl
+when thi is dictat by the us of a water wheel in the automata in
+the main everyth is work by float and string or by hydraul or
+pneumat forc as in hero devic the automata ar veri elabor
+with figur of men monkei peacock etc symbol the passag of
+hour
+mediev europ
+echo from nearli all the develop alreadi note from other part
+of the world ar found to occur in mediev europ often come
+through channel of commun more precis determin than
+those hitherto mention befor the influx of islam learn at the
+time of transmiss of the toledo tabl 12th centuri and the
+alfonsin tabl which reach pari ca 1292 there ar occasion
+refer to the most primit mechan visual aid in astronomi
+the most famou of these occur in an histor account by richer of
+rheim about hi teacher gerbert born 946 later pope sylvest ii
+9901003 sever instrument made by gerbert ar describ in detail
+he includ a fine celesti globe made of wood cover with horsehid
+and have the star and line paint in color and an armillari sphere
+have sight tube similar to those alwai found on chines
+instrument but never on the ptolema varieti lastli he cite the
+construct of a sphere most suitabl for recogn the planet
+but unfortun it is not clear from the descript whether or not
+the model planet were actual to be anim mechan the text
+runs27
+within thi obliqu circl the zodiac on the eclipt of
+the globe he hung the circl of the wander star the
+planet with marvel ingenu whose orbit height
+and even the distanc from each other he demonstr to
+hi pupil most effectu just how he accomplish thi
+it is unsuit to enter into here becaus of it extent
+lest we should appear to be wander from our main theme
+thu although there is a hint of mechan complex there is realli
+no justif for such an assumpt the descript might well
+impli onli a zodiac band on which the orbit of the planet were
+paint on the other hand it is not inconceiv that gerbert could
+have learn someth of islam and other extraeuropean tradit
+dure hi period of studi with the bishop of barcelonaa travel
+scholarship that seem to have had mani repercuss on the whole field
+of european scholarship
+onc the floodgat of arab learn were open a stream of
+mechan astronom model pour into europ astrolab and
+equatoria rapidli becam veri popular mainli through the reason for
+which thei had been first devis the avoid of tediou written
+comput mani mediev astrolab have surviv and at least three
+mediev equatoria ar known chaucer is well known for hi treatis on
+the astrolab a manuscript in cambridg contain a companion
+treatis on the equatorium ha been tent suggest by the
+present author as also be the work of chaucer and the onli piec
+written in hi own hand
+the gear astrolab of albiruni is anoth type of protoclock to have
+been transmit a specimen in the scienc museum london28 though
+unfortun now incomplet ha a veri sophistoc arrang of
+gear for move pointer to indic the correct rel posit and
+movement of the sun and moon see fig 17 and 18 like the earlier
+muslim exampl it contain wheel with odd number of gear teeth 14
+27 39 howev the teeth ar no longer equilater in shape but
+approxim a more modern slightli round form thi exampl is french
+and appear to date from ca 1300 anoth gothic astrolab with a
+similar gear ring on the rete said to date from ca 1400 it could
+well be much earlier is now in the billmeier collect london29
+turn from the mechan astrolab to the mechan equatorium we
+find the work of richard of wallingford 12921336 of the greatest
+interest as provid an immedi precursor to that of de dondi he
+wa the son of an ingeni blacksmith make hi wai to merton
+colleg oxford then the most activ and origin school of astronomi
+in europ and win later distinct as abbot of st alban a text
+by him date 132627 describ in detail the construct of a great
+equatorium more exact and much more elabor than ani that had gone
+before30 nevertheless it is evid a normal manual oper
+devic like all the other in addit to thi instrument richard is
+said to have construct ca 1320 a fine planetari clock for hi
+abbey31 bale who seem to have seen it regard it as without rival
+in europ and the greatest curios of hi time unfortun the
+issu wa confus by leland who identifi it as the albion ie
+allbi on the name richard give to hi manual equatorium thi clock
+wa inde so complex that edward iii censur the abbot for spend so
+much monei on it but richard repli that after hi death nobodi would
+be abl to make such a thing again he is said to have left a text
+describ the construct of thi clock but the absenc of such a
+work ha led mani modern writer to support leland identif and
+suppos that the devic wa not a mechan clock
+illustr figur 17french gear astrolab of trefoil gothic
+design ca ad 1300 the gear on the pointer is from the
+center 3214452739 the last mesh with a concav annular gear
+of 180 teeth around the rim of the rete of the astrolab a second
+pointer gear to thi so as to follow the moon seem to be lack
+photo courtesi of scienc museum london
+illustr figur 18gear train of pointer in figur 17 photo
+courtesi of scienc museum london
+a correct for thi view is to be had from a st alban manuscript
+now at gonvil and caiu colleg cambridg that describ the
+method for set out tooth wheel for an astronom horologium
+design to show the motion of the planet although the manuscript
+copi is to be date ca 1340 it clearli indic that a gear
+planetari devic wa known in st alban at an earli date and it is
+reason to suppos that thi wa in fact the machin made by richard
+of wallingford unfortun the text doe not appear to give ani
+relev inform about the presenc of an escap or ani other
+regulatori devic nor doe it mention the sourc of power32 now a
+gear version of the albion would appear to correspond veri close
+inde to the dialwork which form the greater part of the de dondi
+clock and for thi reason we suggest now that the two clock were veri
+close relat in other wai too thi circumstanti though it be is
+evid for think that the weight drive and some form of escap
+were known to richard of wallingford ca 1320 it would narrow the
+gap between the clock and the protoclock to less than half a centuri
+perhap a singl gener in the interv ca 12851320 in thi
+connect it mai be of interest that richard of wallingford knew onli
+the toledo tabl corpu that of the alfonsin school did not arriv in
+england until after hi death
+there ar of cours mani literari refer to the waterclock in
+mediev literatur in fact most of these ar from quotat which
+have often been produc erron in the histori of the mechan
+clock therebi provid mani mislead start for that histori as
+note previous in the discuss of the horologium there ar howev
+enough mention to make it certain that water clock of some sort were
+in us especi for ecclesiast purpos from the end of the 12th
+centuri onward thu jocelin of brakelond tell of a fire in the abbei
+church of buri st edmund in the year 119833 the relic would have
+been destroi dure the night but just at the crucial moment the
+clock bell sound for matin and the master of the vestri sound the
+alarm on thi the young men amongst us ran to get water some to the
+well and other to the clockprob the sole occas on which a
+clock serv as a fire hydrant
+it seem probabl that some of these water clock could have been simpl
+drip clepsydra with perhap a strike arrang ad a most
+fortun discoveri by drover ha now brought to light a manuscript
+illumin that show that these water clock at least by ca 1285
+had becom more complex and were rather similar in appear to the
+alfonsin mercuri drum34 the illustr fig 19 is from a
+moral bibl written in northern franc and accompani the passag
+where king hezekiah is given a sign by the lord the sun be move
+back ten step of the clock the pictur clearli show the central water
+wheel and below it a dog head spout gush water into a bucket
+support by chain with a weight cord run behind abov the
+wheel is a carillon of bell and to on side a rosett which might be a
+fly or a model sun the wheel appear to have 15 compart each with
+a central hole perhap similar to that in the alfonsin clock and it
+is support on a squar axl by a bracket the axl be wedg in the
+tradit fashion the project at the edg of the wheel might be
+gear teeth but more like thei ar us onli for trip the strike
+mechan if it were not for the run water spout it would be veri
+close to the alfonsin model but with thi evid it seem imposs
+to arriv at a clear mechan interpret
+from the adjac region there is anoth account of a strike water
+clock the evid be inscript on slate discov in viller
+abbei near brussels35 these mai be close date as 1267 or 1268 and
+provid the remain of a memorandum for the sacrist and hi assist
+in charg of the clock
+alwai set the clock howev long you mai delai on the
+letter a afterward you shall pour water from the
+littl pot pottulo that is there into the reservoir
+cacabum until it reach the prescrib level and you
+must do the same when you set the clock after complin
+so that you mai sleep soundli
+a quit differ sort of evid is to be had from the write of
+robertu anglicu in 1271 where on get the impress that just at
+thi time there wa activ interest in the attempt to make a
+weightdriven anaphor clock and to regul it motion by some
+unstat method so that it would keep time with the diurnal rotat of
+the heavens36
+nor it is possibl for ani clock to follow the judgment of
+astronomi with complet accuraci yet clockmak
+artific horologiorum ar try to make a wheel
+circulum which will make on complet revolut for
+everi on of the equinocti circl but thei cannot quit
+perfect their work but if thei could it would be a
+realli accur clock horologium verax vald and worth
+more than an astrolab or other astronom instrument
+for reckon the hour if on knew how to do thi
+accord to the method aforesaid the method of make
+such a clock would be thi that a man make a disc
+circulum of uniform weight in everi part so far as could
+possibl be done then a lead weight should be hung from
+the axi of that wheel axi ipsiu rote and thi weight
+would move that wheel so that it would complet on
+revolut from sunris to sunris minu as much time as
+about on degre rise accord to an approxim
+correct estim for from sunris to sunris the whole
+equinocti rise and about on degre more through
+which degre the sun move against the motion of the
+firmament in the cours of a natur dai moreov thi
+could be done more accur if an astrolab were
+construct with a network on which the entir equinocti
+circl wa divid up
+illustr figur 19manuscript illumin of a mediev
+waterclock show a partit wheel a weight drive and a carillion
+for strike from drover see footnot 34
+the text then continu with technic astronom detail of the
+slight differ between the rate of rotat of the sun and of the
+fix star becaus of the annual rotat of the sun amongst the
+star but it give no indic of ani regulatori devic again it
+should be note thi sourc come from franc robertu though of
+english origin appar be then a lectur either at the
+univers of pari or at that of montpelli the date of thi passag
+1271 ha been taken as a terminu post quem for the invent of the
+mechan clock in the next section we shall describ the text of
+peter peregrinu veri close to thi in place and date which describ
+just such a machin conflat it with account of an armillari sphere
+perpetu motion and the magnet compassso bring all these
+thread togeth for the first time in europ
+illustr figur 20arrang for turn a figur of an angel
+it ha been alleg that thi draw by villard repres an
+escap after lassu see footnot 37
+we have reserv to the last on section of evid which mai or mai
+not be mislead the famou notebook of villard wilar of
+honnecourt near cambrai the album attribut to the period 12401251
+contain mani draw with short annot three of which ar of
+special interest to our investigations37 these compris a steeplelik
+structur label cest li mason don orolog thi is the hous of a
+clock a devic includ a rope wheel and axl fig 20 mark par
+chu fait om un angl tenir son doit ad ver le solel by thi mean
+an angel is made to keep hi finger direct toward the sun and a
+perpetu motion wheel which we shall reserv for later discuss
+the clock tower accord to drover show no place for a dial but
+suggest the us of bell becaus of it open structur suitabl for
+let out the sound moreov he suggest that the delicaci of the
+line indic that it wa not realli a fullsiz steepl but rather a
+small towerlik structur stand onli a few feet high within the
+church there is ala noth to tell us about the clock it wa
+intend to hous most probabl it wa a water clock similar to that of
+the illustr bibl of ca 1285
+the draw of the rope wheel and axl for turn an angel to point
+toward the sun can have a simpl explan or a more complic on
+if taken at it face valu the wheel on it horizont axi act as a
+windlass connect by the counterpois rope to the vertic shaft which
+it turn therebi move by hand the figur of an angel not shown
+fix to the top of thi latter shaft such an explan wa in fact
+suggest by m quicherat38 who first call attent to the villard
+album and point out that a leaden angel exist in chartr befor the
+fire there in 1836 it is a view also support from anoth draw in
+the album which describ an eagl whose head is made to turn toward
+the deacon when he read the gospel slight pressur on the tail of the
+bird caus a similar rope mechan to oper
+a quit differ interpret ha been suggest by frmont39 he
+believ that the wheel mai have act as a flywheel and the rope and
+counterpois turn first on wai then the other act as a sort of
+mechan escap such an arrang is howev mechan
+imposs without some complic freewheel devic between the
+drive and the escap and it onli effect would be to oscil the
+angel rapidli rather than turn it steadili i believ that frmont
+overanxi to provid a protoescap ha done too much violenc to
+the fact and turn awai without good reason from the more simpl and
+reason explan it is nevertheless still possibl to adopt thi
+simpl interpret and yet to have the system as part of a clock if
+the lefthand counterpois conveni rais higher than that on the
+right is consid as a float fit into a clepsydra jar instead of
+as a simpl weight on would have a veri suitabl automat system for
+turn the angel on thi explan the purpos of the wheel would
+be mere to provid the manual adjust necessari to set the angel
+from time to time compens for irremedi inaccuraci of the
+clepsydra
+illustr figur 21villard perpetu motion wheel from lassu
+see footnot 37
+have discuss the villard draw which ar alreadi cite in
+horolog literatur we must draw attent to the fact that thi
+mediev architect also give an illustr of a perpetu motion
+wheel in thi case fig 21 it is of the type have weight at the
+end of swing arm a type that occur veri frequent at later date
+in europ and is also given in the islam text we cannot in thi
+case suggest that draw of clock and of perpetu motion devic
+occur togeth by more than a coincid for villard seem to have
+been interest in most sort of mechan devic but even thi type
+of coincid becom somewhat strike when repeat often enough it
+seem that each earli mention of selfmov wheel occur in
+connect with some sort of clock or mechan astronom devic
+have now complet a survei of the tradit of astronom model
+we have seen that mani type of devic embodi featur later found in
+mechan clock evolv through variou cultur and flow into
+europ come togeth in a burst of multifari activ dure the
+second half of the 13th centuri notabl in the region of franc we
+must now attempt to fill the residu gap and in so do examin the
+import of perpetu motion devic mechan and magnet in the
+crucial transit from protoclock to mechanicalescap clock
+perpetu motion and the clock befor de dondi
+we have alreadi note more or less briefli sever instanc of the
+us of wheel move by themselv or the us of a fluid for purpos
+other than as a motiv power chronolog arrang these ar the
+indian devic of ca 1150 or a littl earlier as those of ridwan
+ca 1200 that of the alfonsin mercuri clock ca 1272 and the
+french bibl illumin of ca 1285 thi strongli suggest a steadi
+transmiss from east to west and on the basi of it we now
+tent propos an addit step a transmiss from china to
+india and perhap further west ca 1100 and possibl reinforc by
+further transmiss at later date
+on need onli assum the exist of vagu travel tale about the
+exist of the 11thcenturi chines clock with their astronom
+model and jackwork and with their great wheel appar move by
+itself but us water have no extern inlet or outlet such a
+stimulu act as it did on a later occas when galileo receiv
+word of the invent of the telescop in the low countri might
+easili lead to the reinvent of just such perpetualmot wheel as
+we have alreadi note in mani wai onc the idea ha been suggest it
+is natur to associ such a perpetu motion with the incess
+diurnal rotat of the heaven without some such stimulu howev it
+is difficult to explain why thi associ did not occur earlier and
+why onc it come there seem to be such a chronolog process
+from cultur to cultur
+we now turn to what is undoubtedli the most curiou part of thi stori
+in which automat move astronom model and perpetu motion
+wheel ar link with the earliest text on magnet and the magnet
+compass anoth subject with a singularli troubl histor origin
+the kei text in thi is the famou epistl on the magnet written by
+peter peregrinu a picard in an armi camp at the sieg of lucera and
+date august 8 126940 in spite of the precis date it is certain
+that the work wa done long befor for it is quot unmistak by
+roger bacon in at least three place on of which must have been
+written befor ca 125041
+the epistl contain two part in the first there is a gener
+account of magnet and the properti of the loadston close with a
+discuss of the inquiri whenc the magnet receiv the natur virtu
+which it ha peter attribut thi virtu to a sympathi with the
+heaven propos to prove hi point by the construct of a
+terrella a uniform sphere of loadston which is to be carefulli
+balanc and mount in the manner of an armillari sphere with it axi
+direct along the polar axi of the diurnal rotat he then
+continu
+now if the stone then move accord to the motion of the
+heaven rejoic that you have arriv at a secret marvel
+but if not let it be ascrib rather to your own want of
+skill than to a defect of natur but in thi posit or
+mode of place i deem the virtu of thi stone to be
+properli conserv and i believ that in other posit
+or part of the sky it virtu is dull rather than
+preserv by mean of thi instrument at all event you
+will be reliev from everi kind of clock horologium
+for by it you will be abl to know the ascend at
+whatev hour you will and all other disposit of the
+heaven which astrolog seek after
+it should be note that the devic is to be mount like an astronom
+instrument and us like on rather than as a time teller or as a
+simpl demonstr of magnet in the second part of the epistl
+peter turn to practic instrument describ for the first time the
+construct of a magnet compass consist of a loadston or iron
+needl pivot with a case mark with a scale of degre the third
+chapter of thi section conclud the epistl then continu with
+the descript of a perpetu motion wheel elabour with marvel
+ingenu in the pursuit of which invent i have seen mani peopl
+wander about and weari with manifold toil for thei did not
+observ that thei could arriv at the masteri of thi by mean of the
+virtu or power of thi stone
+thi tell us incident that the perpetu motion devic wa a
+subject of consider interest at thi time42 oddli enough peter
+doe not now develop hi idea of the terrella but proce to someth
+quit new a devic see fig 22 in which a barmagnet loadston is to
+be set toward the end of a pivot radial arm with a circl fit on
+the insid with iron gear teeth the teeth be there not to mesh
+with other but to draw the magnet from on to the next a littl bead
+provid a counterweight to help the inertia of rotat carri the
+magnet from on point of attract to the next it is by no mean the
+sort of devic that on would natur evolv as a mean of make
+magnet work perpetu and i suggest that the tooth wheel is
+anoth instanc of some vagu idea of protoclock perhap that of su
+sung be transmit from the east
+illustr figur 22magnet perpetu motion wheel illustr
+by peter peregrinu from the edit of s p thompson see footnot
+40
+the work of peter peregrinu is cite by roger bacon in hi de
+secreti as well as in the opu maju and opu minu in the first
+and earliest of these occur a descript taken from ptolemi of the
+construct of the observ armillari sphere he sai that thi
+cannot be made to move natur by ani mathemat devic but a
+faith and magnific experimentor is strain to make on out of
+such materi and by such a devic that it will revolv natur with
+the diurnal heavenli rotat he continu with the statement that
+thi possibl is also suggest by the fact that the motion of
+comet of tide and of certain planet also follow that of the sun and
+of the heaven onli in the opu minu where he repeat refer to
+thi devic doe he final reveal that it is to be made to work by
+mean of the loadston
+the form of bacon refer to peregrinu is strongli reminisc of
+the statement by robertu anglicu alreadi mention as an indic
+of preoccup with diurnal rotat wheel at a date 1271
+remark close to that of the epistl 1269so much so that it
+could well be thought that the friend to which peter wa write wa
+either robert himself or somebodi associ with him perhap at the
+univers of parisa natur place to which the itiner peter might
+commun hi find
+the fundament question here of cours is whether the idea of an
+automat astronom devic wa transmit from arab indian or
+chines sourc or whether it aros quit independ in thi case as
+a natur concomit of identifi the pole of the magnet with the
+pole of the heaven we shall now attempt to show that the histori of
+the magnet compass might provid a quit independ argument in
+favour of the hypothesi that there wa a stimulu transmiss
+the magnet compass as a fellowtravel from china
+the elus histori of the magnet compass ha mani point in common
+with that of the mechan clock just as we have astronom model
+from the earliest time so we find knowledg of the loadston and some
+of it properti then parallel to the develop of protoclock in
+china throughout the middl ag we have the evid analyz by
+needham show the us of the magnet as a divinatori devic and of the
+nonmagnet southpoint chariot which ha been confusedli alli
+to the stori curious and perhap significantli the chines histori
+come to a head at just the same time for compass and clock and a
+prime author for the chines compass is shen kua 10301093 who also
+appear in connect with the clock of su sung and who wrote about the
+mechan armillari sphere and other model ca 1086
+anoth similar occur in connect with the histori of the compass
+in mediev europ the treatis of peter peregrinu alreadi discuss
+provid the first complet account of the magnet compass with a
+pivot needl and a circular scale and thi as we have seen mai be
+connect with protoclock and perpetualmot devic there ar
+sever earlier refer howev to the us of the direct
+properti of loadston mainli for us in navig but these
+earliest text have a long histori of erron interpret which is
+onli recent be clear awai we know now that the famou passag
+in the de naturi rerum and de utensilibu of alexand neckham43
+ca 1187 and a text by hugu de berze44 after ca 1204 refer
+to noth more than a float magnet without pivot or scale but us
+a pointer at right angl to the magnet so that it point to the east
+rather than the north or south a similar method is describ ca
+1200 in a poem by guyot de provin and in a histori of jerusalem by
+jacqu de vitri 121545 it is of the greatest interest that onc
+more all the evid seem to be concentr in franc neckham wa
+teach in pari though at an earlier period than that for the
+protoclock
+the date might suggest the time of the first great wave of transmiss
+of learn from islam but it is clear that in thi instanc peculiar
+for that reason that islam learn of the magnet compass onli after
+it wa alreadi known in the west in the earliest persian record some
+anecdot compil by alawfii ca 123046 the instrument us
+by the captain dure a storm at sea ha the form of a piec of hollow
+iron shape like a fish and made to float on the water after
+magnet by rub with a loadston the fishlik form is veri
+signific for thi is distinctli chines practic in a second muslim
+refer that of bailak alqabajaqi ca 1282 the ordinari
+wetcompass is term alkonba anoth indic that it wa
+foreign to that languag and culture47
+chronolog chart
+china
+4th c bc power gear
+classic europ
+3rd c bc archimed planetarium
+2nd c bc hipparchu stereograph project
+1st c bc vitruviu hodomet and water clock
+65 bc ca antikythera machin
+1st c ad hero hodomet and water clock
+2nd c ad salzburg and vosg anaphor clock
+china
+2nd c ad chang hng anim globe hodomet
+continu tradit of anim astronom model
+725 invent of chines escap by ihs and liang lingtsan
+islam
+807 harunalrashid
+850 ca earliest extant astrolab
+1000 gear astrolab of albiruni
+europ
+1000 gerbert astronom model
+islam
+1025 equatorium text
+china
+1074 shen kua clock and magnet compass
+1080 su sung clock built
+1101 su sung clock destroi
+india
+1100 ca surya siddhanta anim astronom model
+and perpetu motion
+1150 ca siddhanta siromani anim model and perpetu
+motion
+islam
+1150 saladin clock
+europ
+1187 neckham on compass
+1198 jocelin on water clock
+islam
+1200 ca ridwan waterclock perpetu motion
+and weight drive
+1206 aljazari clock etc
+1221 gear astrolab
+1232 charlemagn clock
+1243 alkonba compass
+europ
+1245 villard clocktow escap perpetu motion
+1267 viller abbei clock
+1269 peregrinu compass and perpetu motion
+1271 robertu anglicu anim model and perpetu motion clock
+islam
+1272 alfonsin corpu clock with mercuri drum equatoria
+europ
+1285 drover water clock with wheel and weight drive
+1300 ca french gear astrolab
+1320 richard of wallingford astronom clock and equatorium
+1364 de dondi astronom clock with mechan escap
+later 14th c tradit of escap clock continu
+and degener into simpl timekeep
+there is therefor reason ground for support the mediev
+european tradit that the magnet compass had first come from china
+though on cannot well admit that the first new of it wa brought as
+the legend state by marco polo when he return home in 1260 there
+might well have been anoth wave of interest give the impetu to
+peter peregrinu at thi time but an earlier transmiss perhap
+along the silk road or by travel in crusad must be postul to
+account for the evid in europ ca 1200 the earlier influx doe
+not plai ani great part in our main stori it arriv in europ befor
+the transmiss of astronomi from islam had got under wai suffici
+to make protoclock a subject of interest for a second transmiss we
+have alreadi seen how the relev text seem to cluster in franc
+ca 1270 around a complex in which the protoclock seem combin with
+the idea of perpetu motion wheel and with new inform about the
+magnet compass
+the point of thi paper is that such a complex exist cut across
+the histori of the clock the variou type of astronom machin
+and the magnet compass and includ the origin of selfmov
+wheel it seem to trace a path extend from china through india
+and through eastern and western islam end in europ in the middl
+ag thi path is not a simpl on for the variou element make their
+appear in differ combin from place to place sometim on
+mai be domin sometim anoth mai be absent onli by treat it as
+a whole ha it been possibl to produc the thread of continu which
+will i hope make further research possibl circumv the blind
+allei found in the past and lead eventu to a complet
+understand of the first complic scientif machin
+footnot
+1 thi tradit view is express by almost everi histori
+of horolog an ultim sourc for mani of these ha been the
+follow two classic treatment j beckmann a histori of
+invent and discoveri 4th ed london 1846 vol 1 pp
+340 ff a p usher a histori of mechan invent 2nd
+ed harvard univers press 1954 pp 191 ff 304 ff
+2 there is a consider literatur deal with the later
+evolut of perpetu motion devic the most comprehens
+treatment is h dirck perpetuum mobil london 1861 2nd
+ser london 1870 so far as i know there ha not previous
+been much discuss of the histori of such devic befor the
+renaiss
+3 for the earli histori of gear in the west see c
+matschoss geschicht de zahnrad berlin 1940 also f m
+feldhau die geschichtlich entwicklung de zahnrad in
+theori und praxi berlin 1911
+4 a gener account of these import archaeolog object
+will be publish by j needham scienc and civilis in
+china cambridg 1959 vol 4 the origin public
+in chines ar as follow wang chento investig and
+reproduct in model form of the southpoint carriag and
+hodomet nation peip academi histor journal
+1937 vol 3 p 1 liu hsienchou chines invent in
+horolog engin chinghua univers engin
+journal 1956 vol 4 p 1
+5 for illustr of intermesh worm in indian cotton
+mill see matschoss op cit footnot 3 fig 5 6 7
+p 7
+6 it is interest to note that the chines hodomet wa
+contemporari with that of hero and vitruviu and veri similar
+in design there is no evid whatsoev upon which to decid
+whether there mai have been a specif transmiss of thi
+invent or even a stimulu diffus
+7 a summari of the content of the manuscript sourc
+illustr by the origin draw ha been publish by h
+alan lloyd giovanni de dondi horolog masterpiec
+1364 without date or imprint lausann 1955 23 pp it
+should be remark that de dondi declin to describ the
+work of hi crown and foliot escap though it is well
+illustr sai that thi is of the common varieti and if
+the reader doe not understand such simpl thing he need not
+hope to comprehend the complex of thi mighti clock but
+thi mai be bravado to quit a larg degre
+8 see for exampl the chronolog tabl of the 14th
+centuri and the later mention of clock in e zinner au der
+frhzeit der rderuhr munich 1954 p 29 ff unfortun
+thi veri complet treatment tend to confus the factual and
+legendari sourc prior to the clock of de dondi it also
+accept the veri doubt evid of the escap drawn by
+villard of honnecourt see p 107 an excel and fulli
+illustr account of monument astronom clock
+throughout the world is given by alfr unger le horlog
+astronomiqu strasbourg 1931 514 pp avail account of
+the develop of the planetarium sinc the middl ag ar
+veri brief and especi weak on the earli histori helmut
+werner from the aratu globe to the zeiss planetarium
+stuttgart 1957 c a crommelin planetaria a histor
+survei antiquarian horolog 1955 vol 1 pp 7075
+9 derek j price clockwork befor the clock horolog
+journal 1955 vol 97 p 810 and 1956 vol 98 p 31
+10 for the us of thi materi i am indebt to my
+coauthor i must also acknowledg thank to the cambridg
+univers press which in the near futur will be publish
+our monograph heavenli clockwork some of the find of
+thi paper ar includ in shorter form as background materi
+for that monograph a brief account of the discoveri of thi
+materi ha been publish by j needham wang ling and derek
+j price chines astronom clockwork natur 1956
+vol 177 pp 600602
+11 for these translat from classic author i am
+indebt to professor loren mackinnei and miss harriet lattin
+who had collect them for a histori now abandon of
+planetarium i am grate for the opportun of give them
+here the mention thei deserv
+12 a g drachmann the plane astrolab and the anaphor
+clock centauru 1954 vol 3 pp 183189
+13 a fuller descript of the anaphor clock and cognat
+waterclock is given by a g drachmann ktesibio philon
+and heron acta historica scientiarum naturalium et
+medicinalium copenhagen 1948 vol 4
+14 first publish by o benndorf e weiss and a rehm
+jahresheft de sterreichischen archologischen institut in
+wien 1903 vol 6 pp 3249 i have given further detail of
+it construct in a histori of technolog ed singer
+holmyard and hall 1957 vol 3 pp 604605
+15 l maxewerli mmoir de la socit national de
+antiquair de franc 1887 vol 48 pp 170178
+16 the first definit account of the antikythera machin
+wa given by perikl rediadi in j svorono da athen
+nationalmuseum athen 1908 textband i pp 4351 sinc
+then other photograph mostli veri poor have appear and
+an attempt at a reconstruct ha been made by rear admir
+jean theophanidi praktika te akademia athenon athen
+1934 vol 9 pp 140149 in french i am deepli grate to
+the director of the athen nation museum m karouzo for
+provid me with an excel new set of photo from which
+figur 68 ar now taken
+17 h diel ber die von prokop beschrieben kunstuhr von
+gaza abhandlungen akademi der wissenschaften berlin
+philoshist klass 1917 no 7
+18 l a mayer islam astrolabist and their work
+geneva 1956 p 62
+19 the translat which follow is quot from j beckmann
+op cit footnot 1 p 349
+20 e wiedemann ein instrument da die bewegung von sonn
+und mond darstellt nach al biruni der islam 1913 vol 4
+p 5
+21 i acknowledg with thank to the curat of that museum
+the permiss to reproduc photograph of thi instrument it
+is item 5 in r t gunther astrolab of the world oxford
+1932
+22 abulcacim abnacahm libro del saber edit by rico y
+sinoba madrid 1866 vol 3 pp 241271 the design of the
+instrument ha been veri fulli discuss by a wegen die
+astronomischen werk alfon x bibliotheca mathematica
+1905 pp 129189 a more complet discuss of the histor
+evolut of the equatorium is given in derek j price the
+equatori of the planeti cambridg eng 1955 pp
+119133
+23 e wiedemann and f hauser ber die uhren im bereich d
+islamischen kultur nova acta abhandlungen der kniglich
+leopoldinischcarolinisch deutsch akademi der naturforsch
+zu hall 1915 vol 100 no 5
+24 e wiedemann and f hauser die uhr de archimed und
+zwei ander vorrichtungen hall 1918
+25 the manuscript in question ar as follow gotha kat v
+pertsch 3 18 no 1348 oxford cod 954 leiden kat 3
+288 no 1414 cod 499 warn and anoth similar kat 3 291
+no 1415 cod 93 gol
+26 h schmeller beitrg zur geschicht der technik in der
+antik und bei den arabern erlangen 1922 abhandlungen zur
+geschicht der naturwissenschaften und der medizin no 6
+27 onc more i am indebt to professor loren mackinnei and
+miss harriet lattin see footnot 11 for make their
+collect on gerbert avail to me
+28 item 198 in gunther op cit footnot 21 i am
+grate to the author of that museum for permiss to
+reproduc photograph of thi instrument
+29 sothebi and co london sale of march 14 1957 lot 154
+the outer rim of the rete ha 120 teeth
+30 the latin text of the treatis on the albion ha been
+transcrib by rev h salter and publish in r t gunther
+earli scienc in oxford oxford 1923 vol 2 pp 349370
+an analysi of it design is given in price op cit
+footnot 22 pp 127130
+31 such evid as there is for the exist and form of
+the clock is collect by gunther op cit footnot 30 p
+49
+32 i have discuss thi new manuscript sourc in two
+mediev text on astronom clock antiquarian horolog
+1956 vol 1 no 10 p 156 the manuscript in question is ms
+230116 gonvil and caiu colleg cambridg folio
+11v14v pp 3136
+33 the chronicl of jocelin of brakelond h e butler
+ed london 1949 p 106
+34 c b drover a mediev monast waterclock
+antiquarian horolog 1954 vol 1 no 5 pp 5458 63
+becaus thi water clock us wheel and strike bell on must
+reject the evid of literari refer such as by dant
+from which the mention of wheel and bell have been taken as
+posit proof of the exist of mechan clock with
+mechan escap the toandfro motion of the mechan
+clock escap is quit an impress featur but there
+seem to be no literari refer to it befor the time of de
+dondi
+35 annal de la socit royal darchologi de bruxel
+1896 vol 18 pp 203215 404451 the translat here is
+cite from drover op cit footnot 34 p 56
+36 l thorndik the sphere of sacrobosco and it
+comment chicago 1949 pp 180 230
+37 the album wa publish with facsimil by j b a
+lassu 1858 an english edit with facsimil of 33 of the
+41 folio wa publish by rev robert willi oxford 1859 an
+extens summari of thi section is given with illustr
+by j drummond robertson the evolut of clockwork london
+1931 pp 1115
+38 m jule quicherat revu archologiqu 1849 vol 6
+39 m c frmont origin de lhorlog poid pari
+1915
+40 for thi i have us and quot from the veri beauti
+edit in english prepar by silvanu p thompson london
+chiswick press 1902
+41 see e g r taylor the southpoint needl imago
+mundi leiden 1951 vol 8 pp 17 especi pp 1 2
+42 i have wonder whether the mediev interest in perpetu
+motion could be connect with the us of the wheel of
+fortun in church as a substitut for bellring on good
+fridai unfortun i can find no evid for or against the
+conjectur
+43 w e mai alexand neckham and the pivot compass
+needl journal of the institut of navig 1955 vol
+8 no 3 pp 283284
+44 w e mai hugu de berz and the marin compass
+the marin mirror 1953 vol 39 no 2 pp 103106
+45 h balmer beitrg zur geschicht der erkenntni de
+erdmagnetismu aarau 1956 p 52
+46 the collect is the gami al hikajat the relev
+passag be given in german translat in balmer op cit
+footnot 45 p 54
+47 balmer op cit footnot 45 p 53
+us govern print offic 1959
+end of the project gutenberg ebook on the origin of clockwork perpetu motion devic and the compass
+updat edit will replac the previou oneth old edit will
+be renam
+creat the work from print edit not protect by us copyright
+law mean that no on own a unit state copyright in these work
+so the foundat and you can copi and distribut it in the unit
+state without permiss and without pai copyright
+royalti special rule set forth in the gener term of us part
+of thi licens appli to copi and distribut project
+gutenberg electron work to protect the project gutenberg
+concept and trademark project gutenberg is a regist trademark
+and mai not be us if you charg for an ebook except by follow
+the term of the trademark licens includ pai royalti for us
+of the project gutenberg trademark if you do not charg anyth for
+copi of thi ebook compli with the trademark licens is veri
+easi you mai us thi ebook for nearli ani purpos such as creation
+of deriv work report perform and research project
+gutenberg ebook mai be modifi and print and given awayy mai
+do practic anyth in the unit state with ebook not protect
+by us copyright law redistribut is subject to the trademark
+licens especi commerci redistribut
+start full licens
+the full project gutenberg licens
+pleas read thi befor you distribut or us thi work
+to protect the project gutenberg mission of promot the free
+distribut of electron work by us or distribut thi work
+or ani other work associ in ani wai with the phrase project
+gutenberg you agre to compli with all the term of the full
+project gutenberg licens avail with thi file or onlin at
+wwwgutenbergorglicens
+section 1 gener term of us and redistribut project gutenberg
+electron work
+1a by read or us ani part of thi project gutenberg
+electron work you indic that you have read understand agre to
+and accept all the term of thi licens and intellectu properti
+trademarkcopyright agreement if you do not agre to abid by all
+the term of thi agreement you must ceas us and return or
+destroi all copi of project gutenberg electron work in your
+possess if you paid a fee for obtain a copi of or access to a
+project gutenberg electron work and you do not agre to be bound
+by the term of thi agreement you mai obtain a refund from the person
+or entiti to whom you paid the fee as set forth in paragraph 1e8
+1b project gutenberg is a regist trademark it mai onli be
+us on or associ in ani wai with an electron work by peopl who
+agre to be bound by the term of thi agreement there ar a few
+thing that you can do with most project gutenberg electron work
+even without compli with the full term of thi agreement see
+paragraph 1c below there ar a lot of thing you can do with project
+gutenberg electron work if you follow the term of thi
+agreement and help preserv free futur access to project gutenberg
+electron work see paragraph 1e below
+1c the project gutenberg literari archiv foundat the
+foundat or pglaf own a compil copyright in the collect
+of project gutenberg electron work nearli all the individu
+work in the collect ar in the public domain in the unit
+state if an individu work is unprotect by copyright law in the
+unit state and you ar locat in the unit state we do not
+claim a right to prevent you from copi distribut perform
+displai or creat deriv work base on the work as long as
+all refer to project gutenberg ar remov of cours we hope
+that you will support the project gutenberg mission of promot
+free access to electron work by freeli share project gutenberg
+work in complianc with the term of thi agreement for keep the
+project gutenberg name associ with the work you can easili
+compli with the term of thi agreement by keep thi work in the
+same format with it attach full project gutenberg licens when
+you share it without charg with other
+1d the copyright law of the place where you ar locat also govern
+what you can do with thi work copyright law in most countri ar
+in a constant state of chang if you ar outsid the unit state
+check the law of your countri in addit to the term of thi
+agreement befor download copi displai perform
+distribut or creat deriv work base on thi work or ani
+other project gutenberg work the foundat make no
+represent concern the copyright statu of ani work in ani
+countri other than the unit state
+1e unless you have remov all refer to project gutenberg
+1e1 the follow sentenc with activ link to or other
+immedi access to the full project gutenberg licens must appear
+promin whenev ani copi of a project gutenberg work ani work
+on which the phrase project gutenberg appear or with which the
+phrase project gutenberg is associ is access displai
+perform view copi or distribut
+thi ebook is for the us of anyon anywher in the unit state and most
+other part of the world at no cost and with almost no restrict
+whatsoev you mai copi it give it awai or reus it under the term
+of the project gutenberg licens includ with thi ebook or onlin
+at wwwgutenbergorg if you
+ar not locat in the unit state you will have to check the law
+of the countri where you ar locat befor us thi ebook
+1e2 if an individu project gutenberg electron work is
+deriv from text not protect by us copyright law doe not
+contain a notic indic that it is post with permiss of the
+copyright holder the work can be copi and distribut to anyon in
+the unit state without pai ani fee or charg if you ar
+redistribut or provid access to a work with the phrase project
+gutenberg associ with or appear on the work you must compli
+either with the requir of paragraph 1e1 through 1e7 or
+obtain permiss for the us of the work and the project gutenberg
+trademark as set forth in paragraph 1e8 or 1e9
+1e3 if an individu project gutenberg electron work is post
+with the permiss of the copyright holder your us and distribut
+must compli with both paragraph 1e1 through 1e7 and ani
+addit term impos by the copyright holder addit term
+will be link to the project gutenberg licens for all work
+post with the permiss of the copyright holder found at the
+begin of thi work
+1e4 do not unlink or detach or remov the full project gutenberg
+licens term from thi work or ani file contain a part of thi
+work or ani other work associ with project gutenberg
+1e5 do not copi displai perform distribut or redistribut thi
+electron work or ani part of thi electron work without
+promin displai the sentenc set forth in paragraph 1e1 with
+activ link or immedi access to the full term of the project
+gutenberg licens
+1e6 you mai convert to and distribut thi work in ani binari
+compress mark up nonproprietari or proprietari form includ
+ani word process or hypertext form howev if you provid access
+to or distribut copi of a project gutenberg work in a format
+other than plain vanilla ascii or other format us in the offici
+version post on the offici project gutenberg websit
+wwwgutenbergorg you must at no addit cost fee or expens
+to the user provid a copi a mean of export a copi or a mean
+of obtain a copi upon request of the work in it origin plain
+vanilla ascii or other form ani altern format must includ the
+full project gutenberg licens as specifi in paragraph 1e1
+1e7 do not charg a fee for access to view displai
+perform copi or distribut ani project gutenberg work
+unless you compli with paragraph 1e8 or 1e9
+1e8 you mai charg a reason fee for copi of or provid
+access to or distribut project gutenberg electron work
+provid that
+you pai a royalti fee of 20 of the gross profit you deriv from
+the us of project gutenberg work calcul us the method
+you alreadi us to calcul your applic tax the fee is ow
+to the owner of the project gutenberg trademark but he ha
+agre to donat royalti under thi paragraph to the project
+gutenberg literari archiv foundat royalti payment must be paid
+within 60 dai follow each date on which you prepar or ar
+legal requir to prepar your period tax return royalti
+payment should be clearli mark as such and sent to the project
+gutenberg literari archiv foundat at the address specifi in
+section 4 inform about donat to the project gutenberg
+literari archiv foundat
+you provid a full refund of ani monei paid by a user who notifi
+you in write or by email within 30 dai of receipt that she
+doe not agre to the term of the full project gutenberg
+licens you must requir such a user to return or destroi all
+copi of the work possess in a physic medium and discontinu
+all us of and all access to other copi of project gutenberg
+work
+you provid in accord with paragraph 1f3 a full refund of
+ani monei paid for a work or a replac copi if a defect in the
+electron work is discov and report to you within 90 dai of
+receipt of the work
+you compli with all other term of thi agreement for free
+distribut of project gutenberg work
+1e9 if you wish to charg a fee or distribut a project
+gutenberg electron work or group of work on differ term than
+ar set forth in thi agreement you must obtain permiss in write
+from the project gutenberg literari archiv foundat the manag of
+the project gutenberg trademark contact the foundat as set
+forth in section 3 below
+1f
+1f1 project gutenberg volunt and employe expend consider
+effort to identifi do copyright research on transcrib and proofread
+work not protect by us copyright law in creat the project
+gutenberg collect despit these effort project gutenberg
+electron work and the medium on which thei mai be store mai
+contain defect such as but not limit to incomplet inaccur
+or corrupt data transcript error a copyright or other
+intellectu properti infring a defect or damag disk or
+other medium a comput viru or comput code that damag or
+cannot be read by your equip
+1f2 limit warranti disclaim of damag except for the right
+of replac or refund describ in paragraph 1f3 the project
+gutenberg literari archiv foundat the owner of the project
+gutenberg trademark and ani other parti distribut a project
+gutenberg electron work under thi agreement disclaim all
+liabil to you for damag cost and expens includ legal
+fee you agre that you have no remedi for neglig strict
+liabil breach of warranti or breach of contract except those
+provid in paragraph 1f3 you agre that the foundat the
+trademark owner and ani distributor under thi agreement will not be
+liabl to you for actual direct indirect consequenti punit or
+incident damag even if you give notic of the possibl of such
+damag
+1f3 limit right of replac or refund if you discov a
+defect in thi electron work within 90 dai of receiv it you can
+receiv a refund of the monei if ani you paid for it by send a
+written explan to the person you receiv the work from if you
+receiv the work on a physic medium you must return the medium
+with your written explan the person or entiti that provid you
+with the defect work mai elect to provid a replac copi in
+lieu of a refund if you receiv the work electron the person
+or entiti provid it to you mai choos to give you a second
+opportun to receiv the work electron in lieu of a refund if
+the second copi is also defect you mai demand a refund in write
+without further opportun to fix the problem
+1f4 except for the limit right of replac or refund set forth
+in paragraph 1f3 thi work is provid to you asi with no
+other warranti of ani kind express or impli includ but not
+limit to warranti of merchant or fit for ani purpos
+1f5 some state do not allow disclaim of certain impli
+warranti or the exclus or limit of certain type of
+damag if ani disclaim or limit set forth in thi agreement
+violat the law of the state applic to thi agreement the
+agreement shall be interpret to make the maximum disclaim or
+limit permit by the applic state law the invalid or
+unenforc of ani provis of thi agreement shall not void the
+remain provis
+1f6 indemn you agre to indemnifi and hold the foundat the
+trademark owner ani agent or employe of the foundat anyon
+provid copi of project gutenberg electron work in
+accord with thi agreement and ani volunt associ with the
+product promot and distribut of project gutenberg
+electron work harmless from all liabil cost and expens
+includ legal fee that aris directli or indirectli from ani of
+the follow which you do or caus to occur a distribut of thi
+or ani project gutenberg work b alter modif or
+addit or delet to ani project gutenberg work and c ani
+defect you caus
+section 2 inform about the mission of project gutenberg
+project gutenberg is synonym with the free distribut of
+electron work in format readabl by the widest varieti of
+comput includ obsolet old middleag and new comput it
+exist becaus of the effort of hundr of volunt and donat
+from peopl in all walk of life
+volunt and financi support to provid volunt with the
+assist thei need ar critic to reach project gutenberg
+goal and ensur that the project gutenberg collect will
+remain freeli avail for gener to come in 2001 the project
+gutenberg literari archiv foundat wa creat to provid a secur
+and perman futur for project gutenberg and futur
+gener to learn more about the project gutenberg literari
+archiv foundat and how your effort and donat can help see
+section 3 and 4 and the foundat inform page at wwwgutenbergorg
+section 3 inform about the project gutenberg literari archiv foundat
+the project gutenberg literari archiv foundat is a nonprofit
+501c3 educ corpor organ under the law of the
+state of mississippi and grant tax exempt statu by the intern
+revenu servic the foundat ein or feder tax identif
+number is 646221541 contribut to the project gutenberg literari
+archiv foundat ar tax deduct to the full extent permit by
+us feder law and your state law
+the foundat busi offic is locat at 809 north 1500 west
+salt lake citi ut 84116 801 5961887 email contact link and up
+to date contact inform can be found at the foundat websit
+and offici page at wwwgutenbergorgcontact
+section 4 inform about donat to the project gutenberg
+literari archiv foundat
+project gutenberg depend upon and cannot surviv without widespread
+public support and donat to carri out it mission of
+increas the number of public domain and licens work that can be
+freeli distribut in machineread form access by the widest
+arrai of equip includ outdat equip mani small donat
+1 to 5000 ar particularli import to maintain tax exempt
+statu with the ir
+the foundat is commit to compli with the law regul
+chariti and charit donat in all 50 state of the unit
+state complianc requir ar not uniform and it take a
+consider effort much paperwork and mani fee to meet and keep up
+with these requir we do not solicit donat in locat
+where we have not receiv written confirm of complianc to send
+donat or determin the statu of complianc for ani particular state
+visit wwwgutenbergorgdon
+while we cannot and do not solicit contribut from state where we
+have not met the solicit requir we know of no prohibit
+against accept unsolicit donat from donor in such state who
+approach us with offer to donat
+intern donat ar gratefulli accept but we cannot make
+ani statement concern tax treatment of donat receiv from
+outsid the unit state us law alon swamp our small staff
+pleas check the project gutenberg web page for current donat
+method and address donat ar accept in a number of other
+wai includ check onlin payment and credit card donat to
+donat pleas visit wwwgutenbergorgdon
+section 5 gener inform about project gutenberg electron work
+professor michael s hart wa the origin of the project
+gutenberg concept of a librari of electron work that could be
+freeli share with anyon for forti year he produc and
+distribut project gutenberg ebook with onli a loos network of
+volunt support
+project gutenberg ebook ar often creat from sever print
+edit all of which ar confirm as not protect by copyright in
+the us unless a copyright notic is includ thu we do not
+necessarili keep ebook in complianc with ani particular paper
+edit
+most peopl start at our websit which ha the main pg search
+facil wwwgutenbergorg
+thi websit includ inform about project gutenberg
+includ how to make donat to the project gutenberg literari
+archiv foundat how to help produc our new ebook and how to
+subscrib to our email newslett to hear about new ebook

@@ -1,0 +1,3292 @@
+rel the special and gener theori
+by albert einstein
+authoris translat by robert w lawson
+albert einstein refer archiv
+rel the special and gener theori
+by albert einstein
+written 1916 thi revis edit 1924
+sourc rel the special and gener theori 1920
+publish methuen co ltd
+first publish decemb 1916
+translat robert w lawson authoris translat
+transcriptionmarkup brian basgen
+transcript to text gregori b newbi
+thank to einstein refer archiv marxistsorg
+the einstein refer archiv is onlin at
+httpwwwmarxistsorgreferencearchiveeinsteinindexhtm
+content
+prefac
+part i the special theori of rel
+i physic mean of geometr proposit
+ii the system of coordin
+iii space and time in classic mechan
+iv the galileian system of coordin
+v the principl of rel in the restrict sens
+vi the theorem of the addit of veloc emploi in classic mechan
+vii the appar incompat of the law of propag of light with the principl of rel
+viii on the idea of time in physic
+ix the rel of simultan
+x on the rel of the concept of distanc
+xi the lorentz transform
+xii the behaviour of measuringrod and clock in motion
+xiii theorem of the addit of veloc the experi of fizeau
+xiv the heurist valu of the theori of rel
+xv gener result of the theori
+xvi experi and the special theori of rel
+xvii minkowski fourdimension space
+part ii the gener theori of rel
+xviii special and gener principl of rel
+xix the gravit field
+xx the equal of inerti and gravit mass as an argument for the gener postul of rel
+xxi in what respect ar the foundat of classic mechan and of the special theori of rel unsatisfactori
+xxii a few infer from the gener principl of rel
+xxiii behaviour of clock and measuringrod on a rotat bodi of refer
+xxiv euclidean and noneuclidean continuum
+xxv gaussian coordin
+xxvi the spacetim continuum of the special theori of rel consid as a euclidean continuum
+xxvii the spacetim continuum of the gener theori of rel is not a euclidean continuum
+xxviii exact formul of the gener principl of rel
+xxix the solut of the problem of gravit on the basi of the gener principl of rel
+part iii consider on the univers as a whole
+xxx cosmolog difficulti of newton theori
+xxxi the possibl of a finit and yet unbound univers
+xxxii the structur of space accord to the gener theori of rel
+appendic
+i simpl deriv of the lorentz transform supplementari to section xi
+ii minkowski fourdimension space world supplementari to section xvii
+iii the experiment confirm of the gener theori of rel
+iv the structur of space accord to the gener theori of rel supplementari to section xxxii
+v rel and the problem of space
+note the fifth appendix wa ad by einstein at the time of the
+fifteenth reprint of thi book and as a result is still under
+copyright restrict so cannot be ad without the permiss of the
+publish
+prefac
+the present book is intend as far as possibl to give an exact
+insight into the theori of rel to those reader who from a
+gener scientif and philosoph point of view ar interest in
+the theori but who ar not convers with the mathemat apparatu
+of theoret physic the work presum a standard of educ
+correspond to that of a univers matricul examin and
+despit the short of the book a fair amount of patienc and forc
+of will on the part of the reader the author ha spare himself no
+pain in hi endeavour to present the main idea in the simplest and
+most intellig form and on the whole in the sequenc and
+connect in which thei actual origin in the interest of
+clear it appear to me inevit that i should repeat myself
+frequent without pai the slightest attent to the eleg of
+the present i adher scrupul to the precept of that
+brilliant theoret physicist l boltzmann accord to whom matter
+of eleg ought to be left to the tailor and to the cobbler i make
+no pretenc of have withheld from the reader difficulti which ar
+inher to the subject on the other hand i have purpos treat
+the empir physic foundat of the theori in a stepmotherli
+fashion so that reader unfamiliar with physic mai not feel like the
+wander who wa unabl to see the forest for the tree mai the book
+bring some on a few happi hour of suggest thought
+decemb 1916
+a einstein
+part i the special theori of rel
+i
+physic mean of geometr proposit
+in your schooldai most of you who read thi book made acquaint
+with the nobl build of euclid geometri and you rememberperhap
+with more respect than loveth magnific structur on the lofti
+staircas of which you were chase about for uncount hour by
+conscienti teacher by reason of our past experi you would
+certainli regard everyon with disdain who should pronounc even the
+most outofthewai proposit of thi scienc to be untru but
+perhap thi feel of proud certainti would leav you immedi if
+some on were to ask you what then do you mean by the assert
+that these proposit ar true let us proce to give thi question
+a littl consider
+geometri set out from certain concept such as plane point
+and straight line with which we ar abl to associ more or less
+definit idea and from certain simpl proposit axiom which in
+virtu of these idea we ar inclin to accept as true then on
+the basi of a logic process the justif of which we feel
+ourselv compel to admit all remain proposit ar shown to
+follow from those axiom ie thei ar proven a proposit is then
+correct true when it ha been deriv in the recognis manner from
+the axiom the question of truth of the individu geometr
+proposit is thu reduc to on of the truth of the axiom now
+it ha long been known that the last question is not onli unanswer
+by the method of geometri but that it is in itself entir without
+mean we cannot ask whether it is true that onli on straight line
+goe through two point we can onli sai that euclidean geometri deal
+with thing call straight line to each of which is ascrib the
+properti of be uniqu determin by two point situat on it the
+concept true doe not talli with the assert of pure geometri
+becaus by the word true we ar eventu in the habit of
+design alwai the correspond with a real object geometri
+howev is not concern with the relat of the idea involv in it
+to object of experi but onli with the logic connect of these
+idea among themselv
+it is not difficult to understand why in spite of thi we feel
+constrain to call the proposit of geometri true geometr
+idea correspond to more or less exact object in natur and these
+last ar undoubtedli the exclus caus of the genesi of those idea
+geometri ought to refrain from such a cours in order to give to it
+structur the largest possibl logic uniti the practic for
+exampl of see in a distanc two mark posit on a
+practic rigid bodi is someth which is lodg deepli in our habit
+of thought we ar accustom further to regard three point as be
+situat on a straight line if their appar posit can be made to
+coincid for observ with on ey under suitabl choic of our
+place of observ
+if in pursuanc of our habit of thought we now supplement the
+proposit of euclidean geometri by the singl proposit that two
+point on a practic rigid bodi alwai correspond to the same
+distanc lineinterv independ of ani chang in posit to
+which we mai subject the bodi the proposit of euclidean geometri
+then resolv themselv into proposit on the possibl rel
+posit of practic rigid bodies1 geometri which ha been
+supplement in thi wai is then to be treat as a branch of physic
+we can now legitim ask as to the truth of geometr
+proposit interpret in thi wai sinc we ar justifi in ask
+whether these proposit ar satisfi for those real thing we have
+associ with the geometr idea in less exact term we can
+express thi by sai that by the truth of a geometr proposit
+in thi sens we understand it valid for a construct with rule
+and compass
+1 it follow that a natur object is associ also with a
+straight line three point a b and c on a rigid bodi thu lie in
+a straight line when the point a and c be given b is chosen
+such that the sum of the distanc ab and bc is as short as
+possibl thi incomplet suggest will suffic for the present
+purpos
+of cours the convict of the truth of geometr proposit in
+thi sens is found exclus on rather incomplet experi for
+the present we shall assum the truth of the geometr
+proposit then at a later stage in the gener theori of
+rel we shall see that thi truth is limit and we shall
+consid the extent of it limit
+ii
+the system of coordin
+on the basi of the physic interpret of distanc which ha been
+indic we ar also in a posit to establish the distanc between
+two point on a rigid bodi by mean of measur for thi purpos
+we requir a distanc rod s which is to be us onc and for all
+and which we emploi as a standard measur if now a and b ar two
+point on a rigid bodi we can construct the line join them
+accord to the rule of geometri then start from a we can
+mark off the distanc s time after time until we reach b the
+number of these oper requir is the numer measur of the
+distanc ab thi is the basi of all measur of length2
+2 here we have assum that there is noth left over ie that
+the measur give a whole number thi difficulti is got over by
+the us of divid measuringrod the introduct of which doe not
+demand ani fundament new method
+everi descript of the scene of an event or of the posit of an
+object in space is base on the specif of the point on a rigid
+bodi bodi of refer with which that event or object coincid
+thi appli not onli to scientif descript but also to everydai
+life if i analys the place specif trafalgar squar
+london3 i arriv at the follow result the earth is the rigid
+bodi to which the specif of place refer trafalgar squar
+london is a welldefin point to which a name ha been assign and
+with which the event coincid in space4
+3
+i have chosen thi as be more familiar to the english reader than
+the potzdamm platz berlin which is refer to in the origin
+r w l
+4 it is not necessari here to investig further the signific
+of the express coincid in space thi concept is
+suffici obviou to ensur that differ of opinion ar
+scarc like to aris as to it applic in practic
+thi primit method of place specif deal onli with place on
+the surfac of rigid bodi and is depend on the exist of
+point on thi surfac which ar distinguish from each other but
+we can free ourselv from both of these limit without alter
+the natur of our specif of posit if for instanc a cloud
+is hover over trafalgar squar then we can determin it posit
+rel to the surfac of the earth by erect a pole perpendicularli
+on the squar so that it reach the cloud the length of the pole
+measur with the standard measuringrod combin with the
+specif of the posit of the foot of the pole suppli us with
+a complet place specif on the basi of thi illustr we
+ar abl to see the manner in which a refin of the concept of
+posit ha been develop
+a we imagin the rigid bodi to which the place specif is
+refer supplement in such a manner that the object whose posit
+we requir is reach by the complet rigid bodi
+b in locat the posit of the object we make us of a number
+here the length of the pole measur with the measuringrod instead
+of design point of refer
+c we speak of the height of the cloud even when the pole which
+reach the cloud ha not been erect by mean of optic
+observ of the cloud from differ posit on the ground and
+take into account the properti of the propag of light we
+determin the length of the pole we should have requir in order to
+reach the cloud
+from thi consider we see that it will be advantag if in the
+descript of posit it should be possibl by mean of numer
+measur to make ourselv independ of the exist of mark
+posit possess name on the rigid bodi of refer in the
+physic of measur thi is attain by the applic of the
+cartesian system of coordin
+thi consist of three plane surfac perpendicular to each other and
+rigidli attach to a rigid bodi refer to a system of coordin
+the scene of ani event will be determin for the main part by the
+specif of the length of the three perpendicular or
+coordin x y z which can be drop from the scene of the
+event to those three plane surfac the length of these three
+perpendicular can be determin by a seri of manipul with
+rigid measuringrod perform accord to the rule and method laid
+down by euclidean geometri
+in practic the rigid surfac which constitut the system of
+coordin ar gener not avail furthermor the magnitud
+of the coordin ar not actual determin by construct with
+rigid rod but by indirect mean if the result of physic and
+astronomi ar to maintain their clear the physic mean of
+specif of posit must alwai be sought in accord with the
+abov considerations5
+5 a refin and modif of these view doe not becom
+necessari until we come to deal with the gener theori of rel
+treat in the second part of thi book
+we thu obtain the follow result everi descript of event in
+space involv the us of a rigid bodi to which such event have to be
+refer the result relationship take for grant that the law of
+euclidean geometri hold for distanc the distanc be
+repres physic by mean of the convent of two mark on a
+rigid bodi
+iii
+space and time in classic mechan
+the purpos of mechan is to describ how bodi chang their
+posit in space with time i should load my conscienc with grave
+sin against the sacr spirit of lucid were i to formul the aim
+of mechan in thi wai without seriou reflect and detail
+explan let us proce to disclos these sin
+it is not clear what is to be understood here by posit and
+space i stand at the window of a railwai carriag which is
+travel uniformli and drop a stone on the embank without
+throw it then disregard the influenc of the air resist i
+see the stone descend in a straight line a pedestrian who observ the
+misde from the footpath notic that the stone fall to earth in a
+parabol curv i now ask do the posit travers by the stone
+lie in realiti on a straight line or on a parabola moreov what is
+meant here by motion in space from the consider of the
+previou section the answer is selfevid in the first place we
+entir shun the vagu word space of which we must honestli
+acknowledg we cannot form the slightest concept and we replac it
+by motion rel to a practic rigid bodi of refer the
+posit rel to the bodi of refer railwai carriag or
+embank have alreadi been defin in detail in the preced
+section if instead of bodi of refer we insert system of
+coordin which is a us idea for mathemat descript we
+ar in a posit to sai the stone travers a straight line rel
+to a system of coordin rigidli attach to the carriag but
+rel to a system of coordin rigidli attach to the ground
+embank it describ a parabola with the aid of thi exampl it
+is clearli seen that there is no such thing as an independ
+exist trajectori lit pathcurve6 but onli a trajectori
+rel to a particular bodi of refer
+6 that is a curv along which the bodi move
+in order to have a complet descript of the motion we must
+specifi how the bodi alter it posit with time ie for everi
+point on the trajectori it must be state at what time the bodi is
+situat there these data must be supplement by such a definit of
+time that in virtu of thi definit these timevalu can be
+regard essenti as magnitud result of measur capabl of
+observ if we take our stand on the ground of classic mechan
+we can satisfi thi requir for our illustr in the follow
+manner we imagin two clock of ident construct the man at the
+railwaycarriag window is hold on of them and the man on the
+footpath the other each of the observ determin the posit on
+hi own referencebodi occupi by the stone at each tick of the clock
+he is hold in hi hand in thi connect we have not taken account
+of the inaccuraci involv by the finit of the veloc of
+propag of light with thi and with a second difficulti prevail
+here we shall have to deal in detail later
+iv the galileian system of coordin
+as is well known the fundament law of the mechan of
+galileinewton which is known as the law of inertia can be state
+thu a bodi remov suffici far from other bodi continu in a
+state of rest or of uniform motion in a straight line thi law not
+onli sai someth about the motion of the bodi but it also
+indic the referencebodi or system of coordin permiss
+in mechan which can be us in mechan descript the visibl
+fix star ar bodi for which the law of inertia certainli hold to
+a high degre of approxim now if we us a system of coordin
+which is rigidli attach to the earth then rel to thi system
+everi fix star describ a circl of immens radiu in the cours of
+an astronom dai a result which is oppos to the statement of the
+law of inertia so that if we adher to thi law we must refer these
+motion onli to system of coordin rel to which the fix
+star do not move in a circl a system of coordin of which the
+state of motion is such that the law of inertia hold rel to it is
+call a galileian system of coordin the law of the mechan
+of galileinewton can be regard as valid onli for a galileian system
+of coordin
+v
+the principl of rel in the restrict sens
+in order to attain the greatest possibl clear let us return to
+our exampl of the railwai carriag suppos to be travel
+uniformli we call it motion a uniform translat uniform becaus
+it is of constant veloc and direct translat becaus
+although the carriag chang it posit rel to the embank
+yet it doe not rotat in so do let us imagin a raven fly
+through the air in such a manner that it motion as observ from the
+embank is uniform and in a straight line if we were to observ
+the fly raven from the move railwai carriag we should find that
+the motion of the raven would be on of differ veloc and
+direct but that it would still be uniform and in a straight line
+express in an abstract manner we mai sai if a mass m is move
+uniformli in a straight line with respect to a coordin system k
+then it will also be move uniformli and in a straight line rel
+to a second coordin system k provid that the latter is
+execut a uniform translatori motion with respect to k in
+accord with the discuss contain in the preced section it
+follow that
+if k is a galileian coordin system then everi other coordin
+system k is a galileian on when in relat to k it is in a
+condit of uniform motion of translat rel to k the
+mechan law of galileinewton hold good exactli as thei do with
+respect to k
+we advanc a step farther in our generalis when we express the
+tenet thu if rel to k k is a uniformli move coordin
+system devoid of rotat then natur phenomena run their cours with
+respect to k accord to exactli the same gener law as with
+respect to k thi statement is call the principl of rel
+in the restrict sens
+as long as on wa convinc that all natur phenomena were capabl of
+represent with the help of classic mechan there wa no need
+to doubt the valid of thi principl of rel but in view of
+the more recent develop of electrodynam and optic it becam
+more and more evid that classic mechan afford an insuffici
+foundat for the physic descript of all natur phenomena at
+thi junctur the question of the valid of the principl of
+rel becam ripe for discuss and it did not appear imposs
+that the answer to thi question might be in the neg
+nevertheless there ar two gener fact which at the outset speak
+veri much in favour of the valid of the principl of rel
+even though classic mechan doe not suppli us with a suffici
+broad basi for the theoret present of all physic phenomena
+still we must grant it a consider measur of truth sinc it
+suppli us with the actual motion of the heavenli bodi with a
+delicaci of detail littl short of wonder the principl of
+rel must therefor appli with great accuraci in the domain of
+mechan but that a principl of such broad gener should hold
+with such exact in on domain of phenomena and yet should be
+invalid for anoth is a priori not veri probabl
+we now proce to the second argument to which moreov we shall
+return later if the principl of rel in the restrict sens
+doe not hold then the galileian coordin system k k k
+etc which ar move uniformli rel to each other will not be
+equival for the descript of natur phenomena in thi case we
+should be constrain to believ that natur law ar capabl of be
+formul in a particularli simpl manner and of cours onli on
+condit that from amongst all possibl galileian coordin
+system we should have chosen on k0 of a particular state of
+motion as our bodi of refer we should then be justifi becaus
+of it merit for the descript of natur phenomena in call thi
+system absolut at rest and all other galileian system k in
+motion if for instanc our embank were the system k0 then our
+railwai carriag would be a system k rel to which less simpl
+law would hold than with respect to k0 thi diminish simplic
+would be due to the fact that the carriag k would be in motion
+ie reallywith respect to k0 in the gener law of natur
+which have been formul with refer to k the magnitud and
+direct of the veloc of the carriag would necessarili plai a
+part we should expect for instanc that the note emit by an
+organpip place with it axi parallel to the direct of travel
+would be differ from that emit if the axi of the pipe were
+place perpendicular to thi direct
+now in virtu of it motion in an orbit round the sun our earth is
+compar with a railwai carriag travel with a veloc of about
+30 kilometr per second if the principl of rel were not valid
+we should therefor expect that the direct of motion of the earth at
+ani moment would enter into the law of natur and also that physic
+system in their behaviour would be depend on the orient in
+space with respect to the earth for ow to the alter in
+direct of the veloc of revolut of the earth in the cours of a
+year the earth cannot be at rest rel to the hypothet system
+k0 throughout the whole year howev the most care observ
+have never reveal such anisotrop properti in terrestri physic
+space ie a physic nonequival of differ direct thi
+is veri power argument in favour of the principl of rel
+vi
+the theorem of the addit of veloc emploi in classic
+mechan
+let us suppos our old friend the railwai carriag to be travel
+along the rail with a constant veloc v and that a man travers
+the length of the carriag in the direct of travel with a veloc
+w how quickli or in other word with what veloc w doe the
+man advanc rel to the embank dure the process the onli
+possibl answer seem to result from the follow consider if
+the man were to stand still for a second he would advanc rel to
+the embank through a distanc v equal numer to the veloc
+of the carriag as a consequ of hi walk howev he travers
+an addit distanc w rel to the carriag and henc also
+rel to the embank in thi second the distanc w be
+numer equal to the veloc with which he is walk thu in
+total he cover the distanc w v w rel to the embank in
+the second consid we shall see later that thi result which
+express the theorem of the addit of veloc emploi in
+classic mechan cannot be maintain in other word the law that
+we have just written down doe not hold in realiti for the time be
+howev we shall assum it correct
+vii
+the appar incompat of the law of propag of light with
+the principl of rel
+there is hardli a simpler law in physic than that accord to which
+light is propag in empti space everi child at school know or
+believ he know that thi propag take place in straight line
+with a veloc c 300000 kmsec at all event we know with great
+exact that thi veloc is the same for all colour becaus if
+thi were not the case the minimum of emiss would not be observ
+simultan for differ colour dure the eclips of a fix star
+by it dark neighbour by mean of similar consider base on
+observ of doubl star the dutch astronom de sitter wa also
+abl to show that the veloc of propag of light cannot depend on
+the veloc of motion of the bodi emit the light the assumpt
+that thi veloc of propag is depend on the direct in
+space is in itself improb
+in short let us assum that the simpl law of the constanc of the
+veloc of light c in vacuum is justifi believ by the child
+at school who would imagin that thi simpl law ha plung the
+conscienti thought physicist into the greatest intellectu
+difficulti let us consid how these difficulti aris
+of cours we must refer the process of the propag of light and
+inde everi other process to a rigid referencebodi coordin
+system as such a system let us again choos our embank we shall
+imagin the air abov it to have been remov if a rai of light be
+sent along the embank we see from the abov that the tip of the
+rai will be transmit with the veloc c rel to the
+embank now let us suppos that our railwai carriag is again
+travel along the railwai line with the veloc v and that it
+direct is the same as that of the rai of light but it veloc of
+cours much less let us inquir about the veloc of propag of
+the rai of light rel to the carriag it is obviou that we can
+here appli the consider of the previou section sinc the rai of
+light plai the part of the man walk along rel to the
+carriag the veloc w of the man rel to the embank is
+here replac by the veloc of light rel to the embank w
+is the requir veloc of light with respect to the carriag and we
+have
+w c v
+the veloc of propag ot a rai of light rel to the carriag
+thu come out smaller than c
+but thi result come into conflict with the principl of rel
+set forth in section v for like everi other gener law of natur
+the law of the transmiss of light in vacuo in vacuum must
+accord to the principl of rel be the same for the railwai
+carriag as referencebodi as when the rail ar the bodi of refer
+but from our abov consider thi would appear to be imposs
+if everi rai of light is propag rel to the embank with the
+veloc c then for thi reason it would appear that anoth law of
+propag of light must necessarili hold with respect to the
+carriagea result contradictori to the principl of rel
+in view of thi dilemma there appear to be noth els for it than to
+abandon either the principl of rel or the simpl law of the
+propag of light in vacuo those of you who have carefulli
+follow the preced discuss ar almost sure to expect that we
+should retain the principl of rel which appeal so
+convincingli to the intellect becaus it is so natur and simpl the
+law of the propag of light in vacuo would then have to be
+replac by a more complic law conform to the principl of
+rel the develop of theoret physic show howev that
+we cannot pursu thi cours the epochmak theoret
+investig of h a lorentz on the electrodynam and optic
+phenomena connect with move bodi show that experi in thi
+domain lead conclus to a theori of electromagnet phenomena of
+which the law of the constanc of the veloc of light in vacuo is a
+necessari consequ promin theoret physicist were therefor
+more inclin to reject the principl of rel in spite of the
+fact that no empir data had been found which were contradictori to
+thi principl
+at thi junctur the theori of rel enter the arena as a
+result of an analysi of the physic concept of time and space it
+becam evid that in realiti there is not the least incompatibilitii
+between the principl of rel and the law of propag of
+light and that by systemat hold fast to both these law a
+logic rigid theori could be arriv at thi theori ha been call
+the special theori of rel to distinguish it from the extend
+theori with which we shall deal later in the follow page we shall
+present the fundament idea of the special theori of rel
+viii
+on the idea of time in physic
+lightn ha struck the rail on our railwai embank at two place
+a and b far distant from each other i make the addit
+assert that these two lightn flash occur simultan if
+i ask you whether there is sens in thi statement you will answer my
+question with a decid ye but if i now approach you with the
+request to explain to me the sens of the statement more precis you
+find after some consider that the answer to thi question is not
+so easi as it appear at first sight
+after some time perhap the follow answer would occur to you the
+signific of the statement is clear in itself and need no further
+explan of cours it would requir some consider if i were to
+be commiss to determin by observ whether in the actual case
+the two event took place simultan or not i cannot be satisfi
+with thi answer for the follow reason suppos that as a result
+of ingeni consider an abl meteorologist were to discov that
+the lightn must alwai strike the place a and b simultan
+then we should be face with the task of test whether or not thi
+theoret result is in accord with the realiti we encount the
+same difficulti with all physic statement in which the concept
+simultan plai a part the concept doe not exist for the
+physicist until he ha the possibl of discov whether or not it
+is fulfil in an actual case we thu requir a definit of
+simultan such that thi definit suppli us with the method by
+mean of which in the present case he can decid by experi
+whether or not both the lightn stroke occur simultan as
+long as thi requir is not satisfi i allow myself to be
+deceiv as a physicist and of cours the same appli if i am not a
+physicist when i imagin that i am abl to attach a mean to the
+statement of simultan i would ask the reader not to proce
+farther until he is fulli convinc on thi point
+after think the matter over for some time you then offer the
+follow suggest with which to test simultan by measur
+along the rail the connect line ab should be measur up and an
+observ place at the midpoint m of the distanc ab thi observ
+should be suppli with an arrang eg two mirror inclin at
+90 which allow him visual to observ both place a and b at
+the same time if the observ perceiv the two flash of lightn
+at the same time then thei ar simultan
+i am veri pleas with thi suggest but for all that i cannot
+regard the matter as quit settl becaus i feel constrain to rais
+the follow object your definit would certainli be right if
+onli i knew that the light by mean of which the observ at m
+perceiv the lightn flash travel along the length a m with
+the same veloc as along the length b m but an examin of
+thi supposit would onli be possibl if we alreadi had at our
+dispos the mean of measur time it would thu appear as though we
+were move here in a logic circl
+after further consider you cast a somewhat disdain glanc at
+meand rightli soand you declar i maintain my previou definit
+nevertheless becaus in realiti it assum absolut noth about
+light there is onli on demand to be made of the definit of
+simultan name that in everi real case it must suppli us with an
+empir decis as to whether or not the concept that ha to be
+defin is fulfil that my definit satisfi thi demand is
+indisput that light requir the same time to travers the path
+a m as for the path b m is in realiti neither a
+supposit nor a hypothesi about the physic natur of light but
+a stipul which i can make of my own freewil in order to arriv
+at a definit of simultan
+it is clear that thi definit can be us to give an exact mean
+not onli to two event but to as mani event as we care to choos
+and independ of the posit of the scene of the event with
+respect to the bodi of reference7 here the railwai embank we
+ar thu led also to a definit of time in physic for thi
+purpos we suppos that clock of ident construct ar place at
+the point a b and c of the railwai line coordin system and
+that thei ar set in such a manner that the posit of their pointer
+ar simultan in the abov sens the same under these
+condit we understand by the time of an event the read
+posit of the hand of that on of these clock which is in the
+immedi vicin in space of the event in thi manner a timevalu
+is associ with everi event which is essenti capabl of
+observ
+7 we suppos further that when three event a b and c occur in
+differ place in such a manner that if a is simultan with
+b and b is simultan with c simultan in the sens of
+the abov definit then the criterion for the simultan of the
+pair of event a c is also satisfi thi assumpt is a physic
+hypothesi about the law of propag of light it must certainli be
+fulfil if we ar to maintain the law of the constanc of the
+veloc of light in vacuo
+thi stipul contain a further physic hypothesi the valid
+of which will hardli be doubt without empir evid to the
+contrari it ha been assum that all these clock go at the same
+rate if thei ar of ident construct state more exactli when
+two clock arrang at rest in differ place of a referencebodi ar
+set in such a manner that a particular posit of the pointer of
+the on clock is simultan in the abov sens with the same
+posit of the pointer of the other clock then ident set
+ar alwai simultan in the sens of the abov definit
+ix
+the rel of simultan
+up to now our consider have been refer to a particular bodi of
+refer which we have style a railwai embank we suppos a
+veri long train travel along the rail with the constant veloc v
+and in the direct indic in fig 1 peopl travel in thi
+train will with a vantag view the train as a rigid referencebodi
+coordin system thei regard all event in refer to the train
+then everi event which take place along the line also take place at a
+particular point of the train also the definit of simultan can
+be given rel to the train in exactli the same wai as with respect
+to the embank as a natur consequ howev the follow
+question aris
+image001
+ar two event eg the two stroke of lightn a and b which
+ar simultan with refer to the railwai embank also
+simultan rel to the train we shall show directli that the
+answer must be in the neg
+when we sai that the lightn stroke a and b ar simultan
+with respect to be embank we mean the rai of light emit at
+the place a and b where the lightn occur meet each other at
+the midpoint m of the length a b of the embank but the
+event a and b also correspond to posit a and b on the
+train let m be the midpoint of the distanc a b on the
+travel train just when the flash as judg from the embank
+of lightn occur thi point m natur coincid with the point
+m but it move toward the right in the diagram with the veloc v
+of the train if an observ sit in the posit m in the train
+did not possess thi veloc then he would remain perman at m
+and the light rai emit by the flash of lightn a and b
+would reach him simultan ie thei would meet just where he is
+situat now in realiti consid with refer to the railwai
+embank he is hasten toward the beam of light come from b
+whilst he is ride on ahead of the beam of light come from a
+henc the observ will see the beam of light emit from b earlier
+than he will see that emit from a observ who take the railwai
+train as their referencebodi must therefor come to the conclus
+that the lightn flash b took place earlier than the lightn
+flash a we thu arriv at the import result
+event which ar simultan with refer to the embank ar not
+simultan with respect to the train and vice versa rel of
+simultan everi referencebodi coordin system ha it own
+particular time unless we ar told the referencebodi to which the
+statement of time refer there is no mean in a statement of the
+time of an event
+now befor the advent of the theori of rel it had alwai tacitli
+been assum in physic that the statement of time had an absolut
+signific ie that it is independ of the state of motion of
+the bodi of refer but we have just seen that thi assumpt is
+incompat with the most natur definit of simultan if we
+discard thi assumpt then the conflict between the law of the
+propag of light in vacuo and the principl of rel
+develop in section vii disappear
+we were led to that conflict by the consider of section vi which
+ar now no longer tenabl in that section we conclud that the man in
+the carriag who travers the distanc w per second rel to the
+carriag travers the same distanc also with respect to the
+embank in each second of time but accord to the forego
+consider the time requir by a particular occurr with
+respect to the carriag must not be consid equal to the durat of
+the same occurr as judg from the embank as referencebodi
+henc it cannot be contend that the man in walk travel the
+distanc w rel to the railwai line in a time which is equal to
+on second as judg from the embank
+moreov the consider of section vi ar base on yet a second
+assumpt which in the light of a strict consider appear to
+be arbitrari although it wa alwai tacitli made even befor the
+introduct of the theori of rel
+x
+on the rel of the concept of distanc
+let us consid two particular point on the train 8 travel along
+the embank with the veloc v and inquir as to their distanc
+apart we alreadi know that it is necessari to have a bodi of refer
+for the measur of a distanc with respect to which bodi the
+distanc can be measur up it is the simplest plan to us the train
+itself as referencebodi coordin system an observ in the train
+measur the interv by mark off hi measuringrod in a straight
+line eg along the floor of the carriag as mani time as is
+necessari to take him from the on mark point to the other then the
+number which tell us how often the rod ha to be laid down is the
+requir distanc
+8 eg the middl of the first and of the hundredth carriag
+it is a differ matter when the distanc ha to be judg from the
+railwai line here the follow method suggest itself if we call
+a and b the two point on the train whose distanc apart is
+requir then both of these point ar move with the veloc v
+along the embank in the first place we requir to determin the
+point a and b of the embank which ar just be pass by the
+two point a and b at a particular time tjudg from the
+embank these point a and b of the embank can be
+determin by appli the definit of time given in section viii
+the distanc between these point a and b is then measur by repeat
+applic of the measuringrod along the embank
+a priori it is by no mean certain that thi last measur will
+suppli us with the same result as the first thu the length of the
+train as measur from the embank mai be differ from that
+obtain by measur in the train itself thi circumst lead us
+to a second object which must be rais against the appar
+obviou consider of section vi name if the man in the carriag
+cover the distanc w in a unit of timemeasur from the
+trainthen thi distancea measur from the embank is not
+necessarili also equal to w
+xi
+the lorentz transform
+the result of the last three section show that the appar
+incompat of the law of propag of light with the principl
+of rel section vii ha been deriv by mean of a
+consider which borrow two unjustifi hypothes from
+classic mechan these ar as follow
+1 the timeinterv time between two event is independ of the
+condit of motion of the bodi of refer
+2 the spaceinterv distanc between two point of a rigid bodi is
+independ of the condit of motion of the bodi of refer
+if we drop these hypothes then the dilemma of section vii
+disappear becaus the theorem of the addit of veloc deriv
+in section vi becom invalid the possibl present itself that the
+law of the propag of light in vacuo mai be compat with the
+principl of rel and the question aris how have we to modifi
+the consider of section vi in order to remov the appar
+disagr between these two fundament result of experi thi
+question lead to a gener on in the discuss of section vi we
+have to do with place and time rel both to the train and to the
+embank how ar we to find the place and time of an event in
+relat to the train when we know the place and time of the event
+with respect to the railwai embank is there a thinkabl answer to
+thi question of such a natur that the law of transmiss of light
+in vacuo doe not contradict the principl of rel in other
+word can we conceiv of a relat between place and time of the
+individu event rel to both referencebodi such that everi
+rai of light possess the veloc of transmiss c rel to the
+embank and rel to the train thi question lead to a quit
+definit posit answer and to a perfectli definit transform
+law for the spacetim magnitud of an event when chang over from
+on bodi of refer to anoth
+befor we deal with thi we shall introduc the follow incident
+consider up to the present we have onli consid event take
+place along the embank which had mathemat to assum the
+function of a straight line in the manner indic in section ii we
+can imagin thi referencebodi supplement later and in a
+vertic direct by mean of a framework of rod so that an event
+which take place anywher can be localis with refer to thi
+framework similarli we can imagin the train travel with the
+veloc v to be continu across the whole of space so that everi
+event no matter how far off it mai be could also be localis with
+respect to the second framework without commit ani fundament
+error we can disregard the fact that in realiti these framework would
+continu interfer with each other ow to the impenetr of
+solid bodi in everi such framework we imagin three surfac
+perpendicular to each other mark out and design as coordin
+plane coordin system a coordin system k then
+correspond to the embank and a coordin system k to the
+train an event wherev it mai have taken place would be fix in
+space with respect to k by the three perpendicular x y z on the
+coordin plane and with regard to time by a time valu t
+rel to k the same event would be fix in respect of space and
+time by correspond valu x y z t which of cours ar not
+ident with x y z t it ha alreadi been set forth in detail
+how these magnitud ar to be regard as result of physic
+measur
+image002
+obvious our problem can be exactli formul in the follow
+manner what ar the valu x y z t of an event with respect
+to k when the magnitud x y z t of the same event with
+respect to k ar given the relat must be so chosen that the law
+of the transmiss of light in vacuo is satisfi for on and the same
+rai of light and of cours for everi rai with respect to k and
+k for the rel orient in space of the coordin system
+indic in the diagram fig 2 thi problem is solv by mean of
+the equat
+image003
+y y
+z z
+image004
+thi system of equat is known as the lorentz transformation9
+9 a simpl deriv of the lorentz transform is given in
+appendix i
+if in place of the law of transmiss of light we had taken as our
+basi the tacit assumpt of the older mechan as to the absolut
+charact of time and length then instead of the abov we should
+have obtain the follow equat
+x x vt
+y y
+z z
+t t
+thi system of equat is often term the galilei transform
+the galilei transform can be obtain from the lorentz
+transform by substitut an infinit larg valu for the
+veloc of light c in the latter transform
+aid by the follow illustr we can readili see that in
+accord with the lorentz transform the law of the transmiss
+of light in vacuo is satisfi both for the referencebodi k and
+for the referencebodi k a lightsign is sent along the posit
+xaxi and thi lightstimulu advanc in accord with the
+equat
+x ct
+ie with the veloc c accord to the equat of the lorentz
+transform thi simpl relat between x and t involv a
+relat between x and t in point of fact if we substitut for
+x the valu ct in the first and fourth equat of the lorentz
+transform we obtain
+image005
+from which by divis the express
+x ct
+immedi follow if refer to the system k the propag of
+light take place accord to thi equat we thu see that the
+veloc of transmiss rel to the referencebodi k is also
+equal to c the same result is obtain for rai of light advanc
+in ani other direct whatsoev of caus thi is not surpris
+sinc the equat of the lorentz transform were deriv
+conform to thi point of view
+xii
+the behaviour of measuringrod and clock in motion
+place a metrerod in the xaxi of k in such a manner that on
+end the begin coincid with the point x 0 whilst the other
+end the end of the rod coincid with the point x 1 what is the
+length of the metrerod rel to the system k in order to learn
+thi we need onli ask where the begin of the rod and the end of
+the rod lie with respect to k at a particular time t of the system
+k by mean of the first equat of the lorentz transform the
+valu of these two point at the time t 0 can be shown to be
+image006
+the distanc between the point be
+image007
+but the metrerod is move with the veloc v rel to k it
+therefor follow that the length of a rigid metrerod move in the
+direct of it length with a veloc v is
+image008
+of a metr the rigid rod is thu shorter when in motion than when at
+rest and the more quickli it is move the shorter is the rod for
+the veloc v c we should have
+image009
+and for still greater veloc the squareroot becom imaginari
+from thi we conclud that in the theori of rel the veloc c
+plai the part of a limit veloc which can neither be reach nor
+exceed by ani real bodi
+of cours thi featur of the veloc c as a limit veloc also
+clearli follow from the equat of the lorentz transform for
+these becam meaningless if we choos valu of v greater than c
+if on the contrari we had consid a metrerod at rest in the
+xaxi with respect to k then we should have found that the length
+of the rod as judg from k would have been
+image010
+thi is quit in accord with the principl of rel which
+form the basi of our consider
+a priori it is quit clear that we must be abl to learn someth
+about the physic behaviour of measuringrod and clock from the
+equat of transform for the magnitud z y x t ar
+noth more nor less than the result of measur obtain by
+mean of measuringrod and clock if we had base our consider
+on the galileian transform we should not have obtain a
+contract of the rod as a consequ of it motion
+let us now consid a secondsclock which is perman situat at
+the origin x 0 of k t 0 and t 1 ar two success
+tick of thi clock the first and fourth equat of the lorentz
+transform give for these two tick
+t 0
+and
+image011
+as judg from k the clock is move with the veloc v as
+judg from thi referencebodi the time which elaps between two
+stroke of the clock is not on second but
+image012
+second ie a somewhat larger time as a consequ of it motion
+the clock goe more slowli than when at rest here also the veloc
+c plai the part of an unattain limit veloc
+xiii
+theorem of the addit of veloc the experi of fizeau
+now in practic we can move clock and measuringrod onli with
+veloc that ar small compar with the veloc of light henc we
+shall hardli be abl to compar the result of the previou section
+directli with the realiti but on the other hand these result must
+strike you as be veri singular and for that reason i shall now draw
+anoth conclus from the theori on which can easili be deriv
+from the forego consider and which ha been most elegantli
+confirm by experi
+in section vi we deriv the theorem of the addit of veloc in
+on direct in the form which also result from the hypothes of
+classic mechan thi theorem can also be deduc readili from the
+galilei transform section xi in place of the man walk insid
+the carriag we introduc a point move rel to the coordin
+system k in accord with the equat
+x wt
+by mean of the first and fourth equat of the galilei
+transform we can express x and t in term of x and t
+and we then obtain
+x v wt
+thi equat express noth els than the law of motion of the
+point with refer to the system k of the man with refer to
+the embank we denot thi veloc by the symbol w and we then
+obtain as in section vi
+w v w a
+but we can carri out thi consider just as well on the basi of
+the theori of rel in the equat
+x wt
+we must then express x and t in term of x and t make us
+of the first and fourth equat of the lorentz transform
+instead of the equat a we then obtain the equat
+image013
+which correspond to the theorem of addit for veloc in on
+direct accord to the theori of rel the question now
+aris as to which of these two theorem is the better in accord with
+experi on thi point we ar enlighten by a most import
+experi which the brilliant physicist fizeau perform more than
+half a centuri ago and which ha been repeat sinc then by some of
+the best experiment physicist so that there can be no doubt about
+it result the experi is concern with the follow question
+light travel in a motionless liquid with a particular veloc w
+how quickli doe it travel in the direct of the arrow in the tube
+t see the accompani diagram fig 3 when the liquid abov
+mention is flow through the tube with a veloc v
+image014
+in accord with the principl of rel we shall certainli have
+to take for grant that the propag of light alwai take place
+with the same veloc w with respect to the liquid whether the
+latter is in motion with refer to other bodi or not the veloc
+of light rel to the liquid and the veloc of the latter rel
+to the tube ar thu known and we requir the veloc of light
+rel to the tube
+it is clear that we have the problem of section vi again befor us the
+tube plai the part of the railwai embank or of the coordin
+system k the liquid plai the part of the carriag or of the
+coordin system k and final the light plai the part of the
+man walk along the carriag or of the move point in the present
+section if we denot the veloc of the light rel to the tube by
+w then thi is given by the equat a or b accord as the
+galilei transform or the lorentz transform correspond to the
+fact experiment10 decid in favour of equat b deriv from
+the theori of rel and the agreement is inde veri exact
+accord to recent and most excel measur by zeeman the
+influenc of the veloc of flow v on the propag of light is
+repres by formula b to within on per cent
+10 fizeau found
+image015
+where
+image016
+is the index of refract of the liquid on the other hand ow to
+the small of
+image017
+as compar with 1 we can replac b in the first place by
+image018
+or to the same order of approxim by
+image019
+which agre with fizeau result
+nevertheless we must now draw attent to the fact that a theori of
+thi phenomenon wa given by h a lorentz long befor the statement of
+the theori of rel thi theori wa of a pure electrodynam
+natur and wa obtain by the us of particular hypothes as to the
+electromagnet structur of matter thi circumst howev doe
+not in the least diminish the conclus of the experi as a
+crucial test in favour of the theori of rel for the
+electrodynam of maxwelllorentz on which the origin theori wa
+base in no wai oppos the theori of rel rather ha the
+latter been develop trom electrodynam as an astoundingli simpl
+combin and generalis of the hypothes formerli independ
+of each other on which electrodynam wa built
+xiv
+the heurist valu of the theori of rel
+our train of thought in the forego page can be epitomis in the
+follow manner experi ha led to the convict that on the on
+hand the principl of rel hold true and that on the other hand
+the veloc of transmiss of light in vacuo ha to be consid
+equal to a constant c by unit these two postul we obtain
+the law of transform for the rectangular coordin x y z
+and the time t of the event which constitut the process of
+natur in thi connect we did not obtain the galilei
+transform but differ from classic mechan the lorentz
+transform
+the law of transmiss of light the accept of which is justifi
+by our actual knowledg plai an import part in thi process of
+thought onc in possess of the lorentz transform howev we
+can combin thi with the principl of rel and sum up the
+theori thu
+everi gener law of natur must be so constitut that it is
+transform into a law of exactli the same form when instead of the
+spacetim variabl x y z t of the origin coordin system
+k we introduc new spacetim variabl x y z t of a
+coordin system k in thi connect the relat between the
+ordinari and the accent magnitud is given by the lorentz
+transform or in brief gener law of natur ar covari with
+respect to lorentz transform
+thi is a definit mathemat condit that the theori of rel
+demand of a natur law and in virtu of thi the theori becom a
+valuabl heurist aid in the search for gener law of natur if a
+gener law of natur were to be found which did not satisfi thi
+condit then at least on of the two fundament assumpt of the
+theori would have been disprov let us now examin what gener
+result the latter theori ha hitherto evinc
+xv
+gener result of the theori
+it is clear from our previou consider that the special theori
+of rel ha grown out of electrodynam and optic in these
+field it ha not appreci alter the predict of theori but it
+ha consider simplifi the theoret structur ie the
+deriv of law andwhat is incompar more importantit ha
+consider reduc the number of independ hypothes form the
+basi of theori the special theori of rel ha render the
+maxwelllorentz theori so plausibl that the latter would have been
+gener accept by physicist even if experi had decid less
+unequivoc in it favour
+classic mechan requir to be modifi befor it could come into
+line with the demand of the special theori of rel for the main
+part howev thi modif affect onli the law for rapid
+motion in which the veloc of matter v ar not veri small as
+compar with the veloc of light we have experi of such rapid
+motion onli in the case of electron and ion for other motion the
+variat from the law of classic mechan ar too small to make
+themselv evid in practic we shall not consid the motion of
+star until we come to speak of the gener theori of rel in
+accord with the theori of rel the kinet energi of a
+materi point of mass m is no longer given by the wellknown
+express
+image020
+but by the express
+image021
+thi express approach infin as the veloc v approach the
+veloc of light c the veloc must therefor alwai remain less
+than c howev great mai be the energi us to produc the
+acceler if we develop the express for the kinet energi in
+the form of a seri we obtain
+image022
+when
+image023
+is small compar with uniti the third of these term is alwai small
+in comparison with the second which last is alon consid in
+classic mechan the first term mc2 doe not contain the
+veloc and requir no consider if we ar onli deal with the
+question as to how the energi of a pointmass depend on the veloc
+we shall speak of it essenti signific later
+the most import result of a gener charact to which the special
+theori of rel ha led is concern with the concept of mass
+befor the advent of rel physic recognis two conserv
+law of fundament import name the law of the conserv of
+energi and the law of the conserv of mass these two fundament
+law appear to be quit independ of each other by mean of the
+theori of rel thei have been unit into on law we shall now
+briefli consid how thi unif came about and what mean is
+to be attach to it
+the principl of rel requir that the law of the conserv
+of energi should hold not onli with refer to a coordin system
+k but also with respect to everi coordin system k which is in
+a state of uniform motion of translat rel to k or briefli
+rel to everi galileian system of coordin in contrast to
+classic mechan the lorentz transform is the decid factor
+in the transit from on such system to anoth
+by mean of compar simpl consider we ar led to draw the
+follow conclus from these premis in conjunct with the
+fundament equat of the electrodynam of maxwel a bodi move
+with the veloc v which absorbs11 an amount of energi e0 in
+the form of radiat without suffer an alter in veloc in
+the process ha as a consequ it energi increas by an amount
+image024
+11 e0 is the energi taken up as judg from a coordin system
+move with the bodi
+in consider of the express given abov for the kinet energi
+of the bodi the requir energi of the bodi come out to be
+image025
+thu the bodi ha the same energi as a bodi of mass
+image026
+move with the veloc v henc we can sai if a bodi take up an
+amount of energi e0 then it inerti mass increas by an amount
+image027
+the inerti mass of a bodi is not a constant but vari accord to
+the chang in the energi of the bodi the inerti mass of a system of
+bodi can even be regard as a measur of it energi the law of the
+conserv of the mass of a system becom ident with the law of
+the conserv of energi and is onli valid provid that the system
+neither take up nor send out energi write the express for the
+energi in the form
+image028
+we see that the term mc2 which ha hitherto attract our attent
+is noth els than the energi possess by the body12 befor it
+absorb the energi e0
+12 as judg from a coordin system move with the bodi
+a direct comparison of thi relat with experi is not possibl at
+the present time 1920 seenot p 48 ow to the fact that the
+chang in energi e0 to which we can subject a system ar not larg
+enough to make themselv percept as a chang in the inerti mass
+of the system
+image027
+is too small in comparison with the mass m which wa present befor
+the alter of the energi it is ow to thi circumst that
+classic mechan wa abl to establish successfulli the conserv
+of mass as a law of independ valid
+note the equat e mc2 ha been thoroughli prove time and again
+sinc thi time
+let me add a final remark of a fundament natur the success of the
+faradaymaxwel interpret of electromagnet action at a distanc
+result in physicist becom convinc that there ar no such thing
+as instantan action at a distanc not involv an intermediari
+medium of the type of newton law of gravit
+accord to the theori of rel action at a distanc with the
+veloc of light alwai take the place of instantan action at a
+distanc or of action at a distanc with an infinit veloc of
+transmiss thi is connect with the fact that the veloc c
+plai a fundament role in thi theori in part ii we shall see in
+what wai thi result becom modifi in the gener theori of
+rel
+xvi
+experi and the special theori of rel
+to what extent is the special theori of rel support by
+experi thi question is not easili answer for the reason alreadi
+mention in connect with the fundament experi of fizeau the
+special theori of rel ha crystallis out from the
+maxwelllorentz theori of electromagnet phenomena thu all fact of
+experi which support the electromagnet theori also support the
+theori of rel as be of particular import i mention here
+the fact that the theori of rel enabl us to predict the
+effect produc on the light reach us from the fix star these
+result ar obtain in an exceedingli simpl manner and the effect
+indic which ar due to the rel motion of the earth with
+refer to those fix star ar found to be in accord with
+experi we refer to the yearli movement of the appar posit of
+the fix star result from the motion of the earth round the sun
+aberr and to the influenc of the radial compon of the
+rel motion of the fix star with respect to the earth on the
+colour of the light reach us from them the latter effect manifest
+itself in a slight displac of the spectral line of the light
+transmit to us from a fix star as compar with the posit of
+the same spectral line when thei ar produc by a terrestri sourc
+of light doppler principl the experiment argument in favour of
+the maxwelllorentz theori which ar at the same time argument in
+favour of the theori of rel ar too numer to be set forth
+here in realiti thei limit the theoret possibl to such an
+extent that no other theori than that of maxwel and lorentz ha been
+abl to hold it own when test by experi
+but there ar two class of experiment fact hitherto obtain which
+can be repres in the maxwelllorentz theori onli by the
+introduct of an auxiliari hypothesi which in itselfi without
+make us of the theori of relativityappear extran
+it is known that cathod rai and the socal rai emit by
+radioact substanc consist of neg electrifi particl
+electron of veri small inertia and larg veloc by examin the
+deflect of these rai under the influenc of electr and magnet
+field we can studi the law of motion of these particl veri exactli
+in the theoret treatment of these electron we ar face with the
+difficulti that electrodynam theori of itself is unabl to give an
+account of their natur for sinc electr mass of on sign repel
+each other the neg electr mass constitut the electron
+would necessarili be scatter under the influenc of their mutual
+repuls unless there ar forc of anoth kind oper between
+them the natur of which ha hitherto remain obscur to us13 if
+we now assum that the rel distanc between the electr mass
+constitut the electron remain unchang dure the motion of the
+electron rigid connect in the sens of classic mechan we
+arriv at a law of motion of the electron which doe not agre with
+experi guid by pure formal point of view h a lorentz wa
+the first to introduc the hypothesi that the form of the electron
+experi a contract in the direct of motion in consequ of
+that motion the contract length be proport to the express
+image029
+thi hypothesi which is not justifi by ani electrodynam
+fact suppli us then with that particular law of motion which ha
+been confirm with great precis in recent year
+13 the gener theori of rel render it like that the
+electr mass of an electron ar held togeth by gravit
+forc
+the theori of rel lead to the same law of motion without
+requir ani special hypothesi whatsoev as to the structur and the
+behaviour of the electron we arriv at a similar conclus in
+section xiii in connect with the experi of fizeau the result of
+which is foretold by the theori of rel without the necess of
+draw on hypothes as to the physic natur of the liquid
+the second class of fact to which we have allud ha refer to the
+question whether or not the motion of the earth in space can be made
+percept in terrestri experi we have alreadi remark in
+section v that all attempt of thi natur led to a neg result
+befor the theori of rel wa put forward it wa difficult to
+becom reconcil to thi neg result for reason now to be
+discuss the inherit prejudic about time and space did not allow
+ani doubt to aris as to the prime import of the galileian
+transform for chang over from on bodi of refer to anoth
+now assum that the maxwelllorentz equat hold for a
+referencebodi k we then find that thei do not hold for a
+referencebodi k move uniformli with respect to k if we assum
+that the relat of the galileian transform exist between the
+coordin of k and k it thu appear that of all galileian
+coordin system on k correspond to a particular state of
+motion is physic uniqu thi result wa interpret physic by
+regard k as at rest with respect to a hypothet ther of space
+on the other hand all coordin system k move rel to k
+were to be regard as in motion with respect to the ther to thi
+motion of k against the ther therdrift rel to k were
+attribut the more complic law which were suppos to hold
+rel to k strictli speak such an therdrift ought also to
+be assum rel to the earth and for a long time the effort of
+physicist were devot to attempt to detect the exist of an
+therdrift at the earth surfac
+in on of the most notabl of these attempt michelson devis a method
+which appear as though it must be decis imagin two mirror so
+arrang on a rigid bodi that the reflect surfac face each other
+a rai of light requir a perfectli definit time t to pass from on
+mirror to the other and back again if the whole system be at rest with
+respect to the ther it is found by calcul howev that a
+slightli differ time t is requir for thi process if the bodi
+togeth with the mirror be move rel to the ther and yet
+anoth point it is shown by calcul that for a given veloc v
+with refer to the ther thi time t is differ when the bodi
+is move perpendicularli to the plane of the mirror from that
+result when the motion is parallel to these plane although the
+estim differ between these two time is exceedingli small
+michelson and morlei perform an experi involv interfer in
+which thi differ should have been clearli detect but the
+experi gave a neg resulta fact veri perplex to physicist
+lorentz and fitzgerald rescu the theori from thi difficulti by
+assum that the motion of the bodi rel to the ther produc a
+contract of the bodi in the direct of motion the amount of
+contract be just suffici to compens for the differ in
+time mention abov comparison with the discuss in section xii
+show that also from the standpoint of the theori of rel thi
+solut of the difficulti wa the right on but on the basi of the
+theori of rel the method of interpret is incompar more
+satisfactori accord to thi theori there is no such thing as a
+special favour uniqu coordin system to occas the
+introduct of the theridea and henc there can be no therdrift
+nor ani experi with which to demonstr it here the contract
+of move bodi follow from the two fundament principl of the
+theori without the introduct of particular hypothes and as the
+prime factor involv in thi contract we find not the motion in
+itself to which we cannot attach ani mean but the motion with
+respect to the bodi of refer chosen in the particular case in
+point thu for a coordin system move with the earth the mirror
+system of michelson and morlei is not shorten but it is shorten
+for a coordin system which is at rest rel to the sun
+xvii
+minkowski fourdimension space
+the nonmathematician is seiz by a mysteri shudder when he
+hear of fourdimension thing by a feel not unlik that
+awaken by thought of the occult and yet there is no more
+commonplac statement than that the world in which we live is a
+fourdimension spacetim continuum
+space is a threedimension continuum by thi we mean that it is
+possibl to describ the posit of a point at rest by mean of
+three number coordin x y z and that there is an indefinit
+number of point in the neighbourhood of thi on the posit of
+which can be describ by coordin such as x1 y1 z1 which mai
+be as near as we choos to the respect valu of the coordin
+x y z of the first point in virtu of the latter properti we
+speak of a continuum and ow to the fact that there ar three
+coordin we speak of it as be threedimension
+similarli the world of physic phenomena which wa briefli call
+world by minkowski is natur four dimension in the spacetim
+sens for it is compos of individu event each of which is
+describ by four number name three space coordin x y z
+and a time coordin the time valu t the world is in thi
+sens also a continuum for to everi event there ar as mani
+neighbour event realis or at least thinkabl as we care to
+choos the coordin x1 y1 z1 t1 of which differ by an
+indefinit small amount from those of the event x y z t
+origin consid that we have not been accustom to regard the
+world in thi sens as a fourdimension continuum is due to the fact
+that in physic befor the advent of the theori of rel time
+plai a differ and more independ rle as compar with the
+space coordin it is for thi reason that we have been in the habit
+of treat time as an independ continuum as a matter of fact
+accord to classic mechan time is absolut ie it is
+independ of the posit and the condit of motion of the system
+of coordin we see thi express in the last equat of the
+galileian transform t t
+the fourdimension mode of consider of the world is natur on
+the theori of rel sinc accord to thi theori time is rob
+of it independ thi is shown by the fourth equat of the
+lorentz transform
+image030
+moreov accord to thi equat the time differ t of two
+event with respect to k doe not in gener vanish even when the
+time differ t of the same event with refer to k vanish
+pure spacedist of two event with respect to k result in
+timedist of the same event with respect to k but the
+discoveri of minkowski which wa of import for the formal
+develop of the theori of rel doe not lie here it is to be
+found rather in the fact of hi recognit that the fourdimension
+spacetim continuum of the theori of rel in it most essenti
+formal properti show a pronounc relationship to the
+threedimension continuum of euclidean geometr space14 in
+order to give due promin to thi relationship howev we must
+replac the usual time coordin t by an imaginari magnitud
+image031
+proport to it under these condit the natur law satisfi
+the demand of the special theori of rel assum mathemat
+form in which the time coordin plai exactli the same role as the
+three space coordin formal these four coordin correspond
+exactli to the three space coordin in euclidean geometri it must
+be clear even to the nonmathematician that as a consequ of thi
+pure formal addit to our knowledg the theori perforc gain
+clear in no mean measur
+14 cf the somewhat more detail discuss in appendix ii
+these inadequ remark can give the reader onli a vagu notion of the
+import idea contribut by minkowski without it the gener theori
+of rel of which the fundament idea ar develop in the
+follow page would perhap have got no farther than it long
+cloth minkowski work is doubtless difficult of access to anyon
+inexperienc in mathemat but sinc it is not necessari to have a
+veri exact grasp of thi work in order to understand the fundament
+idea of either the special or the gener theori of rel i
+shall leav it here at present and revert to it onli toward the end
+of part ii
+part ii the gener theori of rel
+xviii
+special and gener principl of rel
+the basal principl which wa the pivot of all our previou
+consider wa the special principl of rel ie the
+principl of the physic rel of all uniform motion let as
+onc more analys it mean carefulli
+it wa at all time clear that from the point of view of the idea it
+convei to us everi motion must be consid onli as a rel
+motion return to the illustr we have frequent us of the
+embank and the railwai carriag we can express the fact of the
+motion here take place in the follow two form both of which ar
+equal justifi
+a the carriag is in motion rel to the embank
+b the embank is in motion rel to the carriag
+in a the embank in b the carriag serv as the bodi of
+refer in our statement of the motion take place if it is simpli
+a question of detect or of describ the motion involv it is in
+principl immateri to what referencebodi we refer the motion as
+alreadi mention thi is selfevid but it must not be confus
+with the much more comprehens statement call the principl of
+rel which we have taken as the basi of our investig
+the principl we have made us of not onli maintain that we mai
+equal well choos the carriag or the embank as our
+referencebodi for the descript of ani event for thi too is
+selfevid our principl rather assert what follow if we
+formul the gener law of natur as thei ar obtain from
+experi by make us of
+a the embank as referencebodi
+b the railwai carriag as referencebodi
+then these gener law of natur eg the law of mechan or the
+law of the propag of light in vacuo have exactli the same form
+in both case thi can also be express as follow for the physic
+descript of natur process neither of the refer bodi k
+k is uniqu lit special mark out as compar with the other
+unlik the first thi latter statement need not of necess hold a
+priori it is not contain in the concept of motion and
+referencebodi and deriv from them onli experi can decid
+as to it correct or incorrect
+up to the present howev we have by no mean maintain the
+equival of all bodi of refer k in connect with the
+formul of natur law our cours wa more on the follow
+iin in the first place we start out from the assumpt that
+there exist a referencebodi k whose condit of motion is such
+that the galileian law hold with respect to it a particl left to
+itself and suffici far remov from all other particl move
+uniformli in a straight line with refer to k galileian
+referencebodi the law of natur were to be as simpl as possibl
+but in addit to k all bodi of refer k should be given
+prefer in thi sens and thei should be exactli equival to k
+for the formul of natur law provid that thei ar in a state
+of uniform rectilinear and nonrotari motion with respect to k all
+these bodi of refer ar to be regard as galileian
+referencebodi the valid of the principl of rel wa
+assum onli for these referencebodi but not for other eg
+those possess motion of a differ kind in thi sens we speak of
+the special principl of rel or special theori of rel
+in contrast to thi we wish to understand by the gener principl of
+rel the follow statement all bodi of refer k k
+etc ar equival for the descript of natur phenomena
+formul of the gener law of natur whatev mai be their
+state of motion but befor proceed farther it ought to be point
+out that thi formul must be replac later by a more abstract
+on for reason which will becom evid at a later stage
+sinc the introduct of the special principl of rel ha been
+justifi everi intellect which strive after generalis must feel
+the temptat to ventur the step toward the gener principl of
+rel but a simpl and appar quit reliabl consider
+seem to suggest that for the present at ani rate there is littl
+hope of success in such an attempt let us imagin ourselv
+transfer to our old friend the railwai carriag which is travel
+at a uniform rate as long as it is move uniformli the occup of
+the carriag is not sensibl of it motion and it is for thi reason
+that he can without reluct interpret the fact of the case as
+indic that the carriag is at rest but the embank in motion
+moreov accord to the special principl of rel thi
+interpret is quit justifi also from a physic point of view
+if the motion of the carriag is now chang into a nonuniform motion
+as for instanc by a power applic of the brake then the
+occup of the carriag experi a correspondingli power jerk
+forward the retard motion is manifest in the mechan behaviour
+of bodi rel to the person in the railwai carriag the
+mechan behaviour is differ from that of the case previous
+consid and for thi reason it would appear to be imposs that
+the same mechan law hold rel to the nonuniformli move
+carriag as hold with refer to the carriag when at rest or in
+uniform motion at all event it is clear that the galileian law doe
+not hold with respect to the nonuniformli move carriag becaus of
+thi we feel compel at the present junctur to grant a kind of
+absolut physic realiti to nonuniform motion in opposit to the
+gener principl of rel but in what follow we shall soon see
+that thi conclus cannot be maintain
+xix
+the gravit field
+if we pick up a stone and then let it go why doe it fall to the
+ground the usual answer to thi question is becaus it is attract
+by the earth modern physic formul the answer rather differ
+for the follow reason as a result of the more care studi of
+electromagnet phenomena we have come to regard action at a distanc
+as a process imposs without the intervent of some intermediari
+medium if for instanc a magnet attract a piec of iron we cannot
+be content to regard thi as mean that the magnet act directli on
+the iron through the intermedi empti space but we ar constrain
+to imagineaft the manner of faradaythat the magnet alwai call
+into be someth physic real in the space around it that
+someth be what we call a magnet field in it turn thi
+magnet field oper on the piec of iron so that the latter
+strive to move toward the magnet we shall not discuss here the
+justif for thi incident concept which is inde a
+somewhat arbitrari on we shall onli mention that with it aid
+electromagnet phenomena can be theoret repres much more
+satisfactorili than without it and thi appli particularli to the
+transmiss of electromagnet wave the effect of gravit also
+ar regard in an analog manner
+the action of the earth on the stone take place indirectli the earth
+produc in it surround a gravit field which act on the
+stone and produc it motion of fall as we know from experi the
+intens of the action on a bodi dimish accord to a quit
+definit law as we proce farther and farther awai from the earth
+from our point of view thi mean the law govern the properti of
+the gravit field in space must be a perfectli definit on in
+order correctli to repres the diminut of gravit action
+with the distanc from oper bodi it is someth like thi the
+bodi eg the earth produc a field in it immedi neighbourhood
+directli the intens and direct of the field at point farther
+remov from the bodi ar thenc determin by the law which govern
+the properti in space of the gravit field themselv
+in contrast to electr and magnet field the gravit field
+exhibit a most remark properti which is of fundament import
+for what follow bodi which ar move under the sole influenc of a
+gravit field receiv an acceler which doe not in the
+least depend either on the materi or on the physic state of the
+bodi for instanc a piec of lead and a piec of wood fall in
+exactli the same manner in a gravit field in vacuo when
+thei start off from rest or with the same initi veloc thi law
+which hold most accur can be express in a differ form in
+the light of the follow consider
+accord to newton law of motion we have
+forc inerti mass x acceler
+where the inerti mass is a characterist constant of the
+acceler bodi if now gravit is the caus of the acceler
+we then have
+forc gravit mass x intens of the gravit
+field
+where the gravit mass is likewis a characterist constant
+for the bodi from these two relat follow
+image032
+if now as we find from experi the acceler is to be
+independ of the natur and the condit of the bodi and alwai the
+same for a given gravit field then the ratio of the
+gravit to the inerti mass must likewis be the same for all
+bodi by a suitabl choic of unit we can thu make thi ratio equal
+to uniti we then have the follow law the gravit mass of a
+bodi is equal to it inerti mass
+it is true that thi import law had hitherto been record in
+mechan but it had not been interpret a satisfactori
+interpret can be obtain onli if we recognis the follow fact
+the same qualiti of a bodi manifest itself accord to
+circumst as inertia or as weight lit heavi in the
+follow section we shall show to what extent thi is actual the
+case and how thi question is connect with the gener postul of
+rel
+xx
+the equal of inerti and gravit mass as an argument for the
+gener postul of rel
+we imagin a larg portion of empti space so far remov from star
+and other appreci mass that we have befor us approxim the
+condit requir by the fundament law of galilei it is then
+possibl to choos a galileian referencebodi for thi part of space
+world rel to which point at rest remain at rest and point in
+motion continu perman in uniform rectilinear motion as
+referencebodi let us imagin a spaciou chest resembl a room with
+an observ insid who is equip with apparatu gravit
+natur doe not exist for thi observ he must fasten himself with
+string to the floor otherwis the slightest impact against the floor
+will caus him to rise slowli toward the ceil of the room
+to the middl of the lid of the chest is fix extern a hook with
+rope attach and now a be what kind of a be is immateri to
+us begin pull at thi with a constant forc the chest togeth
+with the observ then begin to move upward with a uniformli
+acceler motion in cours of time their veloc will reach
+unheardof valuesprovid that we ar view all thi from anoth
+referencebodi which is not be pull with a rope
+but how doe the man in the chest regard the process the acceler
+of the chest will be transmit to him by the reaction of the floor of
+the chest he must therefor take up thi pressur by mean of hi leg
+if he doe not wish to be laid out full length on the floor he is then
+stand in the chest in exactli the same wai as anyon stand in a
+room of a home on our earth if he releas a bodi which he previous
+had in hi land the accelert of the chest will no longer be
+transmit to thi bodi and for thi reason the bodi will approach
+the floor of the chest with an acceler rel motion the
+observ will further convinc himself that the acceler of the
+bodi toward the floor of the chest is alwai of the same magnitud
+whatev kind of bodi he mai happen to us for the experi
+reli on hi knowledg of the gravit field as it wa
+discuss in the preced section the man in the chest will thu
+come to the conclus that he and the chest ar in a gravit
+field which is constant with regard to time of cours he will be
+puzzl for a moment as to why the chest doe not fall in thi
+gravit field just then howev he discov the hook in the
+middl of the lid of the chest and the rope which is attach to it
+and he consequ come to the conclus that the chest is suspend
+at rest in the gravit field
+ought we to smile at the man and sai that he err in hi conclus i
+do not believ we ought to if we wish to remain consist we must
+rather admit that hi mode of grasp the situat violat neither
+reason nor known mechan law even though it is be acceler
+with respect to the galileian space first consid we can
+nevertheless regard the chest as be at rest we have thu good
+ground for extend the principl of rel to includ bodi of
+refer which ar acceler with respect to each other and as a
+result we have gain a power argument for a generalis postul
+of rel
+we must note carefulli that the possibl of thi mode of
+interpret rest on the fundament properti of the gravit
+field of give all bodi the same acceler or what come to the
+same thing on the law of the equal of inerti and gravit
+mass if thi natur law did not exist the man in the acceler
+chest would not be abl to interpret the behaviour of the bodi around
+him on the supposit of a gravit field and he would not be
+justifi on the ground of experi in suppos hi referencebodi
+to be at rest
+suppos that the man in the chest fix a rope to the inner side of the
+lid and that he attach a bodi to the free end of the rope the
+result of thi will be to stretch the rope so that it will hang
+vertic downward if we ask for an opinion of the caus of
+tension in the rope the man in the chest will sai the suspend bodi
+experi a downward forc in the gravit field and thi is
+neutralis by the tension of the rope what determin the magnitud
+of the tension of the rope is the gravit mass of the suspend
+bodi on the other hand an observ who is pois freeli in space
+will interpret the condit of thing thu the rope must perforc
+take part in the acceler motion of the chest and it transmit thi
+motion to the bodi attach to it the tension of the rope is just
+larg enough to effect the acceler of the bodi that which
+determin the magnitud of the tension of the rope is the inerti
+mass of the bodi guid by thi exampl we see that our extens
+of the principl of rel impli the necess of the law of
+the equal of inerti and gravit mass thu we have obtain
+a physic interpret of thi law
+from our consider of the acceler chest we see that a gener
+theori of rel must yield import result on the law of
+gravit in point of fact the systemat pursuit of the gener
+idea of rel ha suppli the law satisfi by the gravit
+field befor proceed farther howev i must warn the reader
+against a misconcept suggest by these consider a
+gravit field exist for the man in the chest despit the fact
+that there wa no such field for the coordin system first chosen
+now we might easili suppos that the exist of a gravit field
+is alwai onli an appar on we might also think that regardless
+of the kind of gravit field which mai be present we could
+alwai choos anoth referencebodi such that no gravit field
+exist with refer to it thi is by no mean true for all
+gravit field but onli for those of quit special form it is
+for instanc imposs to choos a bodi of refer such that as
+judg from it the gravit field of the earth in it entireti
+vanish
+we can now appreci why that argument is not convinc which we
+brought forward against the gener principl of rel at the end
+of section xviii it is certainli true that the observ in the railwai
+carriag experi a jerk forward as a result of the applic of
+the brake and that he recognis in thi the nonuniform of motion
+retard of the carriag but he is compel by nobodi to refer
+thi jerk to a real acceler retard of the carriag he
+might also interpret hi experi thu my bodi of refer the
+carriag remain perman at rest with refer to it howev
+there exist dure the period of applic of the brake a
+gravit field which is direct forward and which is variabl
+with respect to time under the influenc of thi field the embank
+togeth with the earth move nonuniformli in such a manner that their
+origin veloc in the backward direct is continu reduc
+xxi
+in what respect ar the foundat of classic mechan and of the
+special theori of rel unsatisfactori
+we have alreadi state sever time that classic mechan start
+out from the follow law materi particl suffici far remov
+from other materi particl continu to move uniformli in a straight
+line or continu in a state of rest we have also repeatedli emphasis
+that thi fundament law can onli be valid for bodi of refer k
+which possess certain uniqu state of motion and which ar in uniform
+translat motion rel to each other rel to other
+referencebodi k the law is not valid both in classic mechan
+and in the special theori of rel we therefor differenti
+between referencebodi k rel to which the recognis law of
+natur can be said to hold and referencebodi k rel to which
+these law do not hold
+but no person whose mode of thought is logic can rest satisfi with
+thi condit of thing he ask how doe it come that certain
+referencebodi or their state of motion ar given prioriti over
+other referencebodi or their state of motion what is the reason
+for thi prefer in order to show clearli what i mean by thi
+question i shall make us of a comparison
+i am stand in front of a ga rang stand alongsid of each other
+on the rang ar two pan so much alik that on mai be mistaken for
+the other both ar half full of water i notic that steam is be
+emit continu from the on pan but not from the other i am
+surpris at thi even if i have never seen either a ga rang or a
+pan befor but if i now notic a lumin someth of bluish colour
+under the first pan but not under the other i ceas to be astonish
+even if i have never befor seen a ga flame for i can onli sai that
+thi bluish someth will caus the emiss of the steam or at least
+possibl it mai do so if howev i notic the bluish someth in
+neither case and if i observ that the on continu emit steam
+whilst the other doe not then i shall remain astonish and
+dissatisfi until i have discov some circumst to which i can
+attribut the differ behaviour of the two pan
+analog i seek in vain for a real someth in classic mechan
+or in the special theori of rel to which i can attribut the
+differ behaviour of bodi consid with respect to the refer
+system k and k15 newton saw thi object and attempt to
+invalid it but without success but e mach recognis it most
+clearli of all and becaus of thi object he claim that mechan
+must be place on a new basi it can onli be got rid of by mean of a
+physic which is conform to the gener principl of rel
+sinc the equat of such a theori hold for everi bodi of refer
+whatev mai be it state of motion
+15 the object is of import more especi when the state of
+motion of the referencebodi is of such a natur that it doe not
+requir ani extern agenc for it mainten eg in the case
+when the referencebodi is rotat uniformli
+xxii
+a few infer from the gener principl of rel
+the consider of section xx show that the gener principl of
+rel put us in a posit to deriv properti of the
+gravit field in a pure theoret manner let us suppos for
+instanc that we know the spacetim cours for ani natur process
+whatsoev as regard the manner in which it take place in the
+galileian domain rel to a galileian bodi of refer k by
+mean of pure theoret oper ie simpli by calcul
+we ar then abl to find how thi known natur process appear as
+seen from a referencebodi k which is acceler rel to k
+but sinc a gravit field exist with respect to thi new bodi of
+refer k our consider also teach us how the gravit
+field influenc the process studi
+for exampl we learn that a bodi which is in a state of uniform
+rectilinear motion with respect to k in accord with the law of
+galilei is execut an acceler and in gener curvilinear motion
+with respect to the acceler referencebodi k chest thi
+acceler or curvatur correspond to the influenc on the move
+bodi of the gravit field prevail rel to k it is
+known that a gravit field influenc the movement of bodi in
+thi wai so that our consider suppli us with noth
+essenti new
+howev we obtain a new result of fundament import when we carri
+out the analog consider for a rai of light with respect to the
+galileian referencebodi k such a rai of light is transmit
+rectilinearli with the veloc c it can easili be shown that the
+path of the same rai of light is no longer a straight line when we
+consid it with refer to the acceler chest referencebodi
+k from thi we conclud that in gener rai of light ar
+propag curvilinearli in gravit field in two respect thi
+result is of great import
+in the first place it can be compar with the realiti although a
+detail examin of the question show that the curvatur of light
+rai requir by the gener theori of rel is onli exceedingli
+small for the gravit field at our dispos in practic it
+estim magnitud for light rai pass the sun at graze incid
+is nevertheless 17 second of arc thi ought to manifest itself in
+the follow wai as seen from the earth certain fix star appear
+to be in the neighbourhood of the sun and ar thu capabl of
+observ dure a total eclips of the sun at such time these
+star ought to appear to be displac outward from the sun by an
+amount indic abov as compar with their appar posit in the
+sky when the sun is situat at anoth part of the heaven the
+examin of the correct or otherwis of thi deduct is a
+problem of the greatest import the earli solut of which is to
+be expect of astronomers16
+16 by mean of the star photograph of two expedit equip by a
+joint committe of the royal and royal astronom societi the
+exist of the deflect of light demand by theori wa first
+confirm dure the solar eclips of 29th mai 1919 cf appendix
+iii
+in the second place our result show that accord to the gener
+theori of rel the law of the constanc of the veloc of light
+in vacuo which constitut on of the two fundament assumpt in
+the special theori of rel and to which we have alreadi
+frequent refer cannot claim ani unlimit valid a curvatur
+of rai of light can onli take place when the veloc of propag
+of light vari with posit now we might think that as a consequ
+of thi the special theori of rel and with it the whole theori
+of rel would be laid in the dust but in realiti thi is not the
+case we can onli conclud that the special theori of rel cannot
+claim an unlimit domain of valid it result hold onli so long as
+we ar abl to disregard the influenc of gravit field on the
+phenomena eg of light
+sinc it ha often been contend by oppon of the theori of
+rel that the special theori of rel is overthrown by the
+gener theori of rel it is perhap advis to make the fact
+of the case clearer by mean of an appropri comparison befor the
+develop of electrodynam the law of electrostat were look
+upon as the law of electr at the present time we know that
+electr field can be deriv correctli from electrostat
+consider onli for the case which is never strictli realis in
+which the electr mass ar quit at rest rel to each other
+and to the coordin system should we be justifi in sai that
+for thi reason electrostat is overthrown by the fieldequ of
+maxwel in electrodynam not in the least electrostat is
+contain in electrodynam as a limit case the law of the latter
+lead directli to those of the former for the case in which the field
+ar invari with regard to time no fairer destini could be allot
+to ani physic theori than that it should of itself point out the wai
+to the introduct of a more comprehens theori in which it live
+on as a limit case
+in the exampl of the transmiss of light just dealt with we have
+seen that the gener theori of rel enabl us to deriv
+theoret the influenc of a gravit field on the cours of
+natur process the law of which ar alreadi known when a
+gravit field is absent but the most attract problem to the
+solut of which the gener theori of rel suppli the kei
+concern the investig of the law satisfi by the gravit
+field itself let us consid thi for a moment
+we ar acquaint with spacetim domain which behav approxim
+in a galileian fashion under suitabl choic of referencebodi
+ie domain in which gravit field ar absent if we now
+refer such a domain to a referencebodi k possess ani kind of
+motion then rel to k there exist a gravit field which
+is variabl with respect to space and time17 the charact of thi
+field will of cours depend on the motion chosen for k accord to
+the gener theori of rel the gener law of the gravit
+field must be satisfi for all gravit field obtain in thi
+wai even though by no mean all gravitationi field can be produc
+in thi wai yet we mai entertain the hope that the gener law of
+gravit will be deriv from such gravit field of a
+special kind thi hope ha been realis in the most beauti manner
+but between the clear vision of thi goal and it actual realis it
+wa necessari to surmount a seriou difficulti and as thi li deep
+at the root of thing i dare not withhold it from the reader we
+requir to extend our idea of the spacetim continuum still farther
+17 thi follow from a generalis of the discuss in section
+xx
+xxiii
+behaviour of clock and measuringrod on a rotat bodi of refer
+hitherto i have purpos refrain from speak about the physic
+interpret of space and timedata in the case of the gener
+theori of rel as a consequ i am guilti of a certain
+slovenli of treatment which as we know from the special theori of
+rel is far from be unimport and pardon it is now
+high time that we remedi thi defect but i would mention at the
+outset that thi matter lai no small claim on the patienc and on
+the power of abstract of the reader
+we start off again from quit special case which we have frequent
+us befor let us consid a space time domain in which no
+gravit field exist rel to a referencebodi k whose state
+of motion ha been suitabl chosen k is then a galileian
+referencebodi as regard the domain consid and the result of the
+special theori of rel hold rel to k let us suppos the
+same domain refer to a second bodi of refer k which is
+rotat uniformli with respect to k in order to fix our idea we
+shall imagin k to be in the form of a plane circular disc which
+rotat uniformli in it own plane about it centr an observ who is
+sit eccentr on the disc k is sensibl of a forc which
+act outward in a radial direct and which would be interpret as
+an effect of inertia centrifug forc by an observ who wa at rest
+with respect to the origin referencebodi k but the observ on
+the disc mai regard hi disc as a referencebodi which is at rest on
+the basi of the gener principl of rel he is justifi in
+do thi the forc act on himself and in fact on all other
+bodi which ar at rest rel to the disc he regard as the effect
+of a gravit field nevertheless the spacedistribut of thi
+gravit field is of a kind that would not be possibl on newton
+theori of gravitation18 but sinc the observ believ in the
+gener theori of rel thi doe not disturb him he is quit in
+the right when he believ that a gener law of gravit can be
+formulateda law which not onli explain the motion of the star
+correctli but also the field of forc experienc by himself
+18 the field disappear at the centr of the disc and increas
+proportion to the distanc from the centr as we proce outward
+the observ perform experi on hi circular disc with clock and
+measuringrod in do so it is hi intent to arriv at exact
+definit for the signif of time and spacedata with
+refer to the circular disc k these definit be base on
+hi observ what will be hi experi in thi enterpris
+to start with he place on of two ident construct clock at
+the centr of the circular disc and the other on the edg of the disc
+so that thei ar at rest rel to it we now ask ourselv whether
+both clock go at the same rate from the standpoint of the nonrot
+galileian referencebodi k as judg from thi bodi the clock at
+the centr of the disc ha no veloc wherea the clock at the edg
+of the disc is in motion rel to k in consequ of the
+rotat accord to a result obtain in section xii it follow
+that the latter clock goe at a rate perman slower than that of
+the clock at the centr of the circular disc ie as observ from
+k it is obviou that the same effect would be note by an observ
+whom we will imagin sit alongsid hi clock at the centr of the
+circular disc thu on our circular disc or to make the case more
+gener in everi gravit field a clock will go more quickli or
+less quickli accord to the posit in which the clock is situat
+at rest for thi reason it is not possibl to obtain a reason
+definit of time with the aid of clock which ar arrang at rest
+with respect to the bodi of refer a similar difficulti present
+itself when we attempt to appli our earlier definit of simultan
+in such a case but i do not wish to go ani farther into thi question
+moreov at thi stage the definit of the space coordin also
+present insurmount difficulti if the observ appli hi
+standard measuringrod a rod which is short as compar with the
+radiu of the disc tangenti to the edg of the disc then as
+judg from the galileian system the length of thi rod will be less
+than 1 sinc accord to section xii move bodi suffer a
+shorten in the direct of the motion on the other hand the
+measuringrod will not experi a shorten in length as judg
+from k if it is appli to the disc in the direct of the radiu
+if then the observ first measur the circumfer of the disc
+with hi measuringrod and then the diamet of the disc on divid
+the on by the other he will not obtain as quotient the familiar
+number 314 but a larger number19 wherea of cours for
+a disc which is at rest with respect to k thi oper would yield
+exactli thi prove that the proposit of euclidean geometri
+cannot hold exactli on the rotat disc nor in gener in a
+gravit field at least if we attribut the length 1 to the rod
+in all posit and in everi orient henc the idea of a straight
+line also lose it mean we ar therefor not in a posit to
+defin exactli the coordin x y z rel to the disc by mean
+of the method us in discuss the special theori and as long as the
+coordin and time of event have not been defin we cannot
+assign an exact mean to the natur law in which these occur
+19 throughout thi consider we have to us the galileian
+nonrot system k as referencebodi sinc we mai onli assum
+the valid of the result of the special theori of rel
+rel to k rel to k a gravit field prevail
+thu all our previou conclus base on gener rel would
+appear to be call in question in realiti we must make a subtl
+detour in order to be abl to appli the postul of gener rel
+exactli i shall prepar the reader for thi in the follow
+paragraph
+xxiv
+euclidean and noneuclidean continuum
+the surfac of a marbl tabl is spread out in front of me i can get
+from ani on point on thi tabl to ani other point by pass
+continu from on point to a neighbour on and repeat thi
+process a larg number of time or in other word by go from
+point to point without execut jump i am sure the reader will
+appreci with suffici clear what i mean here by neighbour
+and by jump if he is not too pedant we express thi properti of
+the surfac by describ the latter as a continuum
+let us now imagin that a larg number of littl rod of equal length
+have been made their length be small compar with the dimens
+of the marbl slab when i sai thei ar of equal length i mean that
+on can be laid on ani other without the end overlap we next lai
+four of these littl rod on the marbl slab so that thei constitut a
+quadrilater figur a squar the diagon of which ar equal
+long to ensur the equal of the diagon we make us of a littl
+testingrod to thi squar we add similar on each of which ha on
+rod in common with the first we proce in like manner with each of
+these squar until final the whole marbl slab is laid out with
+squar the arrang is such that each side of a squar belong to
+two squar and each corner to four squar
+it is a verit wonder that we can carri out thi busi without
+get into the greatest difficulti we onli need to think of the
+follow if at ani moment three squar meet at a corner then two
+side of the fourth squar ar alreadi laid and as a consequ the
+arrang of the remain two side of the squar is alreadi
+complet determin but i am now no longer abl to adjust the
+quadrilater so that it diagon mai be equal if thei ar equal of
+their own accord then thi is an especi favour of the marbl slab
+and of the littl rod about which i can onli be thankfulli surpris
+we must experi mani such surpris if the construct is to be
+success
+if everyth ha realli gone smoothli then i sai that the point of
+the marbl slab constitut a euclidean continuum with respect to the
+littl rod which ha been us as a distanc lineinterv by
+choos on corner of a squar as origin i can characteris everi
+other corner of a squar with refer to thi origin by mean of two
+number i onli need state how mani rod i must pass over when
+start from the origin i proce toward the right and then
+upward in order to arriv at the corner of the squar under
+consider these two number ar then the cartesian coordin
+of thi corner with refer to the cartesian coordin system
+which is determin by the arrang of littl rod
+by make us of the follow modif of thi abstract
+experi we recognis that there must also be case in which the
+experi would be unsuccess we shall suppos that the rod
+expand by in amount proport to the increas of temperatur we
+heat the central part of the marbl slab but not the peripheri in
+which case two of our littl rod can still be brought into coincid
+at everi posit on the tabl but our construct of squar must
+necessarili come into disord dure the heat becaus the littl
+rod on the central region of the tabl expand wherea those on the
+outer part do not
+with refer to our littl rodsdefin as unit lengthsth marbl
+slab is no longer a euclidean continuum and we ar also no longer in
+the posit of defin cartesian coordin directli with their
+aid sinc the abov construct can no longer be carri out but
+sinc there ar other thing which ar not influenc in a similar
+manner to the littl rod or perhap not at all by the temperatur of
+the tabl it is possibl quit natur to maintain the point of view
+that the marbl slab is a euclidean continuum thi can be done in a
+satisfactori manner by make a more subtl stipul about the
+measur or the comparison of length
+but if rod of everi kind ie of everi materi were to behav in
+the same wai as regard the influenc of temperatur when thei ar on
+the variabl heat marbl slab and if we had no other mean of
+detect the effect of temperatur than the geometr behaviour of
+our rod in experi analog to the on describ abov then our
+best plan would be to assign the distanc on to two point on the
+slab provid that the end of on of our rod could be made to
+coincid with these two point for how els should we defin the
+distanc without our proceed be in the highest measur grossli
+arbitrari the method of cartesian coordin must then be discard
+and replac by anoth which doe not assum the valid of euclidean
+geometri for rigid bodies20 the reader will notic that the
+situat depict here correspond to the on brought about by the
+gener postul of rel section xxiii
+20 mathematician have been confront with our problem in the
+follow form if we ar given a surfac eg an ellipsoid in
+euclidean threedimension space then there exist for thi surfac
+a twodimension geometri just as much as for a plane surfac gauss
+undertook the task of treat thi twodimension geometri from
+first principl without make us of the fact that the surfac
+belong to a euclidean continuum of three dimens if we imagin
+construct to be made with rigid rod in the surfac similar to
+that abov with the marbl slab we should find that differ law
+hold for these from those result on the basi of euclidean plane
+geometri the surfac is not a euclidean continuum with respect to the
+rod and we cannot defin cartesian coordin in the surfac
+gauss indic the principl accord to which we can treat the
+geometr relationship in the surfac and thu point out the wai
+to the method of riemann of treat multidimension noneuclidean
+continuum thu it is that mathematician long ago solv the formal
+problem to which we ar led by the gener postul of rel
+xxv
+gaussian coordin
+image033
+accord to gauss thi combin analyt and geometr mode of
+handl the problem can be arriv at in the follow wai we imagin
+a system of arbitrari curv see fig 4 drawn on the surfac of the
+tabl these we design as ucurv and we indic each of them
+by mean of a number the curv u 1 u 2 and u 3 ar drawn
+in the diagram between the curv u 1 and u 2 we must imagin
+an infinit larg number to be drawn all of which correspond to real
+number ly between 1 and 2 we have then a system of ucurv and
+thi infinit dens system cover the whole surfac of the tabl
+these ucurv must not intersect each other and through each point
+of the surfac on and onli on curv must pass thu a perfectli
+definit valu of u belong to everi point on the surfac of the
+marbl slab in like manner we imagin a system of vcurv drawn on
+the surfac these satisfi the same condit as the ucurv thei
+ar provid with number in a correspond manner and thei mai
+likewis be of arbitrari shape it follow that a valu of u and a
+valu of v belong to everi point on the surfac of the tabl we call
+these two number the coordin of the surfac of the tabl
+gaussian coordin for exampl the point p in the diagram ha
+the gaussian coordin u 3 v 1 two neighbour point p
+and p on the surfac then correspond to the coordin
+p u v
+p u du v dv
+where du and dv signifi veri small number in a similar manner we
+mai indic the distanc lineinterv between p and p as
+measur with a littl rod by mean of the veri small number ds
+then accord to gauss we have
+ds2 g11du2 2g12du dv g22dv2
+where g11 g12 g22 ar magnitud which depend in a perfectli
+definit wai on u and v the magnitud g11 g12 and g22
+determin the behaviour of the rod rel to the ucurv and
+vcurv and thu also rel to the surfac of the tabl for the
+case in which the point of the surfac consid form a euclidean
+continuum with refer to the measuringrod but onli in thi case
+it is possibl to draw the ucurv and vcurv and to attach
+number to them in such a manner that we simpli have
+ds2 du2 dv2
+under these condit the ucurv and vcurv ar straight
+line in the sens of euclidean geometri and thei ar perpendicular to
+each other here the gaussian coordin ar simpli cartesian on it
+is clear that gauss coordin ar noth more than an associ
+of two set of number with the point of the surfac consid of
+such a natur that numer valu differ veri slightli from each
+other ar associ with neighbour point in space
+so far these consider hold for a continuum of two dimens
+but the gaussian method can be appli also to a continuum of three
+four or more dimens if for instanc a continuum of four
+dimens be suppos avail we mai repres it in the follow
+wai with everi point of the continuum we associ arbitrarili four
+number x1 x2 x3 x4 which ar known as coordin
+adjac point correspond to adjac valu of the coordin if a
+distanc ds is associ with the adjac point p and p thi
+distanc be measur and well defin from a physic point of
+view then the follow formula hold
+ds2 g11dx12 2g12dx1dx2 g44dx42
+where the magnitud g11 etc have valu which vari with the
+posit in the continuum onli when the continuum is a euclidean on
+is it possibl to associ the coordin x1 x4 with the
+point of the continuum so that we have simpli
+ds2 dx12 dx22 dx32 dx42
+in thi case relat hold in the fourdimension continuum which ar
+analog to those hold in our threedimension measur
+howev the gauss treatment for ds2 which we have given abov is not
+alwai possibl it is onli possibl when suffici small region of
+the continuum under consider mai be regard as euclidean
+continua for exampl thi obvious hold in the case of the marbl
+slab of the tabl and local variat of temperatur the temperatur
+is practic constant for a small part of the slab and thu the
+geometr behaviour of the rod is almost as it ought to be
+accord to the rule of euclidean geometri henc the imperfect
+of the construct of squar in the previou section do not show
+themselv clearli until thi construct is extend over a
+consider portion of the surfac of the tabl
+we can sum thi up as follow gauss invent a method for the
+mathemat treatment of continua in gener in which
+sizerel distanc between neighbour point ar defin
+to everi point of a continuum ar assign as mani number gaussian
+coordin as the continuum ha dimens thi is done in such a
+wai that onli on mean can be attach to the assign and that
+number gaussian coordin which differ by an indefinit small
+amount ar assign to adjac point the gaussian coordin system
+is a logic generalis of the cartesian coordin system it is
+also applic to noneuclidean continua but onli when with respect
+to the defin size or distanc small part of the continuum under
+consider behav more nearli like a euclidean system the smaller
+the part of the continuum under our notic
+xxvi
+the spacetim continuum of the special theori of rel consid
+as a euclidean continuum
+we ar now in a posit to formul more exactli the idea of
+minkowski which wa onli vagu indic in section xvii in
+accord with the special theori of rel certain coordin
+system ar given prefer for the descript of the
+fourdimension spacetim continuum we call these galileian
+coordin system for these system the four coordin x y
+z t which determin an event orin other wordsa point of the
+fourdimension continuum ar defin physic in a simpl manner
+as set forth in detail in the first part of thi book for the
+transit from on galileian system to anoth which is move
+uniformli with refer to the first the equat of the lorentz
+transform ar valid these last form the basi for the deriv
+of deduct from the special theori of rel and in themselv
+thei ar noth more than the express of the univers valid of
+the law of transmiss of light for all galileian system of
+refer
+minkowski found that the lorentz transform satisfi the follow
+simpl condit let us consid two neighbour event the
+rel posit of which in the fourdimension continuum is given
+with respect to a galileian referencebodi k by the space coordin
+differ dx dy dz and the timediffer dt with refer
+to a second galileian system we shall suppos that the correspond
+differ for these two event ar dx dy dz dt then these
+magnitud alwai fulfil the condition21
+21 cf appendix i and ii the relat which ar deriv there
+for the coordin themselv ar valid also for coordin
+differ and thu also for coordin differenti
+indefinit small differ
+dx2 dy2 dz2 c2dt2 dx2 dy2 dz2
+c2dt2
+the valid of the lorentz transform follow from thi condit
+we can express thi as follow the magnitud
+ds2 dx2 dy2 dz2 c2 dt2
+which belong to two adjac point of the fourdimension spacetim
+continuum ha the same valu for all select galileian
+referencebodi if we replac x y z
+image034
+by x1 x2 x3 x4 we also obtain the result that
+ds2 dx12 dx22 dx32 dx42
+is independ of the choic of the bodi of refer we call the
+magnitud ds the distanc apart of the two event or
+fourdimension point
+thu if we choos as timevari the imaginari variabl
+image035
+instead of the real quantiti t we can regard the spacetim
+contintiumaccord with the special theori of relativitya a
+euclidean fourdimension continuum a result which follow from the
+consider of the preced section
+xxvii
+the spacetim continuum of the gener theori of rel is not a
+euclidean continuum
+in the first part of thi book we were abl to make us of spacetim
+coordin which allow of a simpl and direct physic
+interpret and which accord to section xxvi can be regard
+as fourdimension cartesian coordin thi wa possibl on the
+basi of the law of the constanc of the veloc of light but
+accord to section xxi the gener theori of rel cannot retain
+thi law on the contrari we arriv at the result that accord to
+thi latter theori the veloc of light must alwai depend on the
+coordin when a gravit field is present in connect with
+a specif illustr in section xxiii we found that the presenc of
+a gravit field invalid the definit of the coordin and
+the time which led us to our object in the special theori of
+rel
+in view of the resuit of these consider we ar led to the
+convict that accord to the gener principl of rel the
+spacetim continuum cannot be regard as a euclidean on but that
+here we have the gener case correspond to the marbl slab with
+local variat of temperatur and with which we made acquaint as
+an exampl of a twodimension continuum just as it wa there
+imposs to construct a cartesian coordin system from equal rod
+so here it is imposs to build up a system referencebodi from
+rigid bodi and clock which shall be of such a natur that
+measuringrod and clock arrang rigidli with respect to on
+anoth shall indic posit and time directli such wa the
+essenc of the difficulti with which we were confront in section
+xxiii
+but the consider of section xxv and xxvi show us the wai to
+surmount thi difficulti we refer the fourdimension spacetim
+continuum in an arbitrari manner to gauss coordin we assign to
+everi point of the continuum event four number x1 x2 x3
+x4 coordin which have not the least direct physic
+signific but onli serv the purpos of number the point of the
+continuum in a definit but arbitrari manner thi arrang doe not
+even need to be of such a kind that we must regard x1 x2 x3 as
+space coordin and x4 as a time coordin
+the reader mai think that such a descript of the world would be
+quit inadequ what doe it mean to assign to an event the
+particular coordin x1 x2 x3 x4 if in themselv these
+coordin have no signific more care consider show
+howev that thi anxieti is unfound let us consid for instanc
+a materi point with ani kind of motion if thi point had onli a
+momentari exist without durat then it would to describ in
+spacetim by a singl system of valu x1 x2 x3 x4 thu
+it perman exist must be characteris by an infinit larg
+number of such system of valu the coordin valu of which ar
+so close togeth as to give continu correspond to the materi
+point we thu have a unidimension line in the fourdimension
+continuum in the same wai ani such line in our continuum correspond
+to mani point in motion the onli statement have regard to these
+point which can claim a physic exist ar in realiti the
+statement about their encount in our mathemat treatment such
+an encount is express in the fact that the two line which
+repres the motion of the point in question have a particular
+system of coordin valu x1 x2 x3 x4 in common after
+matur consider the reader will doubtless admit that in realiti
+such encount constitut the onli actual evid of a timespac
+natur with which we meet in physic statement
+when we were describ the motion of a materi point rel to a
+bodi of refer we state noth more than the encount of thi
+point with particular point of the referencebodi we can also
+determin the correspond valu of the time by the observ of
+encount of the bodi with clock in conjunct with the observ
+of the encount of the hand of clock with particular point on the
+dial it is just the same in the case of spacemeasur by mean
+of measuringrod as a littl consider will show
+the follow statement hold gener everi physic descript
+resolv itself into a number of statement each of which refer to
+the spacetim coincid of two event a and b in term of
+gaussian coordin everi such statement is express by the
+agreement of their four coordin x1 x2 x3 x4 thu in
+realiti the descript of the timespac continuum by mean of gauss
+coordin complet replac the descript with the aid of a bodi
+of refer without suffer from the defect of the latter mode of
+descript it is not ti down to the euclidean charact of the
+continuum which ha to be repres
+xxviii
+exact formul of the gener principl of rel
+we ar now in a posit to replac the provision formul of the
+gener principl of rel given in section xviii by an exact
+formul the form there us all bodi of refer k k
+etc ar equival for the descript of natur phenomena
+formul of the gener law of natur whatev mai be their
+state of motion cannot be maintain becaus the us of rigid
+referencebodi in the sens of the method follow in the special
+theori of rel is in gener not possibl in spacetim
+descript the gauss coordin system ha to take the place of the
+bodi of refer the follow statement correspond to the
+fundament idea of the gener principl of rel all gaussian
+coordin system ar essenti equival for the formul of
+the gener law of natur
+we can state thi gener principl of rel in still anoth
+form which render it yet more clearli intellig than it is when in
+the form of the natur extens of the special principl of
+rel accord to the special theori of rel the
+equat which express the gener law of natur pass over into
+equat of the same form when by make us of the lorentz
+transform we replac the spacetim variabl x y z t of a
+galileian referencebodi k by the spacetim variabl x y z
+t of a new referencebodi k accord to the gener theori of
+rel on the other hand by applic of arbitrari
+substitut of the gauss variabl x1 x2 x3 x4 the
+equat must pass over into equat of the same form for everi
+transform not onli the lorentz transform correspond to the
+transit of on gauss coordin system into anoth
+if we desir to adher to our oldtim threedimension view of
+thing then we can characteris the develop which is be
+undergon by the fundament idea of the gener theori of rel
+as follow the special theori of rel ha refer to galileian
+domain ie to those in which no gravit field exist in
+thi connect a galileian referencebodi serv as bodi of refer
+ie a rigid bodi the state of motion of which is so chosen that the
+galileian law of the uniform rectilinear motion of isol materi
+point hold rel to it
+certain consider suggest that we should refer the same galileian
+domain to nongalileian referencebodi also a gravit field
+of a special kind is then present with respect to these bodi cf
+section xx and xxiii
+in gravit field there ar no such thing as rigid bodi with
+euclidean properti thu the fictiti rigid bodi of refer is of
+no avail in the gener theori of rel the motion of clock is
+also influenc by gravit field and in such a wai that a
+physic definit of time which is made directli with the aid of
+clock ha by no mean the same degre of plausibl as in the
+special theori of rel
+for thi reason nonrigid referencebodi ar us which ar as a
+whole not onli move in ani wai whatsoev but which also suffer
+alter in form ad lib dure their motion clock for which
+the law of motion is of ani kind howev irregular serv for the
+definit of time we have to imagin each of these clock fix at a
+point on the nonrigid referencebodi these clock satisfi onli the
+on condit that the read which ar observ simultan on
+adjac clock in space differ from each other by an indefinit
+small amount thi nonrigid referencebodi which might appropri
+be term a referencemollusc is in the main equival to a
+gaussian fourdimension coordin system chosen arbitrarili that
+which give the mollusc a certain comprehens as compar with
+the gauss coordin system is the realli unjustifi formal
+retent of the separ exist of the
+space coordin as oppos to the time coordin everi point on
+the mollusc is treat as a spacepoint and everi materi point which
+is at rest rel to it as at rest so long as the mollusc is
+consid as referencebodi the gener principl of rel
+requir that all these mollusc can be us as referencebodi with
+equal right and equal success in the formul of the gener law of
+natur the law themselv must be quit independ of the choic of
+mollusc
+the great power possess by the gener principl of rel li
+in the comprehens limit which is impos on the law of natur
+in consequ of what we have seen abov
+xxix
+the solut of the problem of gravit on the basi of the gener
+principl of rel
+if the reader ha follow all our previou consider he will
+have no further difficulti in understand the method lead to the
+solut of the problem of gravit
+we start off on a consider of a galileian domain ie a domain
+in which there is no gravit field rel to the galileian
+referencebodi k the behaviour of measuringrod and clock with
+refer to k is known from the special theori of rel
+likewis the behaviour of isol materi point the latter move
+uniformli and in straight line
+now let us refer thi domain to a random gauss coordin system or to
+a mollusc as referencebodi k then with respect to k there is
+a gravit field g of a particular kind we learn the
+behaviour of measuringrod and clock and also of freelymov
+materi point with refer to k simpli by mathemat
+transform we interpret thi behaviour as the behaviour of
+measuringrod clock and materi point under the influenc of the
+gravit field g hereupon we introduc a hypothesi that the
+influenc of the gravit field on measuringrod clock and
+freelymov materi point continu to take place accord to the
+same law even in the case where the prevail gravit field is
+not deriv from the galileian special case simpli by mean of a
+transform of coordin
+the next step is to investig the spacetim behaviour of the
+gravit field g which wa deriv from the galileian special
+case simpli by transform of the coordin thi behaviour is
+formul in a law which is alwai valid no matter how the
+referencebodi mollusc us in the descript mai be chosen
+thi law is not yet the gener law of the gravit field sinc
+the gravit field under consider is of a special kind in
+order to find out the gener lawoffield of gravit we still
+requir to obtain a generalis of the law as found abov thi can
+be obtain without capric howev by take into consider the
+follow demand
+a the requir generalis must likewis satisfi the gener
+postul of rel
+b if there is ani matter in the domain under consider onli
+it inerti mass and thu accord to section xv onli it energi is
+of import for it effect in excit a field
+c gravit field and matter togeth must satisfi the law of
+the conserv of energi and of impuls
+final the gener principl of rel permit us to determin
+the influenc of the gravit field on the cours of all those
+process which take place accord to known law when a gravit
+field is absent ie which have alreadi been fit into the frame of
+the special theori of rel in thi connect we proce in
+principl accord to the method which ha alreadi been explain for
+measuringrod clock and freeli move materi point
+the theori of gravit deriv in thi wai from the gener
+postul of rel excel not onli in it beauti nor in remov
+the defect attach to classic mechan which wa brought to light
+in section xxi nor in interpret the empir law of the equal
+of inerti and gravit mass but it ha also alreadi explain a
+result of observ in astronomi against which classic mechan
+is powerless
+if we confin the applic of the theori to the case where the
+gravit field can be regard as be weak and in which all
+mass move with respect to the coordin system with veloc which
+ar small compar with the veloc of light we then obtain as a
+first approxim the newtonian theori thu the latter theori is
+obtain here without ani particular assumpt wherea newton had to
+introduc the hypothesi that the forc of attract between mutual
+attract materi point is invers proport to the squar of
+the distanc between them if we increas the accuraci of the
+calcul deviat from the theori of newton make their
+appear practic all of which must nevertheless escap the test
+of observ ow to their small
+we must draw attent here to on of these deviat accord to
+newton theori a planet move round the sun in an ellips which
+would perman maintain it posit with respect to the fix
+star if we could disregard the motion of the fix star themselv
+and the action of the other planet under consider thu if we
+correct the observ motion of the planet for these two influenc
+and if newton theori be strictli correct we ought to obtain for the
+orbit of the planet an ellips which is fix with refer to the
+fix star thi deduct which can be test with great accuraci
+ha been confirm for all the planet save on with the precis
+that is capabl of be obtain by the delicaci of observ
+attain at the present time the sole except is mercuri the
+planet which li nearest the sun sinc the time of leverri it ha
+been known that the ellips correspond to the orbit of mercuri
+after it ha been correct for the influenc mention abov is not
+stationari with respect to the fix star but that it rotat
+exceedingli slowli in the plane of the orbit and in the sens of the
+orbit motion the valu obtain for thi rotari movement of the
+orbit ellips wa 43 second of arc per centuri an amount ensur to
+be correct to within a few second of arc thi effect can be explain
+by mean of classic mechan onli on the assumpt of hypothes
+which have littl probabl and which were devis sole for thi
+purpons
+on the basi of the gener theori of rel it is found that the
+ellips of everi planet round the sun must necessarili rotat in the
+manner indic abov that for all the planet with the except of
+mercuri thi rotat is too small to be detect with the delicaci of
+observ possibl at the present time but that in the case of
+mercuri it must amount to 43 second of arc per centuri a result which
+is strictli in agreement with observ
+apart from thi on it ha hitherto been possibl to make onli two
+deduct from the theori which admit of be test by observ
+to wit the curvatur of light rai by the gravit field of the
+sun22 and a displac of the spectral line of light reach us
+from larg star as compar with the correspond line for light
+produc in an analog manner terrestri ie by the same kind
+of atom23 these two deduct from the theori have both been
+confirm
+22 first observ by eddington and other in 1919 cf appendix
+iii
+23 establish by adam in 1924 cf p 132
+part iii consider on the univers as a whole
+xxx
+cosmolog difficulti of newton theori
+part from the difficulti discuss in section xxi there is a second
+fundament difficulti attend classic celesti mechan which
+to the best of my knowledg wa first discuss in detail by the
+astronom seelig if we ponder over the question as to how the
+univers consid as a whole is to be regard the first answer
+that suggest itself to us is sure thi as regard space and time
+the univers is infinit there ar star everywher so that the
+densiti of matter although veri variabl in detail is nevertheless on
+the averag everywher the same in other word howev far we might
+travel through space we should find everywher an attenu swarm of
+fix star of approrim the same kind and densiti
+thi view is not in harmoni with the theori of newton the latter
+theori rather requir that the univers should have a kind of centr
+in which the densiti of the star is a maximum and that as we proce
+outward from thi centr the groupdens of the star should
+diminish until final at great distanc it is succeed by an
+infinit region of empti the stellar univers ought to be a finit
+island in the infinit ocean of space24
+24 proofaccord to the theori of newton the number of line
+of forc which come from infin and termin in a mass m is
+proport to the mass m if on the averag the mass densiti 0
+is constant throughout the univers then a sphere of volum v will
+enclos the averag mass 0v thu the number of line of forc
+pass through the surfac f of the sphere into it interior is
+proport to 0v for unit area of the surfac of the sphere the
+number of line of forc which enter the sphere is thu proport
+to 0vf or to 0r henc the intens of the field at the
+surfac would ultim becom infinit with increas radiu r of
+the sphere which is imposs
+thi concept is in itself not veri satisfactori it is still less
+satisfactori becaus it lead to the result that the light emit by
+the star and also individu star of the stellar system ar
+perpetu pass out into infinit space never to return and
+without ever again come into interact with other object of
+natur such a finit materi univers would be destin to becom
+gradual but systemat impoverish
+in order to escap thi dilemma seelig suggest a modif of
+newton law in which he assum that for great distanc the forc of
+attract between two mass diminish more rapidli than would result
+from the invers squar law in thi wai it is possibl for the mean
+densiti of matter to be constant everywher even to infin without
+infinit larg gravit field be produc we thu free
+ourselv from the distast concept that the materi univers
+ought to possess someth of the natur of a centr of cours we
+purchas our emancip from the fundament difficulti mention
+at the cost of a modif and complic of newton law which
+ha neither empir nor theoret foundat we can imagin
+innumer law which would serv the same purpos without our be
+abl to state a reason why on of them is to be prefer to the
+other for ani on of these law would be found just as littl on
+more gener theoret principl as is the law of newton
+xxxi
+the possibl of a finit and yet unbound univers
+but specul on the structur of the univers also move in quit
+anoth direct the develop of noneuclidean geometri led to the
+recognit of the fact that we can cast doubt on the infinit
+of our space without come into conflict with the law of thought or
+with experi riemann helmholtz these question have alreadi been
+treat in detail and with unsurpass lucid by helmholtz and
+poincar wherea i can onli touch on them briefli here
+in the first place we imagin an exist in two dimension space
+flat be with flat implement and in particular flat rigid
+measuringrod ar free to move in a plane for them noth exist
+outsid of thi plane that which thei observ to happen to themselv
+and to their flat thing is the allinclus realiti of their plane
+in particular the construct of plane euclidean geometri can be
+carri out by mean of the rod eg the lattic construct
+consid in section xxiv in contrast to our the univers of these
+be is twodimension but like our it extend to infin in
+their univers there is room for an infinit number of ident
+squar made up of rod ie it volum surfac is infinit if
+these be sai their univers is plane there is sens in the
+statement becaus thei mean that thei can perform the construct of
+plane euclidean geometri with their rod in thi connect the
+individu rod alwai repres the same distanc independ of
+their posit
+let us consid now a second twodimension exist but thi time
+on a spheric surfac instead of on a plane the flat be with
+their measuringrod and other object fit exactli on thi surfac and
+thei ar unabl to leav it their whole univers of observ
+extend exclus over the surfac of the sphere ar these be
+abl to regard the geometri of their univers as be plane geometri
+and their rod withal as the realis of distanc thei cannot do
+thi for if thei attempt to realis a straight line thei will obtain
+a curv which we threedimension be design as a great
+circl ie a selfcontain line of definit finit length which
+can be measur up by mean of a measuringrod similarli thi
+univers ha a finit area that can be compar with the area of a
+squar construct with rod the great charm result from thi
+consider li in the recognit of the fact that the univers of
+these be is finit and yet ha no limit
+but the sphericalsurfac be do not need to go on a worldtour in
+order to perceiv that thei ar not live in a euclidean univers
+thei can convinc themselv of thi on everi part of their world
+provid thei do not us too small a piec of it start from a
+point thei draw straight line arc of circl as judg in three
+dimension space of equal length in all direct thei will call
+the line join the free end of these line a circl for a plane
+surfac the ratio of the circumfer of a circl to it diamet
+both length be measur with the same rod is accord to
+euclidean geometri of the plane equal to a constant valu which is
+independ of the diamet of the circl on their spheric surfac
+our flat be would find for thi ratio the valu
+image036
+ie a smaller valu than the differ be the more
+consider the greater is the radiu of the circl in comparison
+with the radiu r of the worldspher by mean of thi relat
+the spheric be can determin the radiu of their univers
+world even when onli a rel small part of their worldspher
+is avail for their measur but if thi part is veri small
+inde thei will no longer be abl to demonstr that thei ar on a
+spheric world and not on a euclidean plane for a small part of a
+spheric surfac differ onli slightli from a piec of a plane of the
+same size
+thu if the spheric surfac be ar live on a planet of which
+the solar system occupi onli a neglig small part of the spheric
+univers thei have no mean of determin whether thei ar live in
+a finit or in an infinit univers becaus the piec of univers to
+which thei have access is in both case practic plane or
+euclidean it follow directli from thi discuss that for our
+sphereb the circumfer of a circl first increas with the
+radiu until the circumfer of the univers is reach and that
+it thenceforward gradual decreas to zero for still further
+increas valu of the radiu dure thi process the area of the
+circl continu to increas more and more until final it becom
+equal to the total area of the whole worldspher
+perhap the reader will wonder why we have place our be on a
+sphere rather than on anoth close surfac but thi choic ha it
+justif in the fact that of all close surfac the sphere is
+uniqu in possess the properti that all point on it ar equival
+i admit that the ratio of the circumfer c of a circl to it
+radiu r depend on r but for a given valu of r it is the same
+for all point of the worldspher in other word the worldspher
+is a surfac of constant curvatur
+to thi twodimension sphereunivers there is a threedimension
+analog name the threedimension spheric space which wa
+discov by riemann it point ar likewis all equival it
+possess a finit volum which is determin by it radiu
+22r3 is it possibl to imagin a spheric space to imagin a
+space mean noth els than that we imagin an epitom of our space
+experi ie of experi that we can have in the movement of
+rigid bodi in thi sens we can imagin a spheric space
+suppos we draw line or stretch string in all direct from a
+point and mark off from each of these the distanc r with a
+measuringrod all the free endpoint of these length lie on a
+spheric surfac we can special measur up the area f of thi
+surfac by mean of a squar made up of measuringrod if the univers
+is euclidean then f 4r2 if it is spheric then f is alwai
+less than 4r2 with increas valu of r f increas from zero
+up to a maximum valu which is determin by the worldradiu but
+for still further increas valu of r the area gradual
+diminish to zero at first the straight line which radiat from the
+start point diverg farther and farther from on anoth but later
+thei approach each other and final thei run togeth again at a
+counterpoint to the start point under such condit thei have
+travers the whole spheric space it is easili seen that the
+threedimension spheric space is quit analog to the
+twodimension spheric surfac it is finit ie of finit
+volum and ha no bound
+it mai be mention that there is yet anoth kind of curv space
+ellipt space it can be regard as a curv space in which the
+two counterpoint ar ident indistinguish from each other
+an ellipt univers can thu be consid to some extent as a
+curv univers possess central symmetri
+it follow from what ha been said that close space without limit
+ar conceiv from amongst these the spheric space and the
+ellipt excel in it simplic sinc all point on it ar
+equival as a result of thi discuss a most interest question
+aris for astronom and physicist and that is whether the univers
+in which we live is infinit or whether it is finit in the manner of
+the spheric univers our experi is far from be suffici to
+enabl us to answer thi question but the gener theori of rel
+permit of our answer it with a moder degre of certainti and in
+thi connect the difficulti mention in section xxx find it
+solut
+xxxii
+the structur of space accord to the gener theori of rel
+accord to the gener theori of rel the geometr
+properti of space ar not independ but thei ar determin by
+matter thu we can draw conclus about the geometr structur of
+the univers onli if we base our consider on the state of the
+matter as be someth that is known we know from experi that
+for a suitabl chosen coordin system the veloc of the star
+ar small as compar with the veloc of transmiss of light we
+can thu as a rough approxim arriv at a conclus as to the
+natur of the univers as a whole if we treat the matter as be at
+rest
+we alreadi know from our previou discuss that the behaviour of
+measuringrod and clock is influenc by gravit field ie
+by the distribut of matter thi in itself is suffici to exclud
+the possibl of the exact valid of euclidean geometri in our
+univers but it is conceiv that our univers differ onli slightli
+from a euclidean on and thi notion seem all the more probabl
+sinc calcul show that the metric of surround space is
+influenc onli to an exceedingli small extent by mass even of the
+magnitud of our sun we might imagin that as regard geometri our
+univers behav analog to a surfac which is irregularli curv
+in it individu part but which nowher depart appreci from a
+plane someth like the rippl surfac of a lake such a univers
+might fittingli be call a quasieuclidean univers as regard it
+space it would be infinit but calcul show that in a
+quasieuclidean univers the averag densiti of matter would
+necessarili be nil thu such a univers could not be inhabit by
+matter everywher it would present to us that unsatisfactori pictur
+which we portrai in section xxx
+if we ar to have in the univers an averag densiti of matter which
+differ from zero howev small mai be that differ then the
+univers cannot be quasieuclidean on the contrari the result of
+calcul indic that if matter be distribut uniformli the
+univers would necessarili be spheric or ellipt sinc in
+realiti the detail distribut of matter is not uniform the real
+univers will deviat in individu part from the spheric ie
+the univers will be quasispher but it will be necessarili
+finit in fact the theori suppli us with a simpl connection25
+between the spaceexpans of the univers and the averag densiti of
+matter in it
+25 for the radiu r of the univers we obtain the equat
+image037
+the us of the cg system in thi equat give 2k 108 x 1027
+is the averag densiti of the matter and k is a constant connect
+with the newtonian constant of gravit
+appendic
+appendix i
+simpl deriv of the lorentz transform
+supplementari to section xi
+for the rel orient of the coordin system indic in
+fig 2 the xax of both system perman coincid in the
+present case we can divid the problem into part by consid first
+onli event which ar localis on the xaxi ani such event is
+repres with respect to the coordin system k by the abscissa
+x and the time t and with respect to the system k by the
+abscissa x and the time t we requir to find x and t when
+x and t ar given
+a lightsign which is proceed along the posit axi of x is
+transmit accord to the equat
+x ct
+or
+x ct 0 1
+sinc the same lightsign ha to be transmit rel to k with
+the veloc c the propag rel to the system k will be
+repres by the analog formula
+x ct 0 2
+those spacetim point event which satisfi 1 must also satisfi
+2 obvious thi will be the case when the relat
+x ct x ct 3
+is fulfil in gener where indic a constant for accord
+to 3 the disappear of x ct involv the disappear of
+x ct
+if we appli quit similar consider to light rai which ar be
+transmit along the neg xaxi we obtain the condit
+x ct x ct 4
+by ad or subtract equat 3 and 4 and introduc for
+conveni the constant a and b in place of the constant and
+where
+image038
+and
+image039
+we obtain the equat
+image040
+we should thu have the solut of our problem if the constant a
+and b were known these result from the follow discuss
+for the origin of k we have perman x 0 and henc
+accord to the first of the equat 5
+image041
+if we call v the veloc with which the origin of k is move
+rel to k we then have
+image042
+the same valu v can be obtain from equat 5 if we calcul
+the veloc of anoth point of k rel to k or the veloc
+direct toward the neg xaxi of a point of k with respect
+to k in short we can design v as the rel veloc of the
+two system
+furthermor the principl of rel teach us that as judg
+from k the length of a unit measuringrod which is at rest with
+refer to k must be exactli the same as the length as judg
+from k of a unit measuringrod which is at rest rel to k in
+order to see how the point of the xaxi appear as view from k
+we onli requir to take a snapshot of k from k thi mean that
+we have to insert a particular valu of t time of k eg t
+0 for thi valu of t we then obtain from the first of the equat
+5
+x ax
+two point of the xaxi which ar separ by the distanc x
+1 when measur in the k system ar thu separ in our
+instantan photograph by the distanc
+image043
+but if the snapshot be taken from kt 0 and if we elimin
+t from the equat 5 take into account the express 6 we
+obtain
+image044
+from thi we conclud that two point on the xaxi separ by the
+distanc 1 rel to k will be repres on our snapshot by the
+distanc
+image045
+but from what ha been said the two snapshot must be ident henc
+x in 7 must be equal to x in 7a so that we obtain
+image046
+the equat 6 and 7b determin the constant a and b by
+insert the valu of these constant in 5 we obtain the first and
+the fourth of the equat given in section xi
+image047
+thu we have obtain the lorentz transform for event on the
+xaxi it satisfi the condit
+x2 c2t2 x2 c2t2 8a
+the extens of thi result to includ event which take place
+outsid the xaxi is obtain by retain equat 8 and
+supplement them by the relat
+image048
+in thi wai we satisfi the postul of the constanc of the veloc
+of light in vacuo for rai of light of arbitrari direct both for
+the system k and for the system k thi mai be shown in the
+follow manner
+we suppos a lightsign sent out from the origin of k at the time
+t 0 it will be propag accord to the equat
+image049
+or if we squar thi equat accord to the equat
+x2 y2 z2 c2t2 0 10
+it is requir by the law of propag of light in conjunct with
+the postul of rel that the transmiss of the signal in
+question should take placea judg from kin accord with the
+correspond formula
+r ct
+or
+x2 y2 z2 c2t2 0 10a
+in order that equat 10a mai be a consequ of equat 10
+we must have
+x2 y2 z2 c2t2 x2 y2 z2 c2t2
+11
+sinc equat 8a must hold for point on the xaxi we thu
+have 1 it is easili seen that the lorentz transform realli
+satisfi equat 11 for 1 for 11 is a consequ of 8a
+and 9 and henc also of 8 and 9 we have thu deriv the
+lorentz transform
+the lorentz transform repres by 8 and 9 still requir to
+be generalis obvious it is immateri whether the ax of k be
+chosen so that thei ar spatial parallel to those of k it is also
+not essenti that the veloc of translat of k with respect to
+k should be in the direct of the xaxi a simpl consider
+show that we ar abl to construct the lorentz transform in thi
+gener sens from two kind of transform viz from lorentz
+transform in the special sens and from pure spatial
+transform which correspond to the replac of the
+rectangular coordin system by a new system with it ax point
+in other direct
+mathemat we can characteris the generalis lorentz
+transform thu
+it express x y x t in term of linear homogen function
+of x y x t of such a kind that the relat
+x2 y2 z2 c2t2 x2 y2 z2 c2t2
+11a
+is satisficd ident that is to sai if we substitut their
+express in x y x t in place of x y x t on the
+lefthand side then the lefthand side of 11a agre with the
+righthand side
+appendix ii
+minkowski fourdimension space world
+supplementari to section xvii
+we can characteris the lorentz transform still more simpli if we
+introduc the imaginari
+image031
+in place of t as timevari if in accord with thi we
+insert
+image050
+and similarli for the accent system k then the condit which is
+ident satisfi by the transform can be express thu
+x12 x22 x32 x42 x12 x22 x32 x42 12
+that is by the aforement choic of coordin 11a see
+the end of appendix ii is transform into thi equat
+we see from 12 that the imaginari time coordin x4 enter into
+the condit of transform in exactli the same wai as the space
+coordin x1 x2 x3 it is due to thi fact that accord
+to the theori of rel the time x4 enter into natur law
+in the same form as the space co ordin x1 x2 x3
+a fourdimension continuum describ by the coordin x1
+x2 x3 x4 wa call world by minkowski who also term a
+pointev a worldpoint from a happen in threedimension
+space physic becom as it were an exist in the
+fourdimension world
+thi fourdimension world bear a close similar to the
+threedimension space of euclidean analyt geometri if we
+introduc into the latter a new cartesian coordin system x1
+x2 x3 with the same origin then x1 x2 x3 ar
+linear homogen function of x1 x2 x3 which ident
+satisfi the equat
+x12 x22 x32 x12 x22 x32
+the analog with 12 is a complet on we can regard minkowski
+world in a formal manner as a fourdimension euclidean space with
+an imaginari time coordin the lorentz transform correspond
+to a rotat of the coordin system in the fourdimension
+world
+appendix iii
+the experiment confirm of the gener theori of rel
+from a systemat theoret point of view we mai imagin the process
+of evolut of an empir scienc to be a continu process of
+induct theori ar evolv and ar express in short compass as
+statement of a larg number of individu observ in the form of
+empir law from which the gener law can be ascertain by
+comparison regard in thi wai the develop of a scienc bear
+some resembl to the compil of a classifi catalogu it is
+as it were a pure empir enterpris
+but thi point of view by no mean embrac the whole of the actual
+process for it slur over the import part plai by intuit and
+deduct thought in the develop of an exact scienc as soon as a
+scienc ha emerg from it initi stage theoret advanc ar
+no longer achiev mere by a process of arrang guid by
+empir data the investig rather develop a system of thought
+which in gener is built up logic from a small number of
+fundament assumpt the socal axiom we call such a system of
+thought a theori the theori find the justif for it
+exist in the fact that it correl a larg number of singl
+observ and it is just here that the truth of the theori li
+correspond to the same complex of empir data there mai be
+sever theori which differ from on anoth to a consider
+extent but as regard the deduct from the theori which ar
+capabl of be test the agreement between the theori mai be so
+complet that it becom difficult to find ani deduct in which the
+two theori differ from each other as an exampl a case of gener
+interest is avail in the provinc of biologi in the darwinian
+theori of the develop of speci by select in the struggl for
+exist and in the theori of develop which is base on the
+hypothesi of the hereditari transmiss of acquir charact
+we have anoth instanc of farreach agreement between the
+deduct from two theori in newtonian mechan on the on hand
+and the gener theori of rel on the other thi agreement goe
+so far that up to the present we have been abl to find onli a few
+deduct from the gener theori of rel which ar capabl of
+investig and to which the physic of prerel dai doe not
+also lead and thi despit the profound differ in the fundament
+assumpt of the two theori in what follow we shall again
+consid these import deduct and we shall also discuss the
+empir evid appertain to them which ha hitherto been
+obtain
+a motion of the perihelion of mercuri
+accord to newtonian mechan and newton law of gravit a
+planet which is revolv round the sun would describ an ellips round
+the latter or more correctli round the common centr of graviti of
+the sun and the planet in such a system the sun or the common centr
+of graviti li in on of the foci of the orbit ellips in such a
+manner that in the cours of a planetyear the distanc sunplanet
+grow from a minimum to a maximum and then decreas again to a
+minimum if instead of newton law we insert a somewhat differ law
+of attract into the calcul we find that accord to thi new
+law the motion would still take place in such a manner that the
+distanc sunplanet exhibit period variat but in thi case the
+angl describ by the line join sun and planet dure such a period
+from perihelionclosest proxim to the sunto perihelion would
+differ from 360 the line of the orbit would not then be a close on
+but in the cours of time it would fill up an annular part of the
+orbit plane viz between the circl of least and the circl of
+greatest distanc of the planet from the sun
+accord also to the gener theori of rel which differ of
+cours from the theori of newton a small variat from the
+newtonkepl motion of a planet in it orbit should take place and in
+such awai that the angl describ by the radiu sunplanet between
+on perhelion and the next should exce that correspond to on
+complet revolut by an amount given by
+image051
+nbone complet revolut correspond to the angl 2 in the
+absolut angular measur customari in physic and the abov express
+given the amount by which the radiu sunplanet exce thi angl
+dure the interv between on perihelion and the next in thi
+express a repres the major semiaxi of the ellips e it
+eccentr c the veloc of light and t the period of
+revolut of the planet our result mai also be state as follow
+accord to the gener theori of rel the major axi of the
+ellips rotat round the sun in the same sens as the orbit motion
+of the planet theori requir that thi rotat should amount to 43
+second of arc per centuri for the planet mercuri but for the other
+planet of our solar system it magnitud should be so small that it
+would necessarili escap detection26
+26 especi sinc the next planet venu ha an orbit that is
+almost an exact circl which make it more difficult to locat the
+perihelion with precis
+in point of fact astronom have found that the theori of newton doe
+not suffic to calcul the observ motion of mercuri with an
+exact correspond to that of the delicaci of observ
+attain at the present time after take account of all the
+disturb influenc exert on mercuri by the remain planet it
+wa found leverri 1859 and newcomb 1895 that an unexplain
+periheli movement of the orbit of mercuri remain over the amount
+of which doe not differ sensibl from the abov mention 43 second
+of arc per centuri the uncertainti of the empir result amount to
+a few second onli
+b deflect of light by a gravit field
+image052
+in section xxii it ha been alreadi mention that accord to the
+gener theori of rel a rai of light will experi a
+curvatur of it path when pass through a gravit field thi
+curvatur be similar to that experienc by the path of a bodi which
+is project through a gravit field as a result of thi theori
+we should expect that a rai of light which is pass close to a
+heavenli bodi would be deviat toward the latter for a rai of light
+which pass the sun at a distanc of sunradii from it centr the
+angl of deflect should amount to
+image053
+it mai be ad that accord to the theori half of thi deflect
+is produc by the newtonian field of attract of the sun and the
+other half by the geometr modif curvatur of space
+caus by the sun
+thi result admit of an experiment test by mean of the photograph
+registr of star dure a total eclips of the sun the onli
+reason why we must wait for a total eclips is becaus at everi other
+time the atmospher is so strongli illumin by the light from the
+sun that the star situat near the sun disc ar invis the
+predict effect can be seen clearli from the accompani diagram if
+the sun s were not present a star which is practic infinit
+distant would be seen in the direct d1 as observ front the
+earth but as a consequ of the deflect of light from the star by
+the sun the star will be seen in the direct d2 ie at a
+somewhat greater distanc from the centr of the sun than correspond
+to it real posit
+in practic the question is test in the follow wai the star in
+the neighbourhood of the sun ar photograph dure a solar eclips
+in addit a second photograph of the same star is taken when the
+sun is situat at anoth posit in the sky ie a few month
+earlier or later as compar with the standard photograph the
+posit of the star on the eclipsephotograph ought to appear
+displac radial outward awai from the centr of the sun by an
+amount correspond to the angl a
+we ar indebt to the british royal societi and to the royal
+astronom societi for the investig of thi import deduct
+undaunt by the first world war and by difficulti of both a
+materi and a psycholog natur arous by the war these societi
+equip two expeditionsto sobral brazil and to the island of
+princip west africaand sent sever of britain most celebr
+astronom eddington cottingham crommelin davidson in order to
+obtain photograph of the solar eclips of 29th mai 1919 the rel
+discrep to be expect between the stellar photograph obtain
+dure the eclips and the comparison photograph amount to a few
+hundredth of a millimetr onli thu great accuraci wa necessari in
+make the adjust requir for the take of the photograph and
+in their subsequ measur
+the result of the measur confirm the theori in a thoroughli
+satisfactori manner the rectangular compon of the observ and of
+the calcul deviat of the star in second of arc ar set
+forth in the follow tabl of result
+image054
+c displac of spectral line toward the red
+in section xxiii it ha been shown that in a system k which is in
+rotat with regard to a galileian system k clock of ident
+construct and which ar consid at rest with respect to the
+rotat referencebodi go at rate which ar depend on the
+posit of the clock we shall now examin thi depend
+quantit a clock which is situat at a distanc r from the
+centr of the disc ha a veloc rel to k which is given by
+v r
+where repres the angular veloc of rotat of the disc k
+with respect to k if v0 repres the number of tick of the
+clock per unit time rate of the clock rel to k when the
+clock is at rest then the rate of the clock v when it is move
+rel to k with a veloc v but at rest with respect to the
+disc will in accord with section xii be given by
+image055
+or with suffici accuraci by
+image056
+thi express mai also be state in the follow form
+image057
+if we repres the differ of potenti of the centrifug forc
+between the posit of the clock and the centr of the disc by
+ie the work consid neg which must be perform on the
+unit of mass against the centrifug forc in order to transport it
+from the posit of the clock on the rotat disc to the centr of
+the disc then we have
+image058
+from thi it follow that
+image059
+in the first place we see from thi express that two clock of
+ident construct will go at differ rate when situat at
+differ distanc from the centr of the disc thi result is also
+valid from the standpoint of an observ who is rotat with the disc
+now as judg from the disc the latter is in a gravit field of
+potenti henc the result we have obtain will hold quit
+gener for gravit field furthermor we can regard an atom
+which is emit spectral line as a clock so that the follow
+statement will hold
+an atom absorb or emit light of a frequenc which is depend on
+the potenti of the gravit field in which it is situat
+the frequenc of an atom situat on the surfac of a heavenli bodi
+will be somewhat less than the frequenc of an atom of the same element
+which is situat in free space or on the surfac of a smaller
+celesti bodi
+now k mr where k is newton constant of gravit and
+m is the mass of the heavenli bodi thu a displac toward the
+red ought to take place for spectral line produc at the surfac of
+star as compar with the spectral line of the same element produc
+at the surfac of the earth the amount of thi displac be
+image060
+for the sun the displac toward the red predict by theori
+amount to about two millionth of the wavelength a trustworthi
+calcul is not possibl in the case of the star becaus in
+gener neither the mass m nor the radiu r ar known
+it is an open question whether or not thi effect exist and at the
+present time 1920 astronom ar work with great zeal toward the
+solut ow to the small of the effect in the case of the sun
+it is difficult to form an opinion as to it exist wherea grebe
+and bachem bonn as a result of their own measur and those of
+eversh and schwarzschild on the cyanogen band have place the
+exist of the effect almost beyond doubt while other investig
+particularli st john have been led to the opposit opinion in
+consequ of their measur
+mean displac of line toward the less refrang end of the
+spectrum ar certainli reveal by statist investig of the
+fix star but up to the present the examin of the avail
+data doe not allow of ani definit decis be arriv at as to
+whether or not these displac ar to be refer in realiti to the
+effect of gravit the result of observ have been collect
+togeth and discuss in detail from the standpoint of the question
+which ha been engag our attent here in a paper by e freundlich
+entitl zur prfung der allgemeinen relativittstheori die
+naturwissenschaften 1919 no 35 p 520 juliu springer berlin
+at all event a definit decis will be reach dure the next few
+year if the displac of spectral line toward the red by the
+gravit potenti doe not exist then the gener theori of
+rel will be unten on the other hand if the caus of the
+displac of spectral line be definit trace to the
+gravit potenti then the studi of thi displac will
+furnish us with import inform as to the mass of the heavenli
+bodies27
+27 the displac of spectral line toward the red end of the
+spectrum wa definit establish by adam in 1924 by observ
+on the dens companion of siriu for which the effect is about thirti
+time greater than for the sun rwltranslat
+appendix iv
+the structur of space accord to the gener theori of rel
+supplementari to section xxxii
+sinc the public of the first edit of thi littl book our
+knowledg about the structur of space in the larg cosmolog
+problem ha had an import develop which ought to be mention
+even in a popular present of the subject
+my origin consider on the subject were base on two hypothes
+1 there exist an averag densiti of matter in the whole of space
+which is everywher the same and differ from zero
+2 the magnitud radiu of space is independ of time
+both these hypothes prove to be consist accord to the gener
+theori of rel but onli after a hypothet term wa ad to
+the field equat a term which wa not requir by the theori as
+such nor did it seem natur from a theoret point of view
+cosmolog term of the field equat
+hypothesi 2 appear unavoid to me at the time sinc i thought
+that on would get into bottomless specul if on depart from
+it
+howev alreadi in the twenti the russian mathematician friedman
+show that a differ hypothesi wa natur from a pure
+theoret point of view he realiz that it wa possibl to preserv
+hypothesi 1 without introduc the less natur cosmolog term
+into the field equat of gravit if on wa readi to drop
+hypothesi 2 name the origin field equat admit a solut
+in which the world radiu depend on time expand space in that
+sens on can sai accord to friedman that the theori demand an
+expans of space
+a few year later hubbl show by a special investig of the
+extragalact nebula milki wai that the spectral line emit
+show a red shift which increas regularli with the distanc of the
+nebula thi can be interpret in regard to our present knowledg
+onli in the sens of doppler principl as an expans motion of the
+system of star in the largea requir accord to friedman by the
+field equat of gravit hubbl discoveri can therefor be
+consid to some extent as a confirm of the theori
+there doe aris howev a strang difficulti the interpret of
+the galact lineshift discov by hubbl as an expans which can
+hardli be doubt from a theoret point of view lead to an origin
+of thi expans which li onli about 109 year ago while physic
+astronomi make it appear like that the develop of individu
+star and system of star take consider longer it is in no wai
+known how thi incongru is to be overcom
+i further want to remark that the theori of expand space togeth
+with the empir data of astronomi permit no decis to be reach
+about the finit or infinit charact of threedimension space
+while the origin static hypothesi of space yield the closur
+finit of space
+k coordin system
+x y twodimension coordin
+x y z threedimension coordin
+x y z t fourdimension coordin
+t time
+i distanc
+v veloc
+f forc
+g gravit field
+end of the project gutenberg ebook rel the special and gener theori
+updat edit will replac the previou oneth old edit will
+be renam
+creat the work from print edit not protect by us copyright
+law mean that no on own a unit state copyright in these work
+so the foundat and you can copi and distribut it in the unit
+state without permiss and without pai copyright
+royalti special rule set forth in the gener term of us part
+of thi licens appli to copi and distribut project
+gutenberg electron work to protect the project gutenberg
+concept and trademark project gutenberg is a regist trademark
+and mai not be us if you charg for an ebook except by follow
+the term of the trademark licens includ pai royalti for us
+of the project gutenberg trademark if you do not charg anyth for
+copi of thi ebook compli with the trademark licens is veri
+easi you mai us thi ebook for nearli ani purpos such as creation
+of deriv work report perform and research project
+gutenberg ebook mai be modifi and print and given awayy mai
+do practic anyth in the unit state with ebook not protect
+by us copyright law redistribut is subject to the trademark
+licens especi commerci redistribut
+start full licens
+the full project gutenberg licens
+pleas read thi befor you distribut or us thi work
+to protect the project gutenberg mission of promot the free
+distribut of electron work by us or distribut thi work
+or ani other work associ in ani wai with the phrase project
+gutenberg you agre to compli with all the term of the full
+project gutenberg licens avail with thi file or onlin at
+wwwgutenbergorglicens
+section 1 gener term of us and redistribut project gutenberg
+electron work
+1a by read or us ani part of thi project gutenberg
+electron work you indic that you have read understand agre to
+and accept all the term of thi licens and intellectu properti
+trademarkcopyright agreement if you do not agre to abid by all
+the term of thi agreement you must ceas us and return or
+destroi all copi of project gutenberg electron work in your
+possess if you paid a fee for obtain a copi of or access to a
+project gutenberg electron work and you do not agre to be bound
+by the term of thi agreement you mai obtain a refund from the person
+or entiti to whom you paid the fee as set forth in paragraph 1e8
+1b project gutenberg is a regist trademark it mai onli be
+us on or associ in ani wai with an electron work by peopl who
+agre to be bound by the term of thi agreement there ar a few
+thing that you can do with most project gutenberg electron work
+even without compli with the full term of thi agreement see
+paragraph 1c below there ar a lot of thing you can do with project
+gutenberg electron work if you follow the term of thi
+agreement and help preserv free futur access to project gutenberg
+electron work see paragraph 1e below
+1c the project gutenberg literari archiv foundat the
+foundat or pglaf own a compil copyright in the collect
+of project gutenberg electron work nearli all the individu
+work in the collect ar in the public domain in the unit
+state if an individu work is unprotect by copyright law in the
+unit state and you ar locat in the unit state we do not
+claim a right to prevent you from copi distribut perform
+displai or creat deriv work base on the work as long as
+all refer to project gutenberg ar remov of cours we hope
+that you will support the project gutenberg mission of promot
+free access to electron work by freeli share project gutenberg
+work in complianc with the term of thi agreement for keep the
+project gutenberg name associ with the work you can easili
+compli with the term of thi agreement by keep thi work in the
+same format with it attach full project gutenberg licens when
+you share it without charg with other
+1d the copyright law of the place where you ar locat also govern
+what you can do with thi work copyright law in most countri ar
+in a constant state of chang if you ar outsid the unit state
+check the law of your countri in addit to the term of thi
+agreement befor download copi displai perform
+distribut or creat deriv work base on thi work or ani
+other project gutenberg work the foundat make no
+represent concern the copyright statu of ani work in ani
+countri other than the unit state
+1e unless you have remov all refer to project gutenberg
+1e1 the follow sentenc with activ link to or other
+immedi access to the full project gutenberg licens must appear
+promin whenev ani copi of a project gutenberg work ani work
+on which the phrase project gutenberg appear or with which the
+phrase project gutenberg is associ is access displai
+perform view copi or distribut
+thi ebook is for the us of anyon anywher in the unit state and most
+other part of the world at no cost and with almost no restrict
+whatsoev you mai copi it give it awai or reus it under the term
+of the project gutenberg licens includ with thi ebook or onlin
+at wwwgutenbergorg if you
+ar not locat in the unit state you will have to check the law
+of the countri where you ar locat befor us thi ebook
+1e2 if an individu project gutenberg electron work is
+deriv from text not protect by us copyright law doe not
+contain a notic indic that it is post with permiss of the
+copyright holder the work can be copi and distribut to anyon in
+the unit state without pai ani fee or charg if you ar
+redistribut or provid access to a work with the phrase project
+gutenberg associ with or appear on the work you must compli
+either with the requir of paragraph 1e1 through 1e7 or
+obtain permiss for the us of the work and the project gutenberg
+trademark as set forth in paragraph 1e8 or 1e9
+1e3 if an individu project gutenberg electron work is post
+with the permiss of the copyright holder your us and distribut
+must compli with both paragraph 1e1 through 1e7 and ani
+addit term impos by the copyright holder addit term
+will be link to the project gutenberg licens for all work
+post with the permiss of the copyright holder found at the
+begin of thi work
+1e4 do not unlink or detach or remov the full project gutenberg
+licens term from thi work or ani file contain a part of thi
+work or ani other work associ with project gutenberg
+1e5 do not copi displai perform distribut or redistribut thi
+electron work or ani part of thi electron work without
+promin displai the sentenc set forth in paragraph 1e1 with
+activ link or immedi access to the full term of the project
+gutenberg licens
+1e6 you mai convert to and distribut thi work in ani binari
+compress mark up nonproprietari or proprietari form includ
+ani word process or hypertext form howev if you provid access
+to or distribut copi of a project gutenberg work in a format
+other than plain vanilla ascii or other format us in the offici
+version post on the offici project gutenberg websit
+wwwgutenbergorg you must at no addit cost fee or expens
+to the user provid a copi a mean of export a copi or a mean
+of obtain a copi upon request of the work in it origin plain
+vanilla ascii or other form ani altern format must includ the
+full project gutenberg licens as specifi in paragraph 1e1
+1e7 do not charg a fee for access to view displai
+perform copi or distribut ani project gutenberg work
+unless you compli with paragraph 1e8 or 1e9
+1e8 you mai charg a reason fee for copi of or provid
+access to or distribut project gutenberg electron work
+provid that
+you pai a royalti fee of 20 of the gross profit you deriv from
+the us of project gutenberg work calcul us the method
+you alreadi us to calcul your applic tax the fee is ow
+to the owner of the project gutenberg trademark but he ha
+agre to donat royalti under thi paragraph to the project
+gutenberg literari archiv foundat royalti payment must be paid
+within 60 dai follow each date on which you prepar or ar
+legal requir to prepar your period tax return royalti
+payment should be clearli mark as such and sent to the project
+gutenberg literari archiv foundat at the address specifi in
+section 4 inform about donat to the project gutenberg
+literari archiv foundat
+you provid a full refund of ani monei paid by a user who notifi
+you in write or by email within 30 dai of receipt that she
+doe not agre to the term of the full project gutenberg
+licens you must requir such a user to return or destroi all
+copi of the work possess in a physic medium and discontinu
+all us of and all access to other copi of project gutenberg
+work
+you provid in accord with paragraph 1f3 a full refund of
+ani monei paid for a work or a replac copi if a defect in the
+electron work is discov and report to you within 90 dai of
+receipt of the work
+you compli with all other term of thi agreement for free
+distribut of project gutenberg work
+1e9 if you wish to charg a fee or distribut a project
+gutenberg electron work or group of work on differ term than
+ar set forth in thi agreement you must obtain permiss in write
+from the project gutenberg literari archiv foundat the manag of
+the project gutenberg trademark contact the foundat as set
+forth in section 3 below
+1f
+1f1 project gutenberg volunt and employe expend consider
+effort to identifi do copyright research on transcrib and proofread
+work not protect by us copyright law in creat the project
+gutenberg collect despit these effort project gutenberg
+electron work and the medium on which thei mai be store mai
+contain defect such as but not limit to incomplet inaccur
+or corrupt data transcript error a copyright or other
+intellectu properti infring a defect or damag disk or
+other medium a comput viru or comput code that damag or
+cannot be read by your equip
+1f2 limit warranti disclaim of damag except for the right
+of replac or refund describ in paragraph 1f3 the project
+gutenberg literari archiv foundat the owner of the project
+gutenberg trademark and ani other parti distribut a project
+gutenberg electron work under thi agreement disclaim all
+liabil to you for damag cost and expens includ legal
+fee you agre that you have no remedi for neglig strict
+liabil breach of warranti or breach of contract except those
+provid in paragraph 1f3 you agre that the foundat the
+trademark owner and ani distributor under thi agreement will not be
+liabl to you for actual direct indirect consequenti punit or
+incident damag even if you give notic of the possibl of such
+damag
+1f3 limit right of replac or refund if you discov a
+defect in thi electron work within 90 dai of receiv it you can
+receiv a refund of the monei if ani you paid for it by send a
+written explan to the person you receiv the work from if you
+receiv the work on a physic medium you must return the medium
+with your written explan the person or entiti that provid you
+with the defect work mai elect to provid a replac copi in
+lieu of a refund if you receiv the work electron the person
+or entiti provid it to you mai choos to give you a second
+opportun to receiv the work electron in lieu of a refund if
+the second copi is also defect you mai demand a refund in write
+without further opportun to fix the problem
+1f4 except for the limit right of replac or refund set forth
+in paragraph 1f3 thi work is provid to you asi with no
+other warranti of ani kind express or impli includ but not
+limit to warranti of merchant or fit for ani purpos
+1f5 some state do not allow disclaim of certain impli
+warranti or the exclus or limit of certain type of
+damag if ani disclaim or limit set forth in thi agreement
+violat the law of the state applic to thi agreement the
+agreement shall be interpret to make the maximum disclaim or
+limit permit by the applic state law the invalid or
+unenforc of ani provis of thi agreement shall not void the
+remain provis
+1f6 indemn you agre to indemnifi and hold the foundat the
+trademark owner ani agent or employe of the foundat anyon
+provid copi of project gutenberg electron work in
+accord with thi agreement and ani volunt associ with the
+product promot and distribut of project gutenberg
+electron work harmless from all liabil cost and expens
+includ legal fee that aris directli or indirectli from ani of
+the follow which you do or caus to occur a distribut of thi
+or ani project gutenberg work b alter modif or
+addit or delet to ani project gutenberg work and c ani
+defect you caus
+section 2 inform about the mission of project gutenberg
+project gutenberg is synonym with the free distribut of
+electron work in format readabl by the widest varieti of
+comput includ obsolet old middleag and new comput it
+exist becaus of the effort of hundr of volunt and donat
+from peopl in all walk of life
+volunt and financi support to provid volunt with the
+assist thei need ar critic to reach project gutenberg
+goal and ensur that the project gutenberg collect will
+remain freeli avail for gener to come in 2001 the project
+gutenberg literari archiv foundat wa creat to provid a secur
+and perman futur for project gutenberg and futur
+gener to learn more about the project gutenberg literari
+archiv foundat and how your effort and donat can help see
+section 3 and 4 and the foundat inform page at wwwgutenbergorg
+section 3 inform about the project gutenberg literari archiv foundat
+the project gutenberg literari archiv foundat is a nonprofit
+501c3 educ corpor organ under the law of the
+state of mississippi and grant tax exempt statu by the intern
+revenu servic the foundat ein or feder tax identif
+number is 646221541 contribut to the project gutenberg literari
+archiv foundat ar tax deduct to the full extent permit by
+us feder law and your state law
+the foundat busi offic is locat at 809 north 1500 west
+salt lake citi ut 84116 801 5961887 email contact link and up
+to date contact inform can be found at the foundat websit
+and offici page at wwwgutenbergorgcontact
+section 4 inform about donat to the project gutenberg
+literari archiv foundat
+project gutenberg depend upon and cannot surviv without widespread
+public support and donat to carri out it mission of
+increas the number of public domain and licens work that can be
+freeli distribut in machineread form access by the widest
+arrai of equip includ outdat equip mani small donat
+1 to 5000 ar particularli import to maintain tax exempt
+statu with the ir
+the foundat is commit to compli with the law regul
+chariti and charit donat in all 50 state of the unit
+state complianc requir ar not uniform and it take a
+consider effort much paperwork and mani fee to meet and keep up
+with these requir we do not solicit donat in locat
+where we have not receiv written confirm of complianc to send
+donat or determin the statu of complianc for ani particular state
+visit wwwgutenbergorgdon
+while we cannot and do not solicit contribut from state where we
+have not met the solicit requir we know of no prohibit
+against accept unsolicit donat from donor in such state who
+approach us with offer to donat
+intern donat ar gratefulli accept but we cannot make
+ani statement concern tax treatment of donat receiv from
+outsid the unit state us law alon swamp our small staff
+pleas check the project gutenberg web page for current donat
+method and address donat ar accept in a number of other
+wai includ check onlin payment and credit card donat to
+donat pleas visit wwwgutenbergorgdon
+section 5 gener inform about project gutenberg electron work
+professor michael s hart wa the origin of the project
+gutenberg concept of a librari of electron work that could be
+freeli share with anyon for forti year he produc and
+distribut project gutenberg ebook with onli a loos network of
+volunt support
+project gutenberg ebook ar often creat from sever print
+edit all of which ar confirm as not protect by copyright in
+the us unless a copyright notic is includ thu we do not
+necessarili keep ebook in complianc with ani particular paper
+edit
+most peopl start at our websit which ha the main pg search
+facil wwwgutenbergorg
+thi websit includ inform about project gutenberg
+includ how to make donat to the project gutenberg literari
+archiv foundat how to help produc our new ebook and how to
+subscrib to our email newslett to hear about new ebook
