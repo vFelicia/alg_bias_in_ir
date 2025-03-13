@@ -17,7 +17,7 @@ class InvertedIndex:
     Shows how documents are indexed and demonstrates bias entry points.
     """
     
-    def __init__(self, preserve_case=False, use_stemming=True, include_positions=True):
+    def __init__(self, preserve_case=False, use_stemming=True, include_positions=True, use_custom_dict=False):
         """
         Initialize the inverted index
         
@@ -29,13 +29,20 @@ class InvertedIndex:
             Whether to apply stemming during indexing
         include_positions : bool, default=True
             Whether to store word positions in the index
+        use_custom_dict : bool, default=False
+            Use dictionary instead of defaultdict with lambda for pickling
         """
         self.preserve_case = preserve_case
         self.use_stemming = use_stemming
         self.include_positions = include_positions
         
         # Main inverted index: {term: {doc_id: [positions]}}
-        self.index = defaultdict(lambda: defaultdict(list))
+        if use_custom_dict:
+            # Use regular dict for pickling compatibility
+            self.index = {}
+        else:
+            # Use defaultdict with lambda (not picklable)
+            self.index = defaultdict(lambda: defaultdict(list))
         
         # Document lengths (for normalization)
         self.doc_lengths = {}
@@ -92,14 +99,35 @@ class InvertedIndex:
         self.doc_lengths[doc_id] = len(tokens)
         
         # Add to index with positions
-        if self.include_positions:
-            for position, token in enumerate(tokens):
-                self.index[token][doc_id].append(position)
+        if isinstance(self.index, defaultdict):
+            # Original code for defaultdict
+            if self.include_positions:
+                for position, token in enumerate(tokens):
+                    self.index[token][doc_id].append(position)
+            else:
+                # Just add document to term's posting list without positions
+                for token in set(tokens):  # Use set to avoid duplicates
+                    count = tokens.count(token)
+                    self.index[token][doc_id] = count
         else:
-            # Just add document to term's posting list without positions
-            for token in set(tokens):  # Use set to avoid duplicates
-                count = tokens.count(token)
-                self.index[token][doc_id] = count
+            # Code for regular dict
+            if self.include_positions:
+                for position, token in enumerate(tokens):
+                    if token not in self.index:
+                        self.index[token] = {}
+                    if doc_id not in self.index[token]:
+                        self.index[token][doc_id] = []
+                    self.index[token][doc_id].append(position)
+            else:
+                for token in set(tokens):
+                    if token not in self.index:
+                        self.index[token] = {}
+                    count = tokens.count(token)
+                    self.index[token][doc_id] = count
+        
+        # Store metadata if provided
+        if metadata:
+            self.metadata[doc_id] = metadata
         
         return preprocessing_result
     

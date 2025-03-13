@@ -1,6 +1,10 @@
 # For Windows
-# python -m venv venv
-# venv\Scripts\activate
+# python -m venv venv ---> creates a new venv
+# venv\Scripts\activate ---> just run this to activate
+
+# PS C:\GitHubRepos\alg_bias_in_ir> python -m venv venv
+# PS C:\GitHubRepos\alg_bias_in_ir> venv/Scripts/activate
+# (venv) PS C:\GitHubRepos\alg_bias_in_ir> streamlit run app.py
 
 import streamlit as st
 import pandas as pd
@@ -14,11 +18,115 @@ from utils.preprocessing import preprocess_text
 from utils.indexing import InvertedIndex
 from utils.retrieval import search_documents
 from utils.visualization import plot_corpus_stats
+import pickle
+import os
+import time
 
 # Download necessary NLTK data
 nltk.download('punkt')
 nltk.download('stopwords')
 
+def build_and_save_index(data_dir, index_path, metadata_path=None):
+    """Build the index and save it to disk, including metadata if available"""
+    # Load documents
+    documents = {}
+    for filename in os.listdir(data_dir):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(data_dir, filename)
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    doc_id = filename.replace('.txt', '')
+                    documents[doc_id] = f.read()
+            except Exception as e:
+                print(f"Error reading file {filename}: {str(e)}")
+    
+    # Load metadata if available
+    metadata = {}
+    if metadata_path and os.path.exists(metadata_path):
+        try:
+            metadata_df = pd.read_csv(metadata_path)
+            print(f"Metadata columns: {metadata_df.columns.tolist()}")
+            
+            # Process each row in the metadata
+            for _, row in metadata_df.iterrows():
+                # Convert Doc ID to string for matching
+                if 'Doc ID' in row:
+                    doc_id_str = str(row['Doc ID']).strip()
+                    
+                    # For each document, find if any filename contains this ID
+                    for existing_doc_id in documents.keys():
+                        # If the existing document ID contains the metadata ID
+                        if doc_id_str in existing_doc_id:
+                            metadata[existing_doc_id] = {
+                                'title': row.get('Title', 'Unknown'),
+                                'author': row.get('Author', 'Unknown'),
+                                'year': row.get('Year Published', 'Unknown'),
+                                'gender': row.get('Gender', 'Unknown'),
+                                'nationality': row.get('Nationality', 'Unknown'),
+                                'genre': row.get('Genre', 'Unknown')
+                            }
+        except Exception as e:
+            print(f"Error loading metadata: {str(e)}")
+            import traceback
+            traceback.print_exc()
+    
+    # Create a modified version of InvertedIndex that doesn't use lambda in defaultdict
+    # This modification ensures it can be pickled
+    index = InvertedIndex(use_custom_dict=True)
+    
+    # Add documents and their metadata to the index
+    for doc_id, text in documents.items():
+        doc_metadata = metadata.get(doc_id, None)
+        index.add_document(doc_id, text, doc_metadata)
+    
+    # Save index to disk
+    try:
+        with open(index_path, 'wb') as f:
+            pickle.dump(index, f)
+        print(f"Successfully saved index to {index_path}")
+    except Exception as e:
+        print(f"Error saving index: {str(e)}")
+        import traceback
+        traceback.print_exc()
+
+    # Debugging section
+    print(f"Documents loaded: {len(documents)}")
+    print(f"Sample document IDs: {list(documents.keys())[:5]}")
+    if 'metadata_df' in locals():
+        print(f"Metadata loaded: {len(metadata_df)}")
+        print(f"Metadata sample: {metadata_df.head()}")
+    print(f"Final metadata mapping: {len(metadata)}")
+    
+    return index
+
+def load_or_build_index(data_dir, index_path, metadata_path=None, force_rebuild=False):
+    """Load the index from disk or build it if necessary"""
+    # Check if index file exists and is newer than the data directory and metadata
+    if os.path.exists(index_path) and not force_rebuild:
+        try:
+            # Check data files
+            data_files = [f for f in os.listdir(data_dir) if f.endswith('.txt')]
+            
+            # Get modification times
+            index_mod_time = os.path.getmtime(index_path)
+            data_mod_times = [os.path.getmtime(os.path.join(data_dir, f)) for f in data_files]
+            metadata_mod_time = os.path.getmtime(metadata_path) if metadata_path and os.path.exists(metadata_path) else 0
+            
+            # Check if index is newer than all data sources
+            if data_files and index_mod_time > max(data_mod_times) and index_mod_time > metadata_mod_time:
+                # Index is up to date, load it
+                try:
+                    with open(index_path, 'rb') as f:
+                        return pickle.load(f)
+                except Exception as e:
+                    print(f"Error loading index: {str(e)}")
+        except Exception as e:
+            print(f"Error checking data directory: {str(e)}")
+    
+    # Index doesn't exist or is outdated, build it
+    return build_and_save_index(data_dir, index_path, metadata_path)
+
+# Main app code
 def main():
     # Set page config
     st.set_page_config(
@@ -26,6 +134,26 @@ def main():
         page_icon="🔍",
         layout="wide"
     )
+    
+    # Define paths
+    data_dir = os.path.join(os.path.dirname(__file__), "data", "gutenberg")
+    index_path = os.path.join(os.path.dirname(__file__), "data", "index.pickle")
+    metadata_path = os.path.join(os.path.dirname(__file__), "data", "metadata.csv")
+    
+    # Add force rebuild option for debugging
+    force_rebuild = st.sidebar.checkbox("Force rebuild index", value=False)
+    
+    # Load or build the index at app startup
+    with st.spinner("Loading search index..."):
+        global search_index  # Make it global so all pages can access it
+        search_index = load_or_build_index(data_dir, index_path, metadata_path, force_rebuild=force_rebuild)
+    
+    # Debug information about metadata
+    st.sidebar.write(f"Loaded {len(search_index.documents)} documents")
+    if hasattr(search_index, 'metadata') and search_index.metadata:
+        st.sidebar.write(f"Found metadata for {len(search_index.metadata)} documents")
+    else:
+        st.sidebar.write("No metadata loaded")
     
     # Sidebar navigation
     st.sidebar.title("Navigation")
@@ -59,28 +187,58 @@ def show_introduction():
     
     In this interactive essay, we'll explore the inner workings of Information Retrieval (IR) systems - the technology
     that powers search engines - and examine how algorithmic bias can affect search results.
+                
+    Our dataset for this interactive essay is a collection of sixty books sourced from Project Gutenberg. From these sixty books,
+    we kept track of  the book's title, author, year published, gender of author, nationality of author, and book genre.
     """)
     
+    # Display some stats about the loaded corpus
+    st.info(f"Loaded {len(search_index.documents)} documents into the search index.")
+    
     # Basic search interface
-    st.subheader("Try a basic search")
+    st.subheader("Let's get you acquainted with our data and our search engine! Try a basic search. It should return the title(s) of a book.")
     query = st.text_input("Enter your search query:")
     
     if query:
-        # This would connect to your actual search implementation
-        results = search_documents(query, num_results=5)
+        # Now passing the index to the search function
+        results, search_process = search_documents(query, index=search_index, num_results=5)
         
         st.write("Search results:")
-        for i, (doc_id, score) in enumerate(results, 1):
-            st.write(f"{i}. Document {doc_id} (Score: {score:.2f})")
-            # Display document snippet
+        if results:
+            for i, (doc_id, score) in enumerate(results, 1):
+                # Get metadata if available
+                metadata = search_index.metadata.get(doc_id, {})
+                
+                # Create an expander for each result
+                with st.expander(f"{i}. **{doc_id}** (Score: {score:.4f})", expanded=True):
+                    # Format metadata nicely if available
+                    if metadata:
+                        # Create two columns
+                        col1, col2 = st.columns(2)
+                        
+                        with col1:
+                            st.write(f"**Title:** {metadata.get('title', 'Unknown')}")
+                            st.write(f"**Author:** {metadata.get('author', 'Unknown')}")
+                            st.write(f"**Year:** {metadata.get('year', 'Unknown')}")
+                        
+                        with col2:
+                            st.write(f"**Author Gender:** {metadata.get('gender', 'Unknown')}")
+                            st.write(f"**Nationality:** {metadata.get('nationality', 'Unknown')}")
+                            st.write(f"**Genre:** {metadata.get('genre', 'Unknown')}")
+                    
+                    # Show document snippet
+                    snippet = search_index.get_document_snippet(doc_id)
+                    st.markdown(f"**Excerpt:**\n> {snippet}")
+        else:
+            st.write("No results found for your query.")
     
     # Reflection box
     st.subheader("Reflection")
     st.markdown("""
     **What patterns do you notice in the results?**
     
-    Think about the types of documents that appeared in your search results. Were they what you expected?
-    What might influence which documents are ranked higher?
+    Think about the types of books that appeared in your search results. Were they what you expected?
+    What might influence which books are ranked higher?
     """)
     st.text_area("Your reflections:", height=150)
 
@@ -90,7 +248,7 @@ def show_corpus_analysis():
     # Explanation of corpus
     st.markdown("""
     The corpus - or collection of documents - is the foundation of any search system. For our exploration,
-    we're using texts from Project Gutenberg, a digital library of free eBooks.
+    we're using sixty randomly selected texts from Project Gutenberg, a digital library of free eBooks.
     
     Project Gutenberg primarily contains older, public domain works. Let's examine the characteristics of this collection.
     """)
@@ -124,7 +282,7 @@ def show_corpus_analysis():
     st.markdown("""
     **How might this collection affect search results for modern concepts?**
     
-    Based on the corpus characteristics you observed above, what biases might emerge when searching for:
+    Based on the corpus characteristics you observed above, what concerns might emerge when searching for:
     - Modern technology terms
     - Contemporary social issues
     - Non-Western cultural concepts
