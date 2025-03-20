@@ -2,6 +2,8 @@
 
 This interactive essay explores how algorithmic bias manifests in information retrieval (IR) systems. Through hands-on visualizations and experiments, users can investigate how bias enters search systems at multiple stages and compounds to affect results.
 
+VIDEO DEMO: https://youtu.be/y94UcSnDZ00
+
 ## Running the Application
 
 In your command line, run the following steps:
