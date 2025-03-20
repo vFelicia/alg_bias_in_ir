@@ -1,10 +1,8 @@
-# For Windows
-# python -m venv venv ---> creates a new venv
-# venv\Scripts\activate ---> just run this to activate
-
-# PS C:\GitHubRepos\alg_bias_in_ir> python -m venv venv
-# PS C:\GitHubRepos\alg_bias_in_ir> venv/Scripts/activate
-# (venv) PS C:\GitHubRepos\alg_bias_in_ir> streamlit run app.py
+# run it
+# PS C:\GitHubRepos\alg_bias_in_ir> python -m venv venv                     ---> create venv
+# PS C:\GitHubRepos\alg_bias_in_ir> venv/Scripts/activate                   ---> activate venv
+# (venv) PS C:\GitHubRepos\alg_bias_in_ir> pip install -r requirements.txt  ---> install packages in venv
+# (venv) PS C:\GitHubRepos\alg_bias_in_ir> streamlit run app.py             ---> run the explorable
 
 import streamlit as st
 
