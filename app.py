@@ -7,20 +7,47 @@
 # (venv) PS C:\GitHubRepos\alg_bias_in_ir> streamlit run app.py
 
 import streamlit as st
+
+# Set page config FIRST before any other Streamlit commands
+st.set_page_config(
+    page_title="Search Engines and Hidden Biases",
+    page_icon="🔍",
+    layout="wide"
+)
+
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+import plotly.express as px
+import plotly.graph_objects as go
+import graphviz
 import nltk
 from nltk.stem import PorterStemmer
+from sklearn.feature_extraction.text import TfidfVectorizer
 import os
 import re
-from sklearn.feature_extraction.text import TfidfVectorizer
+import pickle
+import time
+
+# import custom utils
 from utils.preprocessing import preprocess_text
 from utils.indexing import InvertedIndex
 from utils.retrieval import search_documents
 from utils.visualization import plot_corpus_stats
-import pickle
-import os
-import time
+# Import the ir_visualization utilities
+from utils.ir_visualizations import display_ir_system_visualization
+# import for system-level bias
+from utils.system_bias import (
+    run_bias_comparison_search, 
+    trace_term_through_system, 
+    run_mitigated_search, 
+    run_system_bias_analysis
+)
+
+# Navigation callback function
+def navigate_to(page):
+    st.session_state.page = page
+    st.experimental_rerun()
 
 # Download necessary NLTK data
 nltk.download('punkt')
@@ -128,12 +155,9 @@ def load_or_build_index(data_dir, index_path, metadata_path=None, force_rebuild=
 
 # Main app code
 def main():
-    # Set page config
-    st.set_page_config(
-        page_title="Search Engines and Hidden Biases",
-        page_icon="🔍",
-        layout="wide"
-    )
+    # Initialize session state
+    if 'page' not in st.session_state:
+        st.session_state.page = "Introduction"
     
     # Define paths
     data_dir = os.path.join(os.path.dirname(__file__), "data", "gutenberg")
@@ -153,26 +177,33 @@ def main():
     if hasattr(search_index, 'metadata') and search_index.metadata:
         st.sidebar.write(f"Found metadata for {len(search_index.metadata)} documents")
     else:
-        st.sidebar.write("No metadata loaded")
+        st.sidebar.write("")
     
     # Sidebar navigation
     st.sidebar.title("Navigation")
     page = st.sidebar.radio(
         "Go to",
-        ["Introduction", "The Corpus Matters", "Text Preprocessing", 
-         "Understanding TF-IDF", "System-Level Bias", "Final Reflection"]
+        ["Introduction", "Selection Bias and the Corpus", "Text Preprocessing Bias", 
+         "Statistical Bias: TF-IDFs", "Putting It All Together", "Final Reflection"],
+        index=["Introduction", "Selection Bias and the Corpus", "Text Preprocessing Bias", 
+               "Statistical Bias: TF-IDFs", "Putting It All Together", "Final Reflection"].index(st.session_state.page)
     )
+    
+    # Update the session state when sidebar selection changes
+    if page != st.session_state.page:
+        st.session_state.page = page
+        st.experimental_rerun()
     
     # Main content based on selected page
     if page == "Introduction":
         show_introduction()
-    elif page == "The Corpus Matters":
+    elif page == "Selection Bias and the Corpus":
         show_corpus_analysis()
-    elif page == "Text Preprocessing":
+    elif page == "Text Preprocessing Bias":
         show_preprocessing()
-    elif page == "Understanding TF-IDF":
+    elif page == "Statistical Bias: TF-IDFs":
         show_tfidf_calculator()
-    elif page == "System-Level Bias":
+    elif page == "Putting It All Together":
         show_system_bias()
     elif page == "Final Reflection":
         show_reflection()
@@ -187,16 +218,51 @@ def show_introduction():
     
     In this interactive essay, we'll explore the inner workings of Information Retrieval (IR) systems - the technology
     that powers search engines - and examine how algorithmic bias can affect search results.
-                
+    """)
+    
+    # Show the simplified IR system diagram first
+    st.subheader("Understanding Information Retrieval Systems")
+    
+    st.markdown("""
+    Before we dive in, let's take a look at the basic structure of an Information Retrieval system. 
+    This simplified diagram shows the main components and where bias can enter the system:
+    """)
+    
+    # Display the simplified visualization by default
+    display_ir_system_visualization("simplified")
+    
+    # Allow users to toggle between different views
+    visualization_type = st.radio(
+        "Visualization Type:",
+        ["Simplified IR System", "Bias Points Focus", "Detailed IR System"],
+        horizontal=True,
+        index=0  # Default to simplified view
+    )
+    
+    if visualization_type == "Simplified IR System":
+        display_ir_system_visualization("simplified")
+    elif visualization_type == "Bias Points Focus":
+        display_ir_system_visualization("bias_points")
+    else:
+        display_ir_system_visualization("detailed")
+    
+    st.markdown("""
+    Throughout this interactive essay, we'll explore each component of this system and how bias can enter 
+    and compound at different stages. We'll focus on three main types of bias:
+    
+    1. **Selection Bias**: How the composition of the document collection affects results
+    2. **Preprocessing Bias**: How text processing can lose important cultural information
+    3. **Statistical Bias**: How even "unbiased" mathematical functions can amplify existing biases
+    
     Our dataset for this interactive essay is a collection of sixty books sourced from Project Gutenberg. From these sixty books,
-    we kept track of  the book's title, author, year published, gender of author, nationality of author, and book genre.
+    we kept track of the book's title, author, year published, gender of author, nationality of author, and book genre.
     """)
     
     # Display some stats about the loaded corpus
     st.info(f"Loaded {len(search_index.documents)} documents into the search index.")
     
     # Basic search interface
-    st.subheader("Let's get you acquainted with our data and our search engine! Try a basic search. It should return the title(s) of a book.")
+    st.subheader("Let's get you acquainted with our data and our search engine! Try a basic search of a word or phrase. It should return the title(s) of a book most related to that your word or phrase.")
     query = st.text_input("Enter your search query:")
     
     if query:
@@ -242,40 +308,421 @@ def show_introduction():
     """)
     st.text_area("Your reflections:", height=150)
 
+        # Overview of the interactive essay
+    st.subheader("How This Interactive Essay Works")
+    
+    st.markdown("""
+    ### Learning Journey
+    
+    Throughout this interactive experience, you'll explore the different components of an information retrieval (IR) system and discover how algorithmic bias can enter and compound at each stage. Here's what to expect:
+    
+    **1. Selection Bias and the Corpus**
+    - Analyze our Project Gutenberg dataset
+    - Explore how the composition of a document collection influences search results
+    - Investigate representation of different cultural terms and demographics
+    
+    **2. Text Preprocessing Bias**
+    - Experiment with a text preprocessing simulator
+    - See how stemming, case folding, and punctuation removal affect different types of text
+    - Discover how cultural terms, names, and non-English words can lose important information
+    
+    **3. Statistical Bias: TF-IDF**
+    - Learn how TF-IDF weighs terms in documents
+    - Calculate scores for different types of terms
+    - Understand how rare terms can be overweighted regardless of actual importance
+    
+    **4. System-Level Bias**
+    - Experience how biases compound through the entire system
+    - Compare standard and bias-mitigated search results
+    - Trace terms through each stage of the IR pipeline
+    
+    **5. Final Reflection**
+    - Consider how we might design more equitable IR systems
+    - Apply what you've learned to real-world examples
+    
+    ### How to Navigate
+    
+    You can use the sidebar to navigate between sections. While the content is designed to be explored sequentially, feel free to jump to any section that interests you.
+    
+    Each section includes:
+    - Key concepts and explanations
+    - Interactive components to experiment with
+    - Reflection prompts to deepen your understanding
+    - Visualizations to illustrate important principles
+    
+    Let's begin by exploring how the composition of our document collection affects search results!
+    """)
+    
+    # Navigation buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col3:
+        st.button("Continue to 'Selection Bias' →", 
+                  on_click=navigate_to, 
+                  args=("Selection Bias and the Corpus",),
+                  key="intro_next")
+
 def show_corpus_analysis():
     st.title("The Corpus Matters: Project Gutenberg as a Case Study")
     
     # Explanation of corpus
     st.markdown("""
     The corpus - or collection of documents - is the foundation of any search system. For our exploration,
-    we're using sixty randomly selected texts from Project Gutenberg, a digital library of free eBooks.
+    we're using texts from Project Gutenberg, a digital library of free eBooks.
     
-    Project Gutenberg primarily contains older, public domain works. Let's examine the characteristics of this collection.
+    Project Gutenberg primarily contains older, public domain works. Let's examine the characteristics of this collection
+    and discuss how the composition of our corpus might influence search results.
     """)
+    
+    # Directly load the metadata file
+    metadata_path = os.path.join(os.path.dirname(__file__), "data", "gutenberg", "metadata.csv")
+    
+    # Load metadata from CSV
+    metadata_df = pd.read_csv(metadata_path)
+    
+    # Display a sample of the metadata for debugging (can be removed in production)
+    with st.expander("View metadata sample"):
+        st.dataframe(metadata_df.head())
+        st.write(f"Columns available: {', '.join(metadata_df.columns)}")
+    
+    # Display corpus size info
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.metric("Number of Documents", len(metadata_df))
+    
+    with col2:
+        if 'Year Published' in metadata_df.columns:
+            year_range = f"{metadata_df['Year Published'].min()} - {metadata_df['Year Published'].max()}"
+            st.metric("Publication Years", year_range)
+        else:
+            st.metric("Publication Years", "N/A")
+    
+    with col3:
+        if 'Author' in metadata_df.columns:
+            st.metric("Unique Authors", metadata_df['Author'].nunique())
+        else:
+            st.metric("Unique Authors", "N/A")
     
     # Visualization of corpus statistics
     st.subheader("Corpus Statistics")
     
-    # This would use your actual data
     tab1, tab2, tab3 = st.tabs(["Publication Dates", "Author Demographics", "Geographic Distribution"])
     
     with tab1:
-        # Plot publication date distribution
-        fig, ax = plt.subplots()
-        # Your plotting code here
-        st.pyplot(fig)
-    
+        if 'Year Published' in metadata_df.columns:
+            # Convert to numeric, handling potential errors
+            metadata_df['Year Published'] = pd.to_numeric(metadata_df['Year Published'], errors='coerce')
+            
+            # Create year distribution histogram
+            fig = px.histogram(
+                metadata_df.dropna(subset=['Year Published']), 
+                x='Year Published',
+                nbins=20,
+                title='Distribution of Publication Years',
+                labels={'Year Published': 'Publication Year', 'count': 'Number of Works'},
+                color_discrete_sequence=['#3366CC']
+            )
+            fig.update_layout(xaxis_title="Publication Year", yaxis_title="Number of Works")
+            st.plotly_chart(fig)
+            
+            # Add explanation
+            st.markdown("""
+            This histogram shows the distribution of publication years in our corpus. Note that Project Gutenberg
+            primarily contains works that are in the public domain, which means they tend to be older.
+            
+            **Potential Bias Impact**: A corpus heavily weighted toward older publications may under-represent 
+            contemporary concepts, modern terminology, and recent cultural perspectives.
+            """)
+        else:
+            st.error("Publication year data is missing from metadata.")
+            
     with tab2:
-        # Author demographics
-        fig, ax = plt.subplots()
-        # Your plotting code here
-        st.pyplot(fig)
-        
+        if 'Gender' in metadata_df.columns:
+            # Create gender distribution pie chart
+            gender_counts = metadata_df['Gender'].value_counts().reset_index()
+            gender_counts.columns = ['Gender', 'Count']
+            
+            fig = px.pie(
+                gender_counts, 
+                values='Count', 
+                names='Gender',
+                title='Author Gender Distribution',
+                color_discrete_sequence=px.colors.qualitative.Set3
+            )
+            st.plotly_chart(fig)
+            
+            # Add explanation
+            st.markdown("""
+            This chart shows the gender distribution of authors in our corpus.
+            
+            **Potential Bias Impact**: If the corpus is heavily skewed toward one gender,
+            themes, perspectives, and language more common to that gender may be over-represented
+            in search results.
+            """)
+        else:
+            st.error("Author gender data is missing from metadata.")
+            
     with tab3:
-        # Geographic distribution
-        fig, ax = plt.subplots()
-        # Your plotting code here
-        st.pyplot(fig)
+        if 'Nationality' in metadata_df.columns:
+            # Create nationality distribution bar chart
+            nationality_counts = metadata_df['Nationality'].value_counts().reset_index()
+            nationality_counts.columns = ['Nationality', 'Count']
+            
+            # Sort by count for better visualization
+            nationality_counts = nationality_counts.sort_values('Count', ascending=False)
+            
+            fig = px.bar(
+                nationality_counts,
+                x='Nationality',
+                y='Count',
+                title='Author Nationality Distribution',
+                color='Count',
+                color_continuous_scale='Viridis'
+            )
+            st.plotly_chart(fig)
+            
+            # Add explanation
+            st.markdown("""
+            This chart shows the distribution of author nationalities in our corpus.
+            
+            **Potential Bias Impact**: Geographic skew can result in cultural bias. If the corpus is
+            dominated by authors from certain regions, cultural references, language styles, and
+            perspectives from those regions will be over-represented in search results.
+            """)
+        elif 'Genre' in metadata_df.columns:
+            # Alternative: show genre distribution if nationality is not available
+            genre_counts = metadata_df['Genre'].value_counts().reset_index()
+            genre_counts.columns = ['Genre', 'Count']
+            
+            # Sort by count for better visualization
+            genre_counts = genre_counts.sort_values('Count', ascending=False)
+            
+            fig = px.bar(
+                genre_counts,
+                x='Genre',
+                y='Count',
+                title='Genre Distribution',
+                color='Count',
+                color_continuous_scale='Viridis'
+            )
+            st.plotly_chart(fig)
+            
+            st.markdown("""
+            This chart shows the distribution of genres in our corpus.
+            
+            **Potential Bias Impact**: If certain genres are over-represented, terminology and
+            concepts common in those genres will have higher prominence in search results.
+            """)
+        else:
+            st.error("Author nationality and genre data are missing from metadata.")
+    
+    # Term analysis section with improved explanation and visualizations
+    st.subheader("Term Distribution Analysis")
+
+    # Add explanation of the purpose of term analysis
+    st.markdown("""
+    ### Why Analyze Term Distribution?
+
+    This analysis helps us understand how cultural terms compare with general terms in our corpus. 
+    By examining the frequency and distribution of different types of terms, we can identify potential biases in the corpus.
+
+    **What we're looking for:**
+    - Are cultural terms underrepresented compared to general terms?
+    - How might this impact search results and retrieval effectiveness?
+    - Would certain queries be disadvantaged due to corpus composition?
+
+    Cultural terms often appear less frequently in historical texts, which can lead to search engines treating them as less relevant
+    or as "outliers" - even when they're actually important for certain queries.
+    """)
+
+    # Sample terms to analyze
+    cultural_terms = ["african", "american", "native", "indigenous", "latinx", "hispanic"]
+    general_terms = ["life", "love", "death", "time", "world", "history"]
+
+    col1, col2 = st.columns(2)
+
+    with col1:
+        custom_cultural = st.text_area("Cultural/identity terms (one per line):", "\n".join(cultural_terms))
+        cultural_terms = [term.strip() for term in custom_cultural.split("\n") if term.strip()]
+
+    with col2:
+        custom_general = st.text_area("General/common terms (one per line):", "\n".join(general_terms))
+        general_terms = [term.strip() for term in custom_general.split("\n") if term.strip()]
+
+    if st.button("Analyze Term Distribution"):
+        with st.spinner("Analyzing term distribution..."):
+            # Count term occurrences across all documents
+            term_occurrences = {}
+            
+            all_terms = cultural_terms + general_terms
+            for term in all_terms:
+                # Search for the term
+                results, _ = search_index.search(term)
+                doc_count = len(results)
+                total_docs = len(search_index.documents)
+                
+                # Determine term type
+                term_type = "Cultural Term" if term in cultural_terms else "General Term"
+                
+                term_occurrences[term] = {
+                    "term": term,
+                    "type": term_type,
+                    "document_count": doc_count,
+                    "percentage": (doc_count / total_docs) * 100 if total_docs > 0 else 0,
+                    "log_percentage": np.log10((doc_count / total_docs) * 100 + 0.1) if total_docs > 0 else 0  # Add 0.1 to avoid log(0)
+                }
+            
+            # Convert to dataframe for visualization
+            term_df = pd.DataFrame(list(term_occurrences.values()))
+            
+            # Create a more informative grouped bar chart
+            fig1 = px.bar(
+                term_df,
+                x='term',
+                y='percentage',
+                color='type',
+                title='Percentage of Corpus Containing Each Term',
+                labels={'term': 'Term', 'percentage': 'Percentage of Documents (%)', 'type': 'Term Type'},
+                color_discrete_map={'Cultural Term': '#FF6B6B', 'General Term': '#4ECDC4'},
+                barmode='group',
+                height=500,
+                text='percentage'  # Display the percentage value on each bar
+            )
+            
+            # Format the text to show 2 decimal places
+            fig1.update_traces(texttemplate='%{text:.2f}%', textposition='outside')
+            
+            # Add a horizontal line for the average document percentage across all terms
+            overall_avg = term_df['percentage'].mean()
+            fig1.add_shape(
+                type="line",
+                x0=-0.5,
+                y0=overall_avg,
+                x1=len(all_terms) - 0.5,
+                y1=overall_avg,
+                line=dict(color="gray", width=2, dash="dash"),
+            )
+            
+            # Add annotation for the average line
+            fig1.add_annotation(
+                x=len(all_terms) - 1,
+                y=overall_avg,
+                text=f"Average: {overall_avg:.2f}%",
+                showarrow=False,
+                yshift=10
+            )
+            
+            # Adjust layout for better readability
+            fig1.update_layout(
+                xaxis_title="Term",
+                yaxis_title="Percentage of Documents (%)",
+                xaxis={'categoryorder': 'total descending'},
+                legend_title="Term Type"
+            )
+            
+            st.plotly_chart(fig1)
+            
+            # Create log scale visualization for better visibility of small percentages
+            fig2 = px.bar(
+                term_df,
+                x='type',
+                y='log_percentage',
+                color='term',
+                title='Log-Scale Distribution of Terms by Type',
+                labels={'log_percentage': 'Log10(Percentage + 0.1)', 'type': 'Term Type'},
+                barmode='group',
+                height=500
+            )
+            
+            # Adjust layout for better readability
+            fig2.update_layout(
+                xaxis_title="Term Type",
+                yaxis_title="Log10(Percentage + 0.1)",
+                legend_title="Terms"
+            )
+            
+            st.plotly_chart(fig2)
+            
+            # Create a radar chart to show the relative presence of each term
+            # Reorganize data for radar chart
+            cultural_data = term_df[term_df['type'] == 'Cultural Term'][['term', 'percentage']]
+            general_data = term_df[term_df['type'] == 'General Term'][['term', 'percentage']]
+            
+            # Create radar chart
+            fig3 = go.Figure()
+            
+            if not cultural_data.empty:
+                fig3.add_trace(go.Scatterpolar(
+                    r=cultural_data['percentage'].tolist(),
+                    theta=cultural_data['term'].tolist(),
+                    fill='toself',
+                    name='Cultural Terms',
+                    line_color='#FF6B6B'
+                ))
+                
+            if not general_data.empty:
+                fig3.add_trace(go.Scatterpolar(
+                    r=general_data['percentage'].tolist(),
+                    theta=general_data['term'].tolist(),
+                    fill='toself',
+                    name='General Terms',
+                    line_color='#4ECDC4'
+                ))
+                
+            fig3.update_layout(
+                polar=dict(
+                    radialaxis=dict(
+                        visible=True,
+                        range=[0, max(term_df['percentage'])*1.1]
+                    )
+                ),
+                title="Radar Chart: Term Coverage in Corpus",
+                height=600
+            )
+            
+            st.plotly_chart(fig3)
+            
+            # Show detailed table with all metrics
+            term_df_display = term_df[['term', 'type', 'document_count', 'percentage']]
+            term_df_display['percentage'] = term_df_display['percentage'].round(2)
+            term_df_display = term_df_display.sort_values(by=['type', 'percentage'], ascending=[True, False])
+            term_df_display.columns = ['Term', 'Type', 'Document Count', 'Percentage (%)']
+            
+            st.subheader("Detailed Term Statistics")
+            st.dataframe(term_df_display)
+            
+            # Calculate and display averages with more context
+            avg_cultural = term_df[term_df['type'] == 'Cultural Term']['percentage'].mean()
+            avg_general = term_df[term_df['type'] == 'General Term']['percentage'].mean()
+            
+            # Display a summary with more explanation of the findings
+            st.subheader("Analysis Summary")
+            
+            difference = avg_general - avg_cultural
+            ratio = avg_general / avg_cultural if avg_cultural > 0 else float('inf')
+            
+            st.info(f"""
+            ### Corpus Coverage Analysis
+            
+            **Cultural Terms:** Found in an average of {avg_cultural:.2f}% of documents
+            
+            **General Terms:** Found in an average of {avg_general:.2f}% of documents
+            
+            **Difference:** General terms appear in {difference:.2f} percentage points more documents than cultural terms
+            
+            **Ratio:** General terms are {ratio:.1f}x more likely to appear in documents than cultural terms
+            
+            ### Potential Bias Impact
+            
+            {'⚠️ **Significant bias detected**: General terms are much more common than cultural terms in this corpus.' if ratio > 5 else 
+            '⚠️ **Moderate bias detected**: General terms are somewhat more common than cultural terms in this corpus.' if ratio > 2 else
+            '✓ **Low bias detected**: Cultural and general terms have similar representation in this corpus.'}
+            
+            This {'imbalance' if ratio > 1.5 else 'balance'} affects how search algorithms evaluate term importance. Since TF-IDF and similar algorithms 
+            give higher weight to rare terms, cultural terms might get disproportionately {'high' if ratio > 1.5 else 'similar'} IDF scores compared to 
+            their actual information value.
+            """)
     
     # Hypothesis box
     st.subheader("Form a Hypothesis")
@@ -289,9 +736,53 @@ def show_corpus_analysis():
     """)
     
     hypothesis = st.text_area("Your hypothesis:", height=150)
+    
+    # Educational summary
+    st.header("What We've Learned: Corpus Bias in Information Retrieval")
+    
+    st.markdown("""
+    In this section, we've explored how the composition of our document collection (Project Gutenberg texts) shapes search results. You've seen:
+    
+    - **Publication year distribution** that heavily favors older works, potentially under-representing contemporary concepts
+    - **Author demographics** that may skew toward certain genders and nationalities
+    - **Term distribution analysis** showing how cultural and identity terms appear less frequently than general terms
+    
+    These patterns reveal several types of bias in our corpus:
+    
+    1. **Historical bias**: Older texts over-represent perspectives from their time periods while excluding more recent viewpoints
+    
+    2. **Gender and racial representation**: Our analysis showed potential imbalances in author demographics, which means terms and topics important to under-represented groups may be disadvantaged in search
+    
+    3. **Language bias**: Non-English terms and concepts appear less frequently or may be missing entirely
+    
+    4. **Topic bias**: Certain genres and subject matters are over-represented while others receive less coverage
+    
+    5. **Temporal bias**: Contemporary concepts may be absent or expressed differently in older texts
+    
+    ### Mitigation Strategies
+    
+    - **Diverse corpus selection**: Ensure document collections represent diverse perspectives, time periods, and cultures
+    - **Weighted indexing**: Adjust term weights based on corpus demographics to compensate for under-representation
+    - **Contextual expansion**: Add related terms to queries to capture concepts that might be expressed differently across time periods
+    - **Transparent documentation**: Clearly document the limitations and potential biases in the corpus for users
+    """)
+
+    # Navigation buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col1:
+        st.button("← Back to Introduction", 
+                  on_click=navigate_to, 
+                  args=("Introduction",),
+                  key="corpus_prev")
+    with col3:
+        st.button("Continue to 'Preprocessing' →", 
+                  on_click=navigate_to, 
+                  args=("Text Preprocessing Bias",),
+                  key="corpus_next")
 
 def show_preprocessing():
-    st.title("Text Preprocessing: Where Bias Begins")
+    st.title("Text Preprocessing")
     
     st.markdown("""
     Before texts can be searched, they undergo preprocessing - a series of transformations that prepare them for efficient indexing.
@@ -303,44 +794,298 @@ def show_preprocessing():
     # Interactive preprocessing simulator
     st.subheader("Text Preprocessing Simulator")
     
-    input_text = st.text_area("Enter some text to preprocess:", 
-                             value="The quick brown fox jumps over the lazy dog. Isn't natural language processing AMAZING?")
+    # Sample texts
+    sample_texts = {
+        "Standard English": "The quick brown fox jumps over the lazy dog. Isn't natural language processing AMAZING?",
+        "Names & Places": "María Rodríguez-López visited O'Connor's Pub in São Paulo while traveling from Việt Nam.",
+        "Cultural Terms": "The hip-hop artist explored themes of diaspora, code-switching, and afrofuturism in her work.",
+        "Mixed Language": "She felt that comforting sense of déjà vu as the mariachi band played a beautiful corrido."
+    }
+    
+    # Text selection
+    selected_text_type = st.selectbox(
+        "Select example text type:",
+        list(sample_texts.keys())
+    )
+    
+    # Custom text input
+    use_custom = st.checkbox("Or enter your own text")
+    
+    if use_custom:
+        input_text = st.text_area("Enter some text to preprocess:", 
+                                height=100,
+                                value="Enter your text here...")
+        if input_text == "Enter your text here...":
+            input_text = sample_texts[selected_text_type]
+    else:
+        input_text = sample_texts[selected_text_type]
+    
+    # Preprocessing options
+    st.subheader("Preprocessing Options")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        lowercase = st.checkbox("Convert to lowercase", value=True)
+    
+    with col2:
+        remove_punctuation = st.checkbox("Remove punctuation", value=True)
+    
+    with col3:
+        do_stemming = st.checkbox("Apply stemming", value=True)
+    
+    remove_stopwords = st.checkbox("Remove stopwords", value=True)
     
     if input_text:
-        # Step by step preprocessing visualization
+        # Apply preprocessing step by step
+        st.subheader("Step-by-Step Preprocessing")
+        
+        # Step 1: Original text
+        st.markdown("**Original Text:**")
+        st.text(input_text)
+        
+        # Step 2: Lowercase (optional)
+        if lowercase:
+            lowercase_text = input_text.lower()
+            st.markdown("**After Lowercase Conversion:**")
+            st.text(lowercase_text)
+            current_text = lowercase_text
+            
+            # Highlight differences
+            with st.expander("Bias implications of lowercase conversion"):
+                st.markdown("""
+                **Bias implications:**
+                - Loss of proper noun distinction (names, places, organizations)
+                - Cultural markers in capitalization patterns may be lost
+                - Acronyms become indistinguishable from regular words
+                
+                **Examples of information loss in this text:**
+                """)
+                
+                # Find capitalized words in original text
+                import re
+                capitals = re.findall(r'\b[A-Z][a-zA-Z]*\b', input_text)
+                
+                if capitals:
+                    for word in capitals:
+                        st.markdown(f"- '{word}' → '{word.lower()}'")
+                else:
+                    st.markdown("No capitalized words found in this text.")
+        else:
+            current_text = input_text
+        
+        # Step 3: Punctuation removal (optional)
+        if remove_punctuation:
+            import re
+            no_punct_text = re.sub(r'[^\w\s]', '', current_text)
+            st.markdown("**After Punctuation Removal:**")
+            st.text(no_punct_text)
+            current_text = no_punct_text
+            
+            # Highlight differences
+            with st.expander("Bias implications of punctuation removal"):
+                st.markdown("""
+                **Bias implications:**
+                - Apostrophes in names (O'Connor, D'Angelo) are lost
+                - Hyphens in compound terms (African-American, code-switching) are removed
+                - Diacritical marks in non-English words are stripped
+                - Context from quotes, questions, and exclamations is lost
+                
+                **Examples of information loss in this text:**
+                """)
+                
+                # Find punctuation in original text
+                import re
+                if lowercase:
+                    source_text = input_text.lower()
+                else:
+                    source_text = input_text
+                    
+                punct_pattern = r'[^\w\s]'
+                punct_matches = re.finditer(punct_pattern, source_text)
+                
+                examples_shown = 0
+                for match in punct_matches:
+                    punct = match.group(0)
+                    start = max(0, match.start() - 10)
+                    end = min(len(source_text), match.end() + 10)
+                    context = source_text[start:end]
+                    context_clean = re.sub(punct_pattern, '', context)
+                    
+                    st.markdown(f"- '{context}' → '{context_clean}'")
+                    examples_shown += 1
+                    if examples_shown >= 5:  # Limit to 5 examples
+                        break
+                        
+                if examples_shown == 0:
+                    st.markdown("No punctuation found in this text.")
+        
+        # Step 4: Tokenization
+        import nltk
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt')
+            
+        tokens = nltk.word_tokenize(current_text)
+        st.markdown("**After Tokenization:**")
+        st.text(str(tokens))
+        
+        # Step 5: Stopword removal (optional)
+        if remove_stopwords:
+            try:
+                nltk.data.find('corpora/stopwords')
+            except LookupError:
+                nltk.download('stopwords')
+                
+            from nltk.corpus import stopwords
+            stop_words = set(stopwords.words('english'))
+            
+            filtered_tokens = [token for token in tokens if token.lower() not in stop_words]
+            st.markdown("**After Stopword Removal:**")
+            st.text(str(filtered_tokens))
+            current_tokens = filtered_tokens
+            
+            # Highlight differences
+            with st.expander("Bias implications of stopword removal"):
+                st.markdown("""
+                **Bias implications:**
+                - Some stopwords carry meaning in specific cultural contexts
+                - English stopword lists may inappropriately apply to multilingual text
+                - Certain speech patterns or dialects may use stopwords differently
+                
+                **Removed stopwords from this text:**
+                """)
+                
+                removed = [token for token in tokens if token.lower() in stop_words]
+                if removed:
+                    st.markdown(", ".join([f"'{word}'" for word in removed]))
+                else:
+                    st.markdown("No stopwords found in this text.")
+        else:
+            current_tokens = tokens
+        
+        # Step 6: Stemming (optional)
+        if do_stemming:
+            from nltk.stem import PorterStemmer
+            ps = PorterStemmer()
+            
+            stemmed_tokens = [ps.stem(token) for token in current_tokens]
+            st.markdown("**After Stemming:**")
+            st.text(str(stemmed_tokens))
+            
+            # Create a table showing the stemming changes
+            stemming_changes = [(original, stemmed) for original, stemmed in zip(current_tokens, stemmed_tokens) if original != stemmed]
+            
+            if stemming_changes:
+                st.markdown("**Stemming Changes:**")
+                stemming_df = pd.DataFrame(stemming_changes, columns=['Original', 'Stemmed'])
+                st.table(stemming_df)
+                
+                # Highlight differences
+                with st.expander("Bias implications of stemming"):
+                    st.markdown("""
+                    **Bias implications:**
+                    - Porter stemmer was designed for English and may incorrectly stem words from other languages
+                    - Cultural terms and proper nouns may be improperly stemmed
+                    - Different inflections with distinct meanings may be conflated
+                    - Specialized terminology may lose important distinctions
+                    
+                    **Examples of potentially problematic stemming:**
+                    """)
+                    
+                    # Check for potential cultural terms or proper nouns that were stemmed
+                    for orig, stemmed in stemming_changes:
+                        if (orig[0].isupper() or 
+                            any(term in orig.lower() for term in ['culture', 'language', 'ethnic', 'tradition', 'community', 'identity'])):
+                            st.markdown(f"- '{orig}' → '{stemmed}' (potential cultural term or proper noun)")
+            else:
+                st.info("No stemming changes to display for this text.")
+            
+            final_text = " ".join(stemmed_tokens)
+        else:
+            final_text = " ".join(current_tokens)
+        
+        # Final result
+        st.subheader("Final Processed Text")
+        st.text(final_text)
+        
+        # Information loss statistics
+        original_word_count = len(input_text.split())
+        processed_word_count = len(final_text.split())
+        token_reduction = (1 - processed_word_count / original_word_count) * 100 if original_word_count > 0 else 0
+        
+        st.subheader("Information Loss Analysis")
+        
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            st.markdown("**Step 1: Lowercase Conversion**")
-            lowercase_text = input_text.lower()
-            st.text(lowercase_text)
+            st.metric("Original Word Count", original_word_count)
         
         with col2:
-            st.markdown("**Step 2: Punctuation Removal**")
-            no_punct_text = re.sub(r'[^\w\s]', '', lowercase_text)
-            st.text(no_punct_text)
+            st.metric("Processed Word Count", processed_word_count)
         
         with col3:
-            st.markdown("**Step 3: Stemming**")
-            ps = PorterStemmer()
-            tokens = nltk.word_tokenize(no_punct_text)
-            stemmed_tokens = [ps.stem(token) for token in tokens]
-            stemmed_text = ' '.join(stemmed_tokens)
-            st.text(stemmed_text)
+            st.metric("Token Reduction", f"{token_reduction:.1f}%")
     
-    # Case study
-    st.subheader("Case Study: Impact on Cultural Terms")
+    # Case studies
+    st.subheader("Case Study: Impact on Cultural Terms and Names")
     
-    st.markdown("""
-    Let's examine how preprocessing affects different types of terms:
+    case_study_tabs = st.tabs(["Names", "Cultural Terms", "Non-English Words"])
     
-    1. Standard English: "running", "jumped", "cars"
-    2. Cultural terms: "hip-hop", "afrofuturism", "latinx"
-    3. Names: "O'Connor", "Nguyen", "López-Álvarez"
-    """)
+    with case_study_tabs[0]:
+        st.markdown("""
+        ### Impact on Names
+        
+        Names from different cultures are processed differently by standard preprocessing techniques:
+        
+        | Original Name | After Preprocessing | Information Lost |
+        |---------------|---------------------|------------------|
+        | María Rodríguez-López | maria rodriguez lopez | Diacritics, capitals, hyphen |
+        | O'Connor | oconnor | Apostrophe, capitalization |
+        | Nguyễn | nguyen | Diacritics, capitalization |
+        | DeAndre | deandr | Capitalization pattern, word ending |
+        
+        **Bias Impact**: Names from non-English cultures often lose more information during preprocessing,
+        making them harder to search for accurately. This creates an uneven playing field where some names
+        are more searchable than others.
+        """)
     
-    # Comparison table showing original and processed forms
-    # Implementation here
+    with case_study_tabs[1]:
+        st.markdown("""
+        ### Impact on Cultural Terms
+        
+        Cultural and identity terms are often compound words or specialized vocabulary:
+        
+        | Original Term | After Preprocessing | Information Lost |
+        |---------------|---------------------|------------------|
+        | African-American | african american | Hyphenation, compound meaning |
+        | Latinx | latinx | (preserved but rare in older corpora) |
+        | code-switching | code switch | Hyphenation, inflection |
+        | hip-hop | hip hop | Hyphenation, compound meaning |
+        | afrofuturism | afrofutur | Word ending with conceptual meaning |
+        
+        **Bias Impact**: Cultural terms often undergo more substantial transformation during preprocessing,
+        potentially leading to poorer retrievability. Terms specific to marginalized groups may be particularly affected.
+        """)
+    
+    with case_study_tabs[2]:
+        st.markdown("""
+        ### Impact on Non-English Words
+        
+        Words from languages other than English face particular challenges:
+        
+        | Original Word | After Preprocessing | Information Lost |
+        |---------------|---------------------|------------------|
+        | déjà vu | deja vu | Diacritics, compound nature |
+        | café | cafe | Diacritics |
+        | niño | nino | Diacritics with phonetic meaning |
+        | São Paulo | sao paulo | Diacritics, capitalization |
+        | corrido (Spanish song) | corrido | Cultural context, might be stemmed incorrectly |
+        
+        **Bias Impact**: Non-English words lose diacritical marks that may be essential to their meaning.
+        English-centric stemming algorithms may incorrectly transform words from other languages.
+        """)
     
     # Reflection box
     st.subheader("Reflection")
@@ -352,6 +1097,59 @@ def show_preprocessing():
     """)
     
     reflection = st.text_area("Your reflections on preprocessing bias:", height=150)
+    
+    # Educational summary
+    st.header("What We've Learned: Text Preprocessing and Bias")
+    
+    st.markdown("""
+    In this section, you've experimented with how preprocessing transforms text before it can be indexed and searched. You've observed:
+    
+    - How **lowercase conversion** erases distinctions between proper nouns and common words
+    - How **punctuation removal** affects hyphenated terms, names with apostrophes, and words with diacritics
+    - How **stopword removal** might eliminate words that carry meaning in specific cultural contexts
+    - How **stemming** can incorrectly transform cultural terms and words from non-English languages
+    
+    Through the case studies, you've seen how these transformations disproportionately affect:
+    
+    - **Names from different cultures** (María Rodríguez-López → maria rodriguez lopez)
+    - **Cultural and identity terms** (African-American → african american)
+    - **Non-English words** (déjà vu → deja vu)
+    
+    ### Strategies to Mitigate Preprocessing Bias
+    
+    Several approaches can help reduce bias introduced during preprocessing:
+    
+    1. **Language-specific preprocessing**: Apply different preprocessing rules based on detected language
+    
+    2. **Preserving case information**: Store both original and lowercase versions to maintain proper nouns
+    
+    3. **Careful stemming**: Use more conservative stemming algorithms or lemmatization that respects morphological 
+    differences across languages
+    
+    4. **Entity recognition**: Apply named entity recognition to preserve personal names, locations, and organizations
+    
+    5. **Compound word handling**: Preserve or specially index compound terms, especially culturally significant ones
+    
+    6. **Multilingual stopword lists**: Use language-appropriate stopword lists for multilingual corpora
+    
+    7. **Diacritic preservation**: Maintain diacritical marks or index both versions (with and without diacritics)
+    
+    8. **Context-aware preprocessing**: Consider document context when determining how to process special terms
+    """)
+    
+    # Navigation buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col1:
+        st.button("← Back to 'Selection Bias'", 
+                  on_click=navigate_to, 
+                  args=("Selection Bias and the Corpus",),
+                  key="preproc_prev")
+    with col3:
+        st.button("Continue to 'TF-IDF' →", 
+                  on_click=navigate_to, 
+                  args=("Statistical Bias: TF-IDFs",),
+                  key="preproc_next")
 
 def show_tfidf_calculator():
     st.title("Understanding TF-IDF: Numbers That Shape Results")
@@ -363,29 +1161,316 @@ def show_tfidf_calculator():
     Let's explore how TF-IDF works and how it might introduce bias.
     """)
     
+    # Explanation of TF-IDF
+    with st.expander("How does TF-IDF work?"):
+        st.markdown("""
+        ### Term Frequency (TF)
+        
+        Term Frequency measures how frequently a term occurs in a document:
+        
+        $TF(t, d) = \\frac{\\text{Number of times term t appears in document d}}{\\text{Total number of terms in document d}}$
+        
+        ### Inverse Document Frequency (IDF)
+        
+        Inverse Document Frequency measures how important a term is across all documents:
+        
+        $IDF(t) = \\log\\left(\\frac{\\text{Total number of documents}}{\\text{Number of documents containing term t}}\\right)$
+        
+        ### TF-IDF Score
+        
+        The TF-IDF score is the product of TF and IDF:
+        
+        $TFIDF(t, d) = TF(t, d) \\times IDF(t)$
+        
+        This formula gives:
+        - Higher weight to terms that appear frequently in a specific document
+        - Lower weight to terms that appear in many documents (considered less distinctive)
+        """)
+    
     # TF-IDF Calculator
     st.subheader("TF-IDF Calculator")
     
     # Word input
-    word = st.text_input("Enter a word:")
+    word = st.text_input("Enter a word to analyze:", value="love")
     
-    # Document selection
-    options = ["Document 1: Pride and Prejudice excerpt", 
-               "Document 2: Moby Dick excerpt",
-               "Document 3: The Art of War excerpt"]
-    selected_docs = st.multiselect("Select documents to compare:", options)
+    if word:
+        # Calculate TF-IDF using the search index
+        with st.spinner("Calculating TF-IDF scores across the corpus..."):
+            # Get documents containing the term
+            results, search_process = search_index.search(word, top_k=10)
+            
+            if not results:
+                st.warning(f"The term '{word}' was not found in any documents.")
+            else:
+                # Extract document IDs and scores
+                docs_with_scores = {doc_id: score for doc_id, score in results}
+                
+                # Get the token postings info
+                if 'token_postings' in search_process and word.lower() in search_process['token_postings']:
+                    token_info = search_process['token_postings'][word.lower()]
+                    
+                    # Display term statistics
+                    st.subheader(f"Statistics for term: '{word}'")
+                    
+                    col1, col2, col3 = st.columns(3)
+                    
+                    with col1:
+                        st.metric("Document Frequency", token_info['df'])
+                    
+                    with col2:
+                        df_percentage = (token_info['df'] / len(search_index.documents)) * 100
+                        st.metric("Percentage of Corpus", f"{df_percentage:.2f}%")
+                    
+                    with col3:
+                        st.metric("IDF Value", f"{token_info['idf']:.4f}")
+                    
+                    # Create a dataframe with TF-IDF details for each document
+                    results_data = []
+                    
+                    for doc_id, score in results:
+                        # Get document metadata if available
+                        metadata = search_index.metadata.get(doc_id, {})
+                        
+                        # Get scoring details for this term in this document
+                        if ('scoring_details' in search_process and 
+                            doc_id in search_process['scoring_details'] and
+                            word.lower() in search_process['scoring_details'][doc_id]):
+                            
+                            details = search_process['scoring_details'][doc_id][word.lower()]
+                            
+                            # Add result to data
+                            results_data.append({
+                                'Document': doc_id,
+                                'Title': metadata.get('title', doc_id),
+                                'Author': metadata.get('author', 'Unknown'),
+                                'Year': metadata.get('year', 'Unknown'),
+                                'TF': details['tf'],
+                                'Score Contribution': details['contribution'],
+                                'Total Score': score
+                            })
+                        else:
+                            # Fallback if detailed scoring not available
+                            results_data.append({
+                                'Document': doc_id,
+                                'Title': metadata.get('title', doc_id),
+                                'Author': metadata.get('author', 'Unknown'),
+                                'Year': metadata.get('year', 'Unknown'),
+                                'TF': 'N/A',
+                                'Score Contribution': 'N/A',
+                                'Total Score': score
+                            })
+                    
+                    # Create a dataframe and display as table
+                    results_df = pd.DataFrame(results_data)
+                    st.subheader("Top Documents by TF-IDF Score")
+                    st.dataframe(results_df)
+                    
+                    # Create bar chart visualization
+                    fig = px.bar(
+                        results_df,
+                        x='Document',
+                        y='Total Score',
+                        title=f"TF-IDF Scores for '{word}' Across Top Documents",
+                        color='Total Score',
+                        hover_data=['Author', 'Year'],
+                        color_continuous_scale='Blues'
+                    )
+                    fig.update_layout(xaxis_title="Document", yaxis_title="TF-IDF Score")
+                    st.plotly_chart(fig)
+                    
+                    # Show breakdown of how score is calculated for first document
+                    if results_data:
+                        with st.expander("How is the score calculated?"):
+                            first_doc = results_data[0]
+                            doc_id = first_doc['Document']
+                            
+                            st.markdown(f"### Score calculation for '{word}' in document '{first_doc['Title']}'")
+                            
+                            # Get term frequency
+                            tf = first_doc['TF'] if first_doc['TF'] != 'N/A' else 0
+                            st.markdown(f"""
+                            **Step 1: Calculate Term Frequency (TF)**
+                            
+                            TF measures how frequently the term appears in this specific document, normalized by document length.
+                            
+                            TF('{word}', '{doc_id}') = {tf:.6f}
+                            """)
+                            
+                            # Get IDF
+                            idf = token_info['idf']
+                            st.markdown(f"""
+                            **Step 2: Use Inverse Document Frequency (IDF)**
+                            
+                            IDF measures how rare the term is across all documents.
+                            
+                            IDF('{word}') = {idf:.6f}
+                            """)
+                            
+                            # Calculate TF-IDF
+                            tfidf = first_doc['Score Contribution'] if first_doc['Score Contribution'] != 'N/A' else 0
+                            st.markdown(f"""
+                            **Step 3: Calculate TF-IDF Score**
+                            
+                            TF-IDF is the product of TF and IDF.
+                            
+                            TF-IDF('{word}', '{doc_id}') = {tf:.6f} × {idf:.6f} = {tfidf:.6f}
+                            """)
+                            
+                            st.info("This document may have scores from other terms if your search included multiple words.")
+                else:
+                    st.warning("Detailed term information not available.")
     
-    if word and selected_docs:
-        # Calculate and display TF-IDF
-        st.write(f"TF-IDF scores for '{word}':")
-        
-        for doc in selected_docs:
-            # This would use your actual implementation
-            score = 0.75  # Placeholder
-            st.write(f"{doc}: {score:.4f}")
-        
-        # Visualization
-        st.bar_chart({doc: 0.75 for doc in selected_docs})  # Placeholder
+    # Compare multiple terms
+    st.subheader("Compare Different Types of Terms")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        cultural_terms_input = st.text_area("Cultural/Specialized Terms (one per line):", 
+                                          "african\nindigenous\nfeminism\nqueer\nlatin")
+        cultural_terms = [term.strip() for term in cultural_terms_input.split("\n") if term.strip()]
+    
+    with col2:
+        general_terms_input = st.text_area("General/Common Terms (one per line):", 
+                                         "love\ntime\nlife\nday\nworld")
+        general_terms = [term.strip() for term in general_terms_input.split("\n") if term.strip()]
+    
+    if st.button("Compare Terms"):
+        with st.spinner("Comparing terms across the corpus..."):
+            # Process all terms
+            all_terms = cultural_terms + general_terms
+            term_types = ["Cultural/Specialized"] * len(cultural_terms) + ["General/Common"] * len(general_terms)
+
+            comparison_data = []
+
+            for term, term_type in zip(all_terms, term_types):
+                # Search for the term
+                results, search_process = search_index.search(term, top_k=5)
+                
+                # Get token postings info if available
+                if ('token_postings' in search_process and 
+                    term.lower() in search_process['token_postings']):
+                    
+                    token_info = search_process['token_postings'][term.lower()]
+                    df = token_info['df']
+                    idf = token_info['idf']
+                    
+                    # Add to comparison data
+                    comparison_data.append({
+                        'Term': term,
+                        'Type': term_type,
+                        'Document Frequency': df,
+                        'Percentage of Corpus': (df / len(search_index.documents)) * 100,
+                        'IDF Value': idf,
+                        'Number of Results': len(results)
+                    })
+                else:
+                    # Term not found
+                    comparison_data.append({
+                        'Term': term,
+                        'Type': term_type,
+                        'Document Frequency': 0,
+                        'Percentage of Corpus': 0,
+                        'IDF Value': 0,
+                        'Number of Results': 0
+                    })
+            
+            if comparison_data:
+                # Create dataframe
+                comparison_df = pd.DataFrame(comparison_data)
+                
+                # Display table
+                st.subheader("Term Comparison")
+                st.dataframe(comparison_df)
+                
+                # Create visualization of document frequency
+                fig1 = px.bar(
+                    comparison_df,
+                    x='Term',
+                    y='Document Frequency',
+                    color='Type',
+                    title='Document Frequency by Term Type',
+                    labels={'Document Frequency': 'Number of Documents'},
+                    color_discrete_map={'Cultural/Specialized': '#FF6B6B', 'General/Common': '#4ECDC4'}
+                )
+                st.plotly_chart(fig1)
+                
+                # Create visualization of IDF values
+                fig2 = px.bar(
+                    comparison_df,
+                    x='Term',
+                    y='IDF Value',
+                    color='Type',
+                    title='IDF Values by Term Type',
+                    labels={'IDF Value': 'Inverse Document Frequency'},
+                    color_discrete_map={'Cultural/Specialized': '#FF6B6B', 'General/Common': '#4ECDC4'}
+                )
+                st.plotly_chart(fig2)
+                
+                # Calculate and display averages by type
+                # Only calculate means for numeric columns
+                numeric_cols = ['Document Frequency', 'Percentage of Corpus', 'IDF Value', 'Number of Results']
+                avg_by_type = comparison_df.groupby('Type')[numeric_cols].mean().reset_index()
+                
+                st.subheader("Average Values by Term Type")
+                st.dataframe(avg_by_type)
+                
+                # Create a summary chart
+                summary_data = []
+                for term_type in ['Cultural/Specialized', 'General/Common']:
+                    type_data = comparison_df[comparison_df['Type'] == term_type]
+                    summary_data.append({
+                        'Type': term_type,
+                        'Avg Document Frequency': type_data['Document Frequency'].mean(),
+                        'Avg Percentage of Corpus': type_data['Percentage of Corpus'].mean(),
+                        'Avg IDF Value': type_data['IDF Value'].mean()
+                    })
+
+                summary_df = pd.DataFrame(summary_data)
+
+                # Instead of using multiple y values, reshape the dataframe first
+                summary_melted = pd.melt(
+                    summary_df, 
+                    id_vars=['Type'],
+                    value_vars=['Avg Document Frequency', 'Avg IDF Value'],
+                    var_name='Metric',
+                    value_name='Value'
+                )
+
+                # Then create the bar chart
+                fig3 = px.bar(
+                    summary_melted,
+                    x='Type',
+                    y='Value',
+                    color='Metric',
+                    barmode='group',
+                    title='Average Statistics by Term Type',
+                    color_discrete_sequence=['#FF9F1C', '#2EC4B6']
+                )
+                st.plotly_chart(fig3)
+                
+                # Analysis of results
+                if avg_by_type.shape[0] == 2:  # If we have both types
+                    cultural_avg_df = avg_by_type[avg_by_type['Type'] == 'Cultural/Specialized']['Document Frequency'].values[0]
+                    general_avg_df = avg_by_type[avg_by_type['Type'] == 'General/Common']['Document Frequency'].values[0]
+                    cultural_avg_idf = avg_by_type[avg_by_type['Type'] == 'Cultural/Specialized']['IDF Value'].values[0]
+                    general_avg_idf = avg_by_type[avg_by_type['Type'] == 'General/Common']['IDF Value'].values[0]
+                    
+                    df_diff = general_avg_df - cultural_avg_df
+                    idf_diff = cultural_avg_idf - general_avg_idf
+                    
+                    st.info(f"""
+                    **Analysis:**
+                    
+                    - General terms appear in an average of {general_avg_df:.1f} documents, while cultural/specialized terms appear in {cultural_avg_df:.1f} documents.
+                    - This means general terms are found in {df_diff:.1f} more documents on average ({(df_diff/cultural_avg_df*100):.1f}% more).
+                    
+                    - Cultural/specialized terms have an average IDF of {cultural_avg_idf:.4f}, compared to {general_avg_idf:.4f} for general terms.
+                    - This means cultural terms have {idf_diff:.4f} higher IDF values on average ({(idf_diff/general_avg_idf*100):.1f}% higher).
+                    
+                    - Higher IDF values for cultural terms suggest they are treated as "more distinctive" by the algorithm.
+                    - However, this could also reflect under-representation of these terms in the corpus rather than true information value.
+                    """)
     
     # Hypothesis box
     st.subheader("Form a Hypothesis")
@@ -394,89 +1479,447 @@ def show_tfidf_calculator():
     
     Try entering different types of words in the calculator above:
     - Common English words (e.g., "love", "time", "day")
-    - Cultural terms (e.g., "diaspora", "intersectionality")
+    - Cultural terms (e.g., "diaspora", "indigenous")
     - Technical terms from different fields
     
     What patterns do you notice? What biases might this introduce in search results?
     """)
     
     hypothesis = st.text_area("Your hypothesis about TF-IDF bias:", height=150)
+    
+    # Educational context
+    # Educational summary - full header instead of expander
+    st.header("What We've Learned: How TF-IDF Can Introduce or Amplify Bias")
+    
+    st.markdown("""
+    In this section, you've explored how TF-IDF scoring works and compared different types of terms. You've discovered:
+    
+    - How TF-IDF calculates a score based on term frequency in a document and inverse document frequency across the corpus
+    - How rare terms receive higher IDF values, potentially overweighting them regardless of their actual importance
+    - How cultural and specialized terms typically have higher IDF values than general terms
+    - The significant statistical differences between cultural/specialized terms and general/common terms in our corpus
+    
+    Through these experiments, you've identified several ways TF-IDF can introduce or amplify bias:
+    
+    1. **Statistical bias from corpus composition**
+       - Cultural terms are naturally less frequent in our corpus, giving them higher IDF scores
+       - This might seem like an advantage, but can be misleading since the rarity is due to corpus bias, not actual information value
+       - Example: "diaspora" might get a high IDF not because it's more informative, but because of under-representation
+    
+    2. **Contextual meaning loss**
+       - TF-IDF treats words as independent units, losing important contexts
+       - Cultural concepts often rely heavily on context for proper interpretation
+       - Example: "passing" has specific cultural meanings in certain communities that are lost when treated as an isolated term
+    
+    3. **Compound term fragmentation**
+       - Cultural concepts often expressed in multi-word terms (e.g., "code-switching", "critical race theory")
+       - Preprocessing may split these into separate terms, affecting their TF-IDF scores
+    
+    4. **Term frequency thresholds**
+       - Many systems ignore terms below certain frequency thresholds to optimize performance
+       - This disproportionately affects culturally specific or specialized terms
+    
+    ### Mitigation Strategies
+    
+    Some approaches to address these biases include:
+    
+    1. **Corpus balancing**: Ensure diverse representation in the document collection
+    2. **Specialized term weighting**: Adjust weights for recognized cultural or specialized terms
+    3. **Phrase preservation**: Maintain multi-word expressions as single units in the index
+    4. **Context-aware weighting**: Consider local context when calculating term importance
+    """)
+
+    # Navigation buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col1:
+        st.button("← Back to 'Preprocessing'", 
+                  on_click=navigate_to, 
+                  args=("Text Preprocessing Bias",),
+                  key="tfidf_prev")
+    with col3:
+        st.button("Continue to 'System Bias' →", 
+                  on_click=navigate_to, 
+                  args=("Putting It All Together",),
+                  key="tfidf_next")
 
 def show_system_bias():
     st.title("Putting It All Together: System-Level Bias")
     
     st.markdown("""
-    We've examined individual components of an Information Retrieval system and identified potential biases in each.
-    Now, let's see how these biases compound through the system to affect final search results.
+    We've examined individual components of an Information Retrieval system and identified potential biases in each:
     
-    The flowchart below illustrates the complete IR pipeline, with bias entry points highlighted in red.
+    1. **Selection Bias**: Our corpus is skewed toward older, Western-centric texts
+    2. **Preprocessing Bias**: Cultural terms, names, and non-English words lose distinctive features
+    3. **Statistical Bias**: TF-IDF can amplify underrepresentation of cultural terms
+    
+    Now, let's see how these biases compound through the system to affect final search results.
     """)
     
-    # Display flowchart image
-    # st.image("assets/ir_flowchart.png")
-    
-    # Complete search system demo
-    st.subheader("Complete Search System")
-    
-    query = st.text_input("Enter a search query to see bias effects:")
-    
-    bias_toggles = st.multiselect(
-        "Toggle bias mitigation strategies:",
-        ["Use diverse corpus", "Preserve case information", "Custom stemming for names", 
-         "Context-aware indexing", "Cultural relevance boosting"]
+    # Toggle between different views
+    visualization_type = st.radio(
+        "Choose visualization:",
+        ["Bias Points Focus", "Simplified IR System", "Detailed IR System"],
+        horizontal=True,
+        index=0  # Default to bias points view for this section
     )
     
-    if query:
-        # Show search results with and without bias mitigation
-        col1, col2 = st.columns(2)
+    if visualization_type == "Bias Points Focus":
+        display_ir_system_visualization("bias_points")
+    elif visualization_type == "Simplified IR System":
+        display_ir_system_visualization("simplified")
+    else:
+        display_ir_system_visualization("detailed")
+    
+    # Explanation of bias compounding
+    st.subheader("How Bias Compounds Through the System")
+    
+    st.markdown("""
+    Bias doesn't just appear at individual points in the system; it compounds and amplifies:
+    
+    1. **Corpus bias** → The foundation of all search results is skewed
+    2. **Preprocessing bias** → Further distorts representation of cultural terms
+    3. **Statistical bias** → Amplifies distortions through term weights
+    4. **Ranking bias** → Final results may systematically disadvantage certain perspectives
+    
+    This creates a cascade effect where bias at each stage can multiply the effects of bias at other stages.
+    """)
+    
+    # Import the required functions from system_bias.py
+    from utils.system_bias import (
+        run_bias_comparison_search, 
+        trace_term_through_system, 
+        run_mitigated_search, 
+        run_system_bias_analysis
+    )
+    
+    # Set up tabs for different query examples
+    query_tabs = st.tabs(["Custom Search", "Cultural Terms Example", "Names Example", "Mixed Language Example"])
+    
+    with query_tabs[0]:
+        # Custom search query input
+        query = st.text_input("Enter a search query:")
         
-        with col1:
-            st.markdown("**Standard Results**")
-            # Display standard results
-            
-        with col2:
-            st.markdown("**Results with Bias Mitigation**")
-            # Display mitigated results
+        # Execute search if query is provided
+        if query:
+            run_bias_comparison_search(query, search_index)
+    
+    with query_tabs[1]:
+        st.markdown("""
+        This example demonstrates how cultural terms are processed differently by the search system.
+        Try comparing results for terms like "diaspora", "indigenous", or "afrofuturism".
+        """)
+        
+        cultural_query = st.selectbox(
+            "Select a cultural term to search for:",
+            ["diaspora", "indigenous", "afrofuturism", "hip-hop", "latinx"]
+        )
+        
+        if st.button("Run Cultural Terms Example"):
+            run_bias_comparison_search(cultural_query, search_index)
+    
+    with query_tabs[2]:
+        st.markdown("""
+        This example demonstrates how names from different cultures are processed differently.
+        Try comparing results for different naming patterns.
+        """)
+        
+        name_query = st.selectbox(
+            "Select a name pattern to search for:",
+            ["Maria Rodriguez-Lopez", "O'Connor", "Nguyễn", "DeAndre"]
+        )
+        
+        if st.button("Run Names Example"):
+            run_bias_comparison_search(name_query, search_index)
+    
+    with query_tabs[3]:
+        st.markdown("""
+        This example demonstrates how mixed language queries are affected by bias.
+        Try comparing results for terms with non-English elements.
+        """)
+        
+        mixed_query = st.selectbox(
+            "Select a mixed language query:",
+            ["café culture", "déjà vu", "niño education", "São Paulo"]
+        )
+        
+        if st.button("Run Mixed Language Example"):
+            run_bias_comparison_search(mixed_query, search_index)
+
+    # Detailed bias example with step-by-step visualization
+    st.subheader("Step-by-Step Bias Trace Example")
+    
+    st.markdown("""
+    Let's trace how bias affects a specific search term as it moves through the IR pipeline.
+    This example will show each transformation and how it impacts retrievability.
+    """)
+    
+    example_term = st.selectbox(
+        "Select a term to trace through the system:",
+        ["African-American", "Indigenous", "Latinx culture", "María's story"]
+    )
+    
+    if st.button("Trace Term Through System"):
+        trace_term_through_system(example_term, search_index)
+    
+    # Bias mitigation strategies
+    st.subheader("Exploring Bias Mitigation Strategies")
+    
+    st.markdown("""
+    How might we reduce bias in search systems? Let's explore some mitigation strategies
+    and see their impact on search results.
+    """)
+    
+    # Mitigation toggles
+    mitigation_options = {
+        "preserve_case": "Preserve case information (protects proper nouns)",
+        "custom_stemming": "Use custom stemming for cultural terms",
+        "context_aware": "Enable context-aware indexing",
+        "term_boosting": "Apply boosting for underrepresented terms",
+        "diverse_corpus": "Use more diverse corpus weighting"
+    }
+    
+    selected_mitigations = st.multiselect(
+        "Select bias mitigation strategies to apply:",
+        list(mitigation_options.keys()),
+        format_func=lambda x: mitigation_options[x]
+    )
+    
+    mitigation_query = st.text_input("Enter a query to test with mitigation strategies:", "indigenous peoples")
+    
+    if st.button("Run Mitigated Search"):
+        run_mitigated_search(mitigation_query, selected_mitigations, search_index)
+    
+    # System-level bias analysis tool
+    st.subheader("System-Level Bias Analysis Tool")
+    
+    st.markdown("""
+    This tool allows you to analyze the overall bias in search results for different types of queries.
+    Choose a category of terms to analyze and see how the system treats them differently.
+    """)
+    
+    bias_analysis_options = {
+        "cultural_vs_general": "Cultural terms vs. General terms",
+        "western_vs_nonwestern": "Western vs. Non-Western concepts",
+        "english_vs_noneng": "English vs. Non-English terms",
+        "gender_analysis": "Gender representation analysis"
+    }
+    
+    selected_analysis = st.selectbox(
+        "Select an analysis type:",
+        list(bias_analysis_options.keys()),
+        format_func=lambda x: bias_analysis_options[x]
+    )
+    
+    if st.button("Run System Bias Analysis"):
+        run_system_bias_analysis(selected_analysis, search_index)
+    
+    # Educational summary - full header instead of expander
+    st.header("What We've Learned: Understanding System-Level Bias")
+    
+    st.markdown("""
+    In this section, you've witnessed how bias compounds through the entire IR system pipeline. Your exploration has included:
+    
+    - Comparing standard search results with bias-mitigated alternatives
+    - Tracing specific terms through each stage of the IR pipeline to observe transformations
+    - Testing various mitigation strategies and their impact on search results
+    - Analyzing system-level bias across different categories of terms
+    
+    These experiments have demonstrated how biases interact throughout the system:
+    
+    ### System-Level Bias in Information Retrieval
+    
+    System-level bias occurs when multiple components of a system contain biases that interact 
+    and reinforce each other. In information retrieval, this can lead to:
+    
+    1. **Compounding effects**: Minor biases at each step multiply to create major disparities in results
+    
+    2. **Self-reinforcing patterns**: Popular, biased results become more popular, creating feedback loops
+    
+    3. **Invisible disadvantages**: Certain types of queries are systematically disadvantaged in ways 
+    that are difficult to detect without careful analysis
+    
+    4. **Emergent bias**: New biases that weren't present in any individual component can emerge from interactions
+    
+    ### Detecting System-Level Bias
+    
+    Techniques for identifying system-level bias include:
+    
+    - Fairness audits with diverse query sets
+    - Compare results across different demographic groups
+    - Measure representation of different perspectives in search results
+    - Track performance for culturally specific versus general queries
+    
+    ### Mitigating System-Level Bias
+    
+    Addressing system-level bias requires a holistic approach:
+    
+    - Diverse data collection across all dimensions (temporal, cultural, linguistic)
+    - Culture-aware preprocessing that preserves important distinctions
+    - Context-sensitive indexing approaches
+    - Fairness-aware ranking algorithms
+    - Regular auditing and monitoring of system behavior
+    """)
+
+    # Navigation buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col1:
+        st.button("← Back to 'TF-IDF'", 
+                  on_click=navigate_to, 
+                  args=("Statistical Bias: TF-IDFs",),
+                  key="system_prev")
+    with col3:
+        st.button("Continue to 'Final Reflection' →", 
+                  on_click=navigate_to, 
+                  args=("Final Reflection",),
+                  key="system_next")
 
 def show_reflection():
-    st.title("Final Reflection: How could we design more equitable IR systems?")
+    st.title("Final Reflection: Building More Equitable IR Systems")
     
     st.markdown("""
-    Throughout this interactive essay, we've explored how bias can enter information retrieval systems at various stages:
-    
-    1. Through the corpus selection
-    2. During text preprocessing
-    3. In indexing and context representation
-    4. Through statistical methods like TF-IDF
-    
-    Now, let's think about how we might design more equitable IR systems.
+    Throughout this interactive essay, we've explored how bias can enter Information Retrieval (IR) systems 
+    at multiple points and compound through the pipeline. Let's reflect on what we've learned and consider 
+    how we might build more equitable search systems in the future.
     """)
     
-    # Discussion questions
-    st.subheader("Discussion Questions")
+    # Summary of key learnings
+    st.subheader("Key Takeaways")
+    
+    st.markdown("""
+    We've examined three main types of bias in IR systems:
+    
+    1. **Selection Bias**: We saw how the composition of our corpus (Project Gutenberg texts) influences search 
+    results, with Western, male, and older perspectives dominating the collection.
+    
+    2. **Preprocessing Bias**: We learned how standard preprocessing steps like case folding, punctuation removal, 
+    and stemming can disproportionately affect cultural terms, names, and non-English words.
+    
+    3. **Statistical Bias**: We explored how TF-IDF calculations can inadvertently amplify existing corpus biases 
+    by treating underrepresented terms as highly distinctive, regardless of their actual information value.
+    
+    Most importantly, we've seen how these biases compound and interact, creating a system where certain types 
+    of queries and certain information needs are systematically disadvantaged.
+    """)
+    
+    # Reflection questions
+    st.subheader("Reflection Questions")
     
     questions = [
-        "How could corpus selection be improved to reduce bias?",
-        "What modifications to preprocessing could better preserve cultural information?",
-        "How might ranking algorithms be adapted to account for representation issues?",
-        "What role should human oversight play in search algorithms?",
-        "How can we evaluate IR systems for bias?"
+        "How might biased search results affect different user groups?",
+        "What responsibility do search engine designers have to address algorithmic bias?",
+        "How might we balance technical efficiency with fairness and equity in IR systems?",
+        "What other technologies might be affected by similar types of algorithmic bias?",
+        "How can users become more aware of potential bias in search results?"
     ]
     
-    for i, question in enumerate(questions, 1):
-        st.markdown(f"**{i}. {question}**")
-        st.text_area(f"Your thoughts on question {i}:", height=100, key=f"q{i}")
+    selected_question = st.selectbox("Choose a reflection question to answer:", questions)
     
-    # Resources
-    st.subheader("Further Resources")
+    st.text_area("Your reflection:", height=150, key="reflection_response")
+    
+    # Strategies for more equitable IR systems
+    st.subheader("Building More Equitable IR Systems")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("#### Technical Strategies")
+        st.markdown("""
+        * **Diverse corpus selection**: Ensure document collections represent varied perspectives, time periods, and cultures
+        
+        * **Culture-aware preprocessing**: Develop methods that preserve important cultural distinctions
+        
+        * **Context-sensitive indexing**: Maintain relationships between terms rather than treating them as independent units
+        
+        * **Fairness metrics**: Develop and monitor metrics for equity and representation in search results
+        
+        * **Alternative ranking functions**: Explore alternatives to TF-IDF that are less sensitive to corpus biases
+        
+        * **User feedback incorporation**: Learn from diverse user interactions to improve relevance for all groups
+        """)
+    
+    with col2:
+        st.markdown("#### Policy & Design Strategies")
+        st.markdown("""
+        * **Diverse development teams**: Include people from varied backgrounds in system design and evaluation
+        
+        * **Transparency**: Clearly document system limitations and potential biases
+        
+        * **User education**: Help users understand how search works and its potential limitations
+        
+        * **Regular bias audits**: Conduct regular testing for potential bias across different query types
+        
+        * **Expanded result diversity**: Design interfaces that encourage exploration of diverse perspectives
+        
+        * **Community involvement**: Include communities potentially affected by bias in the design process
+        """)
+    
+    # Future research directions
+    st.subheader("Future Directions")
     
     st.markdown("""
-    - Noble, S. U. (2018). *Algorithms of Oppression: How Search Engines Reinforce Racism*. NYU Press.
-    - Friedman, B., & Nissenbaum, H. (1996). Bias in computer systems. *ACM Transactions on Information Systems*.
-    - Jurafsky, D., & Martin, J. H. (2024). *Speech and Language Processing*.
-    - [MIT Technology Review: How to Make Algorithms Fair](https://www.technologyreview.com/)
-    - [Fairness in Machine Learning](https://fairmlbook.org/)
+    The field of fair and unbiased information retrieval continues to evolve. Some promising research directions include:
+    
+    * **Neural IR methods** that better capture semantic relationships while mitigating bias
+    
+    * **Personalization** approaches that consider individual needs without reinforcing systemic biases
+    
+    * **Explainable IR** techniques that help users understand why certain results appear
+     
+    * **Cross-cultural IR** systems designed from the ground up to serve diverse global users
+    
+    * **User control** interfaces that allow users to adjust system behavior based on their needs
     """)
+    
+    # Resources for further learning
+    st.subheader("Resources for Further Learning")
+    
+    st.markdown("""
+    If you'd like to explore these topics further, here are some excellent resources:
+    
+    * **Books**:
+      * "Algorithms of Oppression" by Safiya Umoja Noble
+      * "Race After Technology" by Ruha Benjamin
+      * "Data Feminism" by Catherine D'Ignazio and Lauren F. Klein
+    
+    * **Academic Papers**:
+      * Friedman & Nissenbaum, "Bias in Computer Systems" (1996)
+      * Mehrabi et al., "A Survey on Bias and Fairness in Machine Learning" (2021)
+      * Hutchinson et al., "Towards Accountability for Machine Learning Datasets" (2021)
+    
+    * **Online Resources**:
+      * [Algorithmic Justice League](https://www.ajl.org/)
+      * [Data & Society](https://datasociety.net/)
+      * [FAT* Conference](https://facctconference.org/) (Fairness, Accountability, and Transparency)
+    """)
+    
+    # Final thoughts
+    st.markdown("""
+    ### Final Thoughts
+    
+    The algorithms that power search engines are neither neutral nor objective - they reflect the data 
+    they're built on and the choices made by their designers. By understanding the sources of bias in 
+    information retrieval systems, we can work toward creating more equitable technology that serves 
+    diverse users fairly.
+    
+    As users, creators, and critics of these systems, we all have a role to play in demanding and 
+    building technology that works for everyone.
+    """)
+
+    # Navigation buttons
+    st.markdown("---")
+    col1, col2, col3 = st.columns([1, 1, 1])
+    with col1:
+        st.button("← Back to 'System Bias'", 
+                  on_click=navigate_to, 
+                  args=("Putting It All Together",),
+                  key="reflection_prev")
+    with col2:
+        st.button("Return to Start", 
+                  on_click=navigate_to, 
+                  args=("Introduction",),
+                  key="reflection_home")
 
 if __name__ == "__main__":
     main()
