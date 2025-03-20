@@ -228,9 +228,6 @@ def show_introduction():
     This simplified diagram shows the main components and where bias can enter the system:
     """)
     
-    # Display the simplified visualization by default
-    display_ir_system_visualization("simplified")
-    
     # Allow users to toggle between different views
     visualization_type = st.radio(
         "Visualization Type:",
@@ -254,8 +251,8 @@ def show_introduction():
     2. **Preprocessing Bias**: How text processing can lose important cultural information
     3. **Statistical Bias**: How even "unbiased" mathematical functions can amplify existing biases
     
-    Our dataset for this interactive essay is a collection of sixty books sourced from Project Gutenberg. From these sixty books,
-    we kept track of the book's title, author, year published, gender of author, nationality of author, and book genre.
+    Our dataset for this interactive essay is a collection of sixty randomly sampled books sourced from Project Gutenberg.
+    We kept track of the book's title, author, year published, gender of author, nationality of author, and book genre.
     """)
     
     # Display some stats about the loaded corpus
@@ -317,17 +314,20 @@ def show_introduction():
     Throughout this interactive experience, you'll explore the different components of an information retrieval (IR) system and discover how algorithmic bias can enter and compound at each stage. Here's what to expect:
     
     **1. Selection Bias and the Corpus**
+    - Learn and understand Selection Bias through exploratory data analysis of text
     - Analyze our Project Gutenberg dataset
     - Explore how the composition of a document collection influences search results
-    - Investigate representation of different cultural terms and demographics
+    - Investigate representation of different cultural terms and demographics in the dataset
     
     **2. Text Preprocessing Bias**
+    - Learn and understand Preprocessing Bias through a text preprocesisng simulator
     - Experiment with a text preprocessing simulator
     - See how stemming, case folding, and punctuation removal affect different types of text
-    - Discover how cultural terms, names, and non-English words can lose important information
+    - Discover how cultural terms, names, and non-English words can lose important information during preprocesisng
     
     **3. Statistical Bias: TF-IDF**
-    - Learn how TF-IDF weighs terms in documents
+    - Learn and understand Statistical Bias by seeing how an "unbiased" math formula can amplify biases
+    - Learn, broadly, how TF-IDFs work and produces weighed terms by documents
     - Calculate scores for different types of terms
     - Understand how rare terms can be overweighted regardless of actual importance
     
@@ -349,6 +349,7 @@ def show_introduction():
     - Interactive components to experiment with
     - Reflection prompts to deepen your understanding
     - Visualizations to illustrate important principles
+    - A summary of the key concepts at the end, with proposals for how to mitigate bias
     
     Let's begin by exploring how the composition of our document collection affects search results!
     """)
@@ -367,8 +368,10 @@ def show_corpus_analysis():
     
     # Explanation of corpus
     st.markdown("""
-    The corpus - or collection of documents - is the foundation of any search system. For our exploration,
-    we're using texts from Project Gutenberg, a digital library of free eBooks.
+    For our exploration,
+    we're using texts from Project Gutenberg, a digital library of free eBooks. In a formal Information Retrieval system,
+    we would call our collection of books "The Corpus" - that is, a collection of documents. In our case, 
+    our books are the documents within the corpus.
     
     Project Gutenberg primarily contains older, public domain works. Let's examine the characteristics of this collection
     and discuss how the composition of our corpus might influence search results.
@@ -516,213 +519,88 @@ def show_corpus_analysis():
             """)
         else:
             st.error("Author nationality and genre data are missing from metadata.")
-    
-    # Term analysis section with improved explanation and visualizations
-    st.subheader("Term Distribution Analysis")
 
-    # Add explanation of the purpose of term analysis
+    # Broader impact of corpus diversity
+    st.subheader("Impact of Corpus Diversity on Search Results")
+
     st.markdown("""
-    ### Why Analyze Term Distribution?
+    ### How Corpus Composition Shapes Search Results
 
-    This analysis helps us understand how cultural terms compare with general terms in our corpus. 
-    By examining the frequency and distribution of different types of terms, we can identify potential biases in the corpus.
+    The composition of our document collection fundamentally shapes what users can find and how different topics are represented in search results. Our analysis of Project Gutenberg reveals several important patterns:
 
-    **What we're looking for:**
-    - Are cultural terms underrepresented compared to general terms?
-    - How might this impact search results and retrieval effectiveness?
-    - Would certain queries be disadvantaged due to corpus composition?
+    #### 1. Historical and Temporal Bias
 
-    Cultural terms often appear less frequently in historical texts, which can lead to search engines treating them as less relevant
-    or as "outliers" - even when they're actually important for certain queries.
+    As we saw in the publication year distribution, our corpus heavily favors older works from specific time periods. This creates:
+    - Over-representation of historical perspectives and terminology
+    - Under-representation of contemporary concepts and language
+    - Difficulty finding modern ideas expressed in their current form
+
+    #### 2. Cultural and Geographic Representation
+
+    The nationality distribution shows a clear skew toward certain regions and cultures:
+    - Western perspectives and references dominate the corpus
+    - Non-Western cultural concepts may be rare or missing entirely
+    - Cultural terms from underrepresented groups receive artificially high distinctiveness scores
+
+    #### 3. Gender and Identity Perspectives
+
+    The gender distribution of authors affects which voices and viewpoints are amplified:
+    - Language patterns and topics more common to the dominant gender may be over-represented
+    - Concepts and terminology important to underrepresented genders may be harder to find
+    - Search algorithms may learn to prioritize dominant perspectives as "more relevant"
+
+    #### 4. Genre and Domain Skew
+
+    The distribution of genres affects which domains of knowledge are well-represented:
+    - Literary language may be over-represented compared to scientific or technical terminology
+    - Certain subject matters receive more coverage than others
+    - Domain-specific language from underrepresented fields may be treated as unusual or less relevant
     """)
 
-    # Sample terms to analyze
-    cultural_terms = ["african", "american", "native", "indigenous", "latinx", "hispanic"]
-    general_terms = ["life", "love", "death", "time", "world", "history"]
+    # Add interactive reflection element
+    st.markdown("""
+    ### Thought Experiment: Consider a Search for...
 
-    col1, col2 = st.columns(2)
+    Think about how corpus composition might affect searches for each of these topics:
+    """)
 
-    with col1:
-        custom_cultural = st.text_area("Cultural/identity terms (one per line):", "\n".join(cultural_terms))
-        cultural_terms = [term.strip() for term in custom_cultural.split("\n") if term.strip()]
+    topic_tabs = st.tabs(["Technology", "Social Justice", "Global Perspectives"])
 
-    with col2:
-        custom_general = st.text_area("General/common terms (one per line):", "\n".join(general_terms))
-        general_terms = [term.strip() for term in custom_general.split("\n") if term.strip()]
+    with topic_tabs[0]:
+        st.markdown("""
+        **Searching for Modern Technology Concepts**
+        
+        Terms like "smartphone," "internet," or "artificial intelligence" in their modern usage:
+        - Would rarely appear in historical texts
+        - Might have different meanings in older contexts (e.g., "artificial intelligence" in early sci-fi)
+        - Could return results that are conceptually unrelated to the modern meaning
+        
+        **Impact**: Users searching for modern technology concepts would likely receive sparse, outdated, or irrelevant results.
+        """)
 
-    if st.button("Analyze Term Distribution"):
-        with st.spinner("Analyzing term distribution..."):
-            # Count term occurrences across all documents
-            term_occurrences = {}
-            
-            all_terms = cultural_terms + general_terms
-            for term in all_terms:
-                # Search for the term
-                results, _ = search_index.search(term)
-                doc_count = len(results)
-                total_docs = len(search_index.documents)
-                
-                # Determine term type
-                term_type = "Cultural Term" if term in cultural_terms else "General Term"
-                
-                term_occurrences[term] = {
-                    "term": term,
-                    "type": term_type,
-                    "document_count": doc_count,
-                    "percentage": (doc_count / total_docs) * 100 if total_docs > 0 else 0,
-                    "log_percentage": np.log10((doc_count / total_docs) * 100 + 0.1) if total_docs > 0 else 0  # Add 0.1 to avoid log(0)
-                }
-            
-            # Convert to dataframe for visualization
-            term_df = pd.DataFrame(list(term_occurrences.values()))
-            
-            # Create a more informative grouped bar chart
-            fig1 = px.bar(
-                term_df,
-                x='term',
-                y='percentage',
-                color='type',
-                title='Percentage of Corpus Containing Each Term',
-                labels={'term': 'Term', 'percentage': 'Percentage of Documents (%)', 'type': 'Term Type'},
-                color_discrete_map={'Cultural Term': '#FF6B6B', 'General Term': '#4ECDC4'},
-                barmode='group',
-                height=500,
-                text='percentage'  # Display the percentage value on each bar
-            )
-            
-            # Format the text to show 2 decimal places
-            fig1.update_traces(texttemplate='%{text:.2f}%', textposition='outside')
-            
-            # Add a horizontal line for the average document percentage across all terms
-            overall_avg = term_df['percentage'].mean()
-            fig1.add_shape(
-                type="line",
-                x0=-0.5,
-                y0=overall_avg,
-                x1=len(all_terms) - 0.5,
-                y1=overall_avg,
-                line=dict(color="gray", width=2, dash="dash"),
-            )
-            
-            # Add annotation for the average line
-            fig1.add_annotation(
-                x=len(all_terms) - 1,
-                y=overall_avg,
-                text=f"Average: {overall_avg:.2f}%",
-                showarrow=False,
-                yshift=10
-            )
-            
-            # Adjust layout for better readability
-            fig1.update_layout(
-                xaxis_title="Term",
-                yaxis_title="Percentage of Documents (%)",
-                xaxis={'categoryorder': 'total descending'},
-                legend_title="Term Type"
-            )
-            
-            st.plotly_chart(fig1)
-            
-            # Create log scale visualization for better visibility of small percentages
-            fig2 = px.bar(
-                term_df,
-                x='type',
-                y='log_percentage',
-                color='term',
-                title='Log-Scale Distribution of Terms by Type',
-                labels={'log_percentage': 'Log10(Percentage + 0.1)', 'type': 'Term Type'},
-                barmode='group',
-                height=500
-            )
-            
-            # Adjust layout for better readability
-            fig2.update_layout(
-                xaxis_title="Term Type",
-                yaxis_title="Log10(Percentage + 0.1)",
-                legend_title="Terms"
-            )
-            
-            st.plotly_chart(fig2)
-            
-            # Create a radar chart to show the relative presence of each term
-            # Reorganize data for radar chart
-            cultural_data = term_df[term_df['type'] == 'Cultural Term'][['term', 'percentage']]
-            general_data = term_df[term_df['type'] == 'General Term'][['term', 'percentage']]
-            
-            # Create radar chart
-            fig3 = go.Figure()
-            
-            if not cultural_data.empty:
-                fig3.add_trace(go.Scatterpolar(
-                    r=cultural_data['percentage'].tolist(),
-                    theta=cultural_data['term'].tolist(),
-                    fill='toself',
-                    name='Cultural Terms',
-                    line_color='#FF6B6B'
-                ))
-                
-            if not general_data.empty:
-                fig3.add_trace(go.Scatterpolar(
-                    r=general_data['percentage'].tolist(),
-                    theta=general_data['term'].tolist(),
-                    fill='toself',
-                    name='General Terms',
-                    line_color='#4ECDC4'
-                ))
-                
-            fig3.update_layout(
-                polar=dict(
-                    radialaxis=dict(
-                        visible=True,
-                        range=[0, max(term_df['percentage'])*1.1]
-                    )
-                ),
-                title="Radar Chart: Term Coverage in Corpus",
-                height=600
-            )
-            
-            st.plotly_chart(fig3)
-            
-            # Show detailed table with all metrics
-            term_df_display = term_df[['term', 'type', 'document_count', 'percentage']]
-            term_df_display['percentage'] = term_df_display['percentage'].round(2)
-            term_df_display = term_df_display.sort_values(by=['type', 'percentage'], ascending=[True, False])
-            term_df_display.columns = ['Term', 'Type', 'Document Count', 'Percentage (%)']
-            
-            st.subheader("Detailed Term Statistics")
-            st.dataframe(term_df_display)
-            
-            # Calculate and display averages with more context
-            avg_cultural = term_df[term_df['type'] == 'Cultural Term']['percentage'].mean()
-            avg_general = term_df[term_df['type'] == 'General Term']['percentage'].mean()
-            
-            # Display a summary with more explanation of the findings
-            st.subheader("Analysis Summary")
-            
-            difference = avg_general - avg_cultural
-            ratio = avg_general / avg_cultural if avg_cultural > 0 else float('inf')
-            
-            st.info(f"""
-            ### Corpus Coverage Analysis
-            
-            **Cultural Terms:** Found in an average of {avg_cultural:.2f}% of documents
-            
-            **General Terms:** Found in an average of {avg_general:.2f}% of documents
-            
-            **Difference:** General terms appear in {difference:.2f} percentage points more documents than cultural terms
-            
-            **Ratio:** General terms are {ratio:.1f}x more likely to appear in documents than cultural terms
-            
-            ### Potential Bias Impact
-            
-            {'⚠️ **Significant bias detected**: General terms are much more common than cultural terms in this corpus.' if ratio > 5 else 
-            '⚠️ **Moderate bias detected**: General terms are somewhat more common than cultural terms in this corpus.' if ratio > 2 else
-            '✓ **Low bias detected**: Cultural and general terms have similar representation in this corpus.'}
-            
-            This {'imbalance' if ratio > 1.5 else 'balance'} affects how search algorithms evaluate term importance. Since TF-IDF and similar algorithms 
-            give higher weight to rare terms, cultural terms might get disproportionately {'high' if ratio > 1.5 else 'similar'} IDF scores compared to 
-            their actual information value.
-            """)
+    with topic_tabs[1]:
+        st.markdown("""
+        **Searching for Contemporary Social Justice Concepts**
+        
+        Terms like "intersectionality," "microaggression," or "gender non-binary":
+        - Would be absent from most historical texts
+        - Modern frameworks for discussing identity and equality would be missing
+        - Related but outdated terminology might dominate results
+        
+        **Impact**: Users exploring contemporary social issues would find limited relevant content, potentially reinforcing the impression that these concepts are "new" or "niche" rather than extensions of long-standing concerns.
+        """)
+
+    with topic_tabs[2]:
+        st.markdown("""
+        **Searching for Non-Western Cultural Concepts**
+        
+        Terms from non-Western cultural traditions or philosophies:
+        - Would be less frequent and often filtered through Western perspectives
+        - Might appear primarily in anthropological or colonial contexts rather than authentic voices
+        - Could be exoticized or described with outdated terminology
+        
+        **Impact**: Users seeking diverse cultural perspectives would encounter a narrower, potentially biased representation filtered through dominant cultural lenses.
+        """)
     
     # Hypothesis box
     st.subheader("Form a Hypothesis")
@@ -788,11 +666,24 @@ def show_preprocessing():
     Before texts can be searched, they undergo preprocessing - a series of transformations that prepare them for efficient indexing.
     While these steps are technical necessities, they can introduce bias in subtle ways.
     
-    Let's explore common preprocessing steps and see how they might affect different types of text.
+    Let's explore common preprocessing steps and see how they might affect different types of text using the Text Preprocessing Simulator.
     """)
     
     # Interactive preprocessing simulator
     st.subheader("Text Preprocessing Simulator")
+
+    st.markdown("""
+    ### How to use this simulator:
+
+    1. **Select a text sample** from the dropdown or enter your own
+    2. **Configure preprocessing options** by toggling the checkboxes
+    3. **Observe each transformation step** and how the text changes
+    4. **Examine the bias implications** in the expandable sections
+    5. **Compare the original and final text** to see what information was lost
+
+    Pay attention to how names with diacritics (signs on the letters), cultural terms, and non-English words are transformed, 
+    and reflect on how these changes might affect search accuracy for different user groups.
+    """)
     
     # Sample texts
     sample_texts = {
@@ -1155,10 +1046,11 @@ def show_tfidf_calculator():
     st.title("Understanding TF-IDF: Numbers That Shape Results")
     
     st.markdown("""
-    Term Frequency-Inverse Document Frequency (TF-IDF) is a numerical statistic used to reflect how important a word is to a document in a collection.
-    It's one of the fundamental algorithms used in search engines to rank results.
+    Term Frequency-Inverse Document Frequency (TF-IDF) is a numerical statistic used to reflect how characteristic a word is to a document in a collection.
+    In our case, the TF-IDF score of a word will tell you how characteritic that word is to a particular book in our dataset! For example,
+    inputting "Fitzwilliam Darcy" as a query should return to you Jane Austen's Pride and Prejudice, that book ranked highly compared to other books.
     
-    Let's explore how TF-IDF works and how it might introduce bias.
+    TF-IDFs are one of the fundamental algorithms used in search engines to rank results. Let's explore how TF-IDF works and how it might introduce bias.
     """)
     
     # Explanation of TF-IDF
@@ -1166,7 +1058,7 @@ def show_tfidf_calculator():
         st.markdown("""
         ### Term Frequency (TF)
         
-        Term Frequency measures how frequently a term occurs in a document:
+        Term Frequency measures how frequently a term occurs in a document, typically as a raw count:
         
         $TF(t, d) = \\frac{\\text{Number of times term t appears in document d}}{\\text{Total number of terms in document d}}$
         
@@ -1189,6 +1081,25 @@ def show_tfidf_calculator():
     
     # TF-IDF Calculator
     st.subheader("TF-IDF Calculator")
+    st.markdown("""
+    In this interactive calculator, you'll explore how TF-IDF works by:
+    1. Seeing which books in our collection contain specific terms
+    2. Understanding why certain books rank higher than others
+    3. Discovering how cultural and specialized terms might be treated differently than common words
+
+    ### How to Use This Calculator:
+
+    **Step 1:** Enter a word in the search box below (try "love", "time", or "indigenous")
+
+    **Step 2:** Examine the results to see:
+    - How many books contain this term
+    - Which books rank highest for this term
+    - The breakdown of the TF-IDF calculation
+
+    **Step 3:** Try comparing different types of terms using the comparison tool below the calculator
+
+    Through these experiments, you'll discover how seemingly "neutral" statistics can introduce bias into search results based on what's represented (or underrepresented) in the document collection.
+    """)
     
     # Word input
     word = st.text_input("Enter a word to analyze:", value="love")
@@ -1322,7 +1233,21 @@ def show_tfidf_calculator():
     
     # Compare multiple terms
     st.subheader("Compare Different Types of Terms")
-    
+
+    st.markdown("""
+    Now let's compare how TF-IDF treats different kinds of terms. This tool lets you see the statistical differences between:
+
+    - **Cultural/Specialized Terms**: Words that relate to specific cultural identities, traditions, or specialized knowledge
+    - **General/Common Terms**: Everyday words that appear frequently across many types of texts
+
+    Try using the default terms or entering your own to see:
+    - Which terms appear in more documents
+    - How IDF values differ between term types
+    - What this might mean for search relevance
+
+    After running the comparison, examine the charts and analysis to understand how statistical differences might create bias in search results.
+    """)
+
     col1, col2 = st.columns(2)
     
     with col1:
@@ -1488,7 +1413,6 @@ def show_tfidf_calculator():
     hypothesis = st.text_area("Your hypothesis about TF-IDF bias:", height=150)
     
     # Educational context
-    # Educational summary - full header instead of expander
     st.header("What We've Learned: How TF-IDF Can Introduce or Amplify Bias")
     
     st.markdown("""
@@ -1713,8 +1637,23 @@ def show_system_bias():
     
     if st.button("Run System Bias Analysis"):
         run_system_bias_analysis(selected_analysis, search_index)
+
+    # Hypothesis box
+    st.subheader("Form a Hypothesis")
+    st.markdown("""
+    **How might these biases interact to affect different types of search queries?**
+
+    Consider the following questions as you explore the examples:
+    - How might a search for cultural concepts be affected differently than general concepts?
+    - What happens when multiple bias factors affect the same query (e.g., a non-English name)?
+    - Which types of queries do you think would be most disadvantaged by these compounding biases?
+
+    Use the interactive examples below to test your hypothesis.
+    """)
+
+    hypothesis = st.text_area("Your hypothesis about system-level bias:", height=150)
     
-    # Educational summary - full header instead of expander
+    # Educational summary 
     st.header("What We've Learned: Understanding System-Level Bias")
     
     st.markdown("""
@@ -1883,7 +1822,7 @@ def show_reflection():
       * "Race After Technology" by Ruha Benjamin
       * "Data Feminism" by Catherine D'Ignazio and Lauren F. Klein
     
-    * **Academic Papers**:
+    * **Academic Papers that I Found Particularly Helpful**:
       * Friedman & Nissenbaum, "Bias in Computer Systems" (1996)
       * Mehrabi et al., "A Survey on Bias and Fairness in Machine Learning" (2021)
       * Hutchinson et al., "Towards Accountability for Machine Learning Datasets" (2021)
